@@ -2,9 +2,7 @@
 /Meänkieli-*.zip
 # Local runtime scratch only.
 __pycache__/
-# Dictionary/vocabulary provenance review is pending.
-/Meänkieli/Apps/Meankieli_dict_large.apk
-/Meänkieli/Apps/meankieli_dict_small.apk
-/Meänkieli/dictionary for chrome.zip
+/.local-runtime/
+# Vocabulary spreadsheet provenance review is pending.
 /Meänkieli/Docs/Sanakirja.xlsx
 /Meänkieli/Docs/meänkieli frequency list.xlsx

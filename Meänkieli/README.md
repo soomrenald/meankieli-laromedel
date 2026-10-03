@@ -8,4 +8,4 @@ The original archive's meaningful folders and filenames are preserved. Start wit
 - [Docs](Docs/README.md): preserved Word originals and Markdown readings.
 - [Archive](Archive/README.md): earlier packages and the replaced Set 3 document.
 
-The original wordlist ZIP is retained locally; see its actual format and current status in the [app guide](Apps/README.md#keyboard-wordlist-archive).
+The original [keyboard wordlist ZIP](dictionary%20for%20chrome.zip) is available; see its actual format and usage limits in the [app guide](Apps/README.md#keyboard-wordlist-archive).

@@ -1,0 +1,223 @@
+{
+  "official_metadata_url": "https://sprakresurser.isof.se/meankieli/metadata.xml",
+  "official_license": "CC-0",
+  "official_files": [
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/7_fitswe.xml",
+      "bytes": 236,
+      "sha256": "cf9aa461948d0bf5d0dbeeb59ce790c1cfbfdc5e6df322ca9482f46b28369ca1",
+      "entries": 1
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/a_fitswe.xml",
+      "bytes": 407814,
+      "sha256": "f9d1aa01bd8d1fc176a430b649e4a83dbf189fa249e5fc6ef5f60a033d758d6c",
+      "entries": 1310
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/ae_fitswe.xml",
+      "bytes": 60954,
+      "sha256": "570dab6302921b230ffae0873e3bc9d1ff515503b525c0a11543a096ef3bb5cc",
+      "entries": 170
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/b_fitswe.xml",
+      "bytes": 45665,
+      "sha256": "a6e1e21a84a0262a48a0368cb41b5a4d286bf26f4cadc6da1933d3fe5517751e",
+      "entries": 150
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/c_fitswe.xml",
+      "bytes": 6478,
+      "sha256": "c501aca946766d066ef0a0a59f4c73e36baac9556b0a9931357f06c10f410591",
+      "entries": 26
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/d_fitswe.xml",
+      "bytes": 43761,
+      "sha256": "432d483e89896a0949e27b57e5390213aa052a9ce02b972d13adf37c1073f131",
+      "entries": 141
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/e_fitswe.xml",
+      "bytes": 263255,
+      "sha256": "5eb1c03faa997312670f43bc003e442051774cf391e2bc0f01359311f7987dce",
+      "entries": 794
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/f_fitswe.xml",
+      "bytes": 141974,
+      "sha256": "083aaf202de36d37d778aabd81f50378f66df66115fbd77feadaaa6c8f03004f",
+      "entries": 522
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/g_fitswe.xml",
+      "bytes": 17815,
+      "sha256": "96370da9694679c64a3b8406e6a55eb0165e667f509dd29639a70a3f54b6423c",
+      "entries": 58
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/h_fitswe.xml",
+      "bytes": 782815,
+      "sha256": "7b38a87ad8f5e8cb54cb677563432f2c689148bc4ea9d991ea03f0f7c50673c3",
+      "entries": 2242
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/i_fitswe.xml",
+      "bytes": 213391,
+      "sha256": "915b235ee00c99e8847de67e40a180ea173d0942cf1a3f419dc7b93f39c88661",
+      "entries": 630
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/j_fitswe.xml",
+      "bytes": 351921,
+      "sha256": "c1137f36534dd5d4065d5565aeaee916b90f1bb59385219e0d7eb47cd5051673",
+      "entries": 988
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/k_1-2000_fitswe.xml",
+      "bytes": 619196,
+      "sha256": "b8bc831a94d9904004c6541925b71fc206c1013e2c8a5290e97f7a861aa2e99e",
+      "entries": 1872
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/k_2001-4000_fitswe.xml",
+      "bytes": 556723,
+      "sha256": "1d6be3c42fb805f93c7ddbc4b17ac2d13fe8fc2361a0fc2938527cca45af54ce",
+      "entries": 1907
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/k_4001-end_fitswe.xml",
+      "bytes": 494436,
+      "sha256": "0689bcc8a03b9dda4ebbd70e3a93ec7192ef423e2e3a65a8e6d55b2d2baef695",
+      "entries": 1617
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/l_fitswe.xml",
+      "bytes": 585703,
+      "sha256": "0172326dadeb3bf3cbee1b2121b042925dab6634f91d9a4a63ce0968f49f4c5a",
+      "entries": 1931
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/m_fitswe.xml",
+      "bytes": 461231,
+      "sha256": "cf1c524f4d14257ecd7c18a0746a84d6f79f69333e151c39008c7962ec3fddf0",
+      "entries": 1805
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/n_fitswe.xml",
+      "bytes": 281652,
+      "sha256": "041f9ba4b8efb305d33e3a231b726b8c8cce1c4d426f91f744c27977ff9a7423",
+      "entries": 859
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/o_fitswe.xml",
+      "bytes": 165745,
+      "sha256": "b67c102ccdf8c20df70d649df0bdd658b2a7afb1df413dea6bee6c1d3ca9c236",
+      "entries": 524
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/oe_fitswe.xml",
+      "bytes": 8314,
+      "sha256": "64304b7e66b11ff8154b719faa61ea5a29d358ef1de447b68bd96465dea1a377",
+      "entries": 31
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/p_fitswe.xml",
+      "bytes": 1156172,
+      "sha256": "52804bd2d35a1aebcd964e91184f097b3d13055c3b55aff5146b8007b5cda7f5",
+      "entries": 4246
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/prop_fitswe.xml",
+      "bytes": 79885,
+      "sha256": "f55ed099808af4c50450860fad4c4910670115b20fd7160467fa5b4aa749a8a4",
+      "entries": 336
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/q_fitswe.xml",
+      "bytes": 391,
+      "sha256": "a22d7c7a63147fb3ae8d6b423b80eb14691ccf30c74e90f1b892ae06e5cf0e9a",
+      "entries": 1
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/r_fitswe.xml",
+      "bytes": 585871,
+      "sha256": "1db69cd4bca06d7becb9fd966a519da881e7350a494908435b6a1f87e685b897",
+      "entries": 1699
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/s_fitswe.xml",
+      "bytes": 722816,
+      "sha256": "73cc7b75f4e73f3b2dea37d3b39d96814c2c34843393b9dddc8a9ed3d00244ad",
+      "entries": 2825
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/t_fitswe.xml",
+      "bytes": 704760,
+      "sha256": "a80ff0665015fd3c31bd88995eb7868edd7af8b9354fb236dc0441d9cdd0581d",
+      "entries": 2638
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/u_fitswe.xml",
+      "bytes": 138703,
+      "sha256": "9b3c174bb2c71ba3a8cef555da1882194eab17b2988a052c0674e1981f5232f7",
+      "entries": 426
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/v_fitswe.xml",
+      "bytes": 656159,
+      "sha256": "b209fc26de662081291d62c8c6d831448c65616816c6d84cbe028f535a2ae3f9",
+      "entries": 2307
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/w_fitswe.xml",
+      "bytes": 1408,
+      "sha256": "248b14b94854e0b8330951b5794ff6f5b8756c87530d5c2b47d4d9ddf3a05db2",
+      "entries": 4
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/y_fitswe.xml",
+      "bytes": 128048,
+      "sha256": "7f2308a78271b3b6826195a5d5e76de9ad5a32caed509b57d1bb347067c459cb",
+      "entries": 447
+    },
+    {
+      "url": "https://sprakresurser.isof.se/meankieli/z_fitswe.xml",
+      "bytes": 603,
+      "sha256": "59db3349def34ee9dd9541e25fcb4f6bf917199b879cfae2ea8a8a8bcc1ebf93",
+      "entries": 2
+    }
+  ],
+  "official_headwords": 32172,
+  "official_headword_translation_pairs": 50567,
+  "apk_xml_entries": 32507,
+  "apk_translation_pairs": 42526,
+  "exact_source_pairs_matched": 35916,
+  "keyboard_header": "# Gboard Dictionary version:1",
+  "keyboard_rows": 14575,
+  "keyboard_words_in_official_heads": 14575,
+  "grouped_translation_pairs_matched": 42525,
+  "unknown_apk_headwords": [
+    "emänänhaka,",
+    "kymmenenäyri",
+    "lähätyssanat",
+    "lääninkouluinspektööri",
+    "maakäräjät",
+    "mielelänsä"
+  ],
+  "normalized_translation_pairs_matched": 42526,
+  "normalized_unknown_headwords": [],
+  "normalized_unmatched_pairs": [],
+  "normalization": "NFC Unicode, whitespace collapse, comma spacing; source translations within one tg are also joined with comma-space.",
+  "apks": {
+    "Meankieli_dict_large.apk": {
+      "bytes": 23259410,
+      "sha256": "79cef43fb6b9ba6ea04379fde7139e14398b86865c4fe3c723a5dbabe979c29f"
+    },
+    "meankieli_dict_small.apk": {
+      "bytes": 13651173,
+      "sha256": "4f00bd4a4c22d9159ac56f32f20e875851d29de4b71d7637315a1976d6286a82"
+    }
+  }
+}

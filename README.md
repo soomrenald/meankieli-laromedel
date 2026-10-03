@@ -4,7 +4,7 @@ Läromedel i meänkieli för självstudier.
 
 This collection brings together dialogue recordings, grammar examples, source documents, and local study apps. Start by reading a folder's dialogue text, then practice its recording in the browser audio player.
 
-The recordings, Word documents, folder READMEs, and apps are organized below. Screenshots of the actual Android apps on a simulated Pixel 9 Pro display are pending, as is the dictionary/vocabulary redistribution review. Native Android features have not yet been tested.
+The recordings, Word documents, folder READMEs, and apps are organized below. Screenshots of the actual Android apps on a simulated Pixel 9 Pro display are pending. The dictionary APKs and keyboard wordlist are available with documented CC0 data attribution. Native Android features have not yet been tested.
 
 ## Start studying
 
@@ -23,10 +23,13 @@ docs/
   IMPORT.md
   archive-manifest.json
   transcript-alignment.json
+  DATA_SOURCES.md
 Meänkieli/
   Apps/
     Audio_player_web_version.html
     dialogue-trainer-v0.3.apk
+    Meankieli_dict_large.apk
+    meankieli_dict_small.apk
     README.md
   Audio files for android app/
     set 1/                  20 everyday-dialogue recordings
@@ -41,6 +44,7 @@ Meänkieli/
     Del 2/                  15 processed WAV recordings
     Del 3/                   5 processed case WAV recordings
   Docs/                     Word originals and readable Markdown
+  dictionary for chrome.zip  Gboard wordlist in its original archive
   Archive/                  earlier trainer APKs and replaced Set 3 document
 ```
 
@@ -54,6 +58,6 @@ Set 1, Set 2, and Böjning use matching sections of the course material. Preposi
 
 ## App coverage and remaining work
 
-The browser player ran with an original recording. Preliminary inspection of the trainer's bundled interface also used a browser harness; this does not verify its native Android behavior. The requested screenshots will come only from the actual Android apps running in an Android emulator with a Pixel 9 Pro display profile. Android installation, microphone recording, and the native dictionary interfaces still need verification. Dictionary APKs, keyboard vocabulary, and the two vocabulary spreadsheets remain preserved locally and are described without unavailable download links.
+The browser player ran with an original recording. Preliminary inspection of the trainer's bundled interface also used a browser harness; this does not verify its native Android behavior. The requested screenshots will come only from the actual Android apps running in an Android emulator with a Pixel 9 Pro display profile. Android installation, microphone recording, and the native dictionary interfaces still need verification. Both dictionary APKs and the keyboard wordlist are available from the app guide, with [source attribution and license evidence](docs/DATA_SOURCES.md). The two vocabulary spreadsheets remain preserved locally pending source identification.
 
 The original 436.6 MiB Drive ZIP stays outside Git. Large recording originals are preserved without transcoding; see [media storage notes](docs/MEDIA.md). No Git LFS or account billing settings were enabled.
