@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-03",
+  "status": "blocked_before_android_boot",
+  "native_app_screenshots": 0,
+  "apks_installed_or_executed": 0,
+  "profile": {
+    "sdk_profile_id": "pixel_9_pro",
+    "manufacturer": "Google",
+    "width_px": 1280,
+    "height_px": 2856,
+    "density_dpi": 480,
+    "ram_mib": 2048,
+    "cores": 2
+  },
+  "system_image": {
+    "package": "system-images;android-34;google_apis;x86_64",
+    "revision": 14,
+    "official_url": "https://dl.google.com/android/repository/sys-img/google_apis/x86_64-34_r14.zip",
+    "bytes": 1563721130,
+    "sha1": "e0f6c9a0691aa27bd597d0deb1bcfdc943ac8ca7"
+  },
+  "emulators": [
+    {
+      "version": "37.2.12",
+      "official_url": "https://dl.google.com/android/repository/emulator-linux_x64-16428233.zip",
+      "bytes": 349654171,
+      "sha1": "cd7362ea55dfb86a418958138dc396e74165dd01"
+    },
+    {
+      "version": "35.6.11",
+      "official_archive_page": "https://developer.android.com/studio/emulator_archive",
+      "download_url": "https://edgedl.me.gvt1.com/edgedl/android/repository/emulator-linux_x64-13610412.zip",
+      "bytes": 319086252,
+      "sha256": "2fe2b56fe93ce75e1d478a40162131381d911c355efeaedb54dd1e0d0897a5cf"
+    }
+  ],
+  "verified_setup": [
+    "official downloads match published checksums",
+    "SDK terms match previously accepted terms apart from whitespace",
+    "official SDK Pixel 9 Pro geometry selected",
+    "KVM check reports usable existing access",
+    "AVD, downloads, and configured caches stored in ignored local runtime area"
+  ],
+  "attempted_modes": [
+    "37.2.12: headless SwiftShader with KVM",
+    "37.2.12: Vulkan disabled with KVM",
+    "37.2.12: software CPU",
+    "35.6.11: headless SwiftShader with KVM",
+    "35.6.11: software CPU and GPU off",
+    "35.6.11: all temporary/runtime paths directed to project",
+    "35.6.11: hidden Qt display with software graphics"
+  ],
+  "observed_failure": "Emulator process exits with signal 11 (segmentation fault) before Android boot or usable ADB connection. Display initialization logs confirm 1280x2856 and 480 dpi. Cause not established.",
+  "limits": [
+    "No physical phone touched",
+    "No host kernel, groups, or security settings changed",
+    "No APK native installation, file access, playback, recording, or dictionary UI verified",
+    "No web/browser-harness images used as native screenshots"
+  ]
+}
