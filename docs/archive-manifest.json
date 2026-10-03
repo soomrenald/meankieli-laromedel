@@ -1,0 +1,987 @@
+{
+  "archive": "Meänkieli-20261003T200703Z-1-001.zip",
+  "archive_bytes": 457760807,
+  "files": 138,
+  "uncompressed_bytes": 1460361090,
+  "unsafe_paths": [],
+  "symlinks": [],
+  "duplicate_paths": [],
+  "entries": [
+    {
+      "path": "Meänkieli/Apps/Audio_player_web_version.html",
+      "bytes": 53739,
+      "compressed_bytes": 10580,
+      "crc32": "5ae6f745",
+      "sha256": "63ad81aeac5ee708eaca1d739e33f32e24171189fb477aca1125caebeaac3771"
+    },
+    {
+      "path": "Meänkieli/dictionary for chrome.zip",
+      "bytes": 53453,
+      "compressed_bytes": 53463,
+      "crc32": "23b2c4ef",
+      "sha256": "3519c49cde3c4b98facb73ef3f9d5b3c21415a061116f7f6ac983a4a7bbc2100"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/5. Stiga upp_Frukost.m4a",
+      "bytes": 1010581,
+      "compressed_bytes": 1010736,
+      "crc32": "5f147758",
+      "sha256": "4628ef50df4a5beae2dfe9dc325a94497ad258471da23669fb40ed9153713558"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/1. Tjena.mp4",
+      "bytes": 514180,
+      "compressed_bytes": 514260,
+      "crc32": "789ba733",
+      "sha256": "0c1f3a038e4a75e8eb37e097c11d7eeec62aaa670f6f385c700871f2f72888c6"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/6. Jobb.m4a",
+      "bytes": 690275,
+      "compressed_bytes": 690385,
+      "crc32": "e62d038a",
+      "sha256": "f3c65294a89db56def3ad0400d38a478fad68b227897c1d4d015461200874503"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/18. Affär.m4a",
+      "bytes": 674745,
+      "compressed_bytes": 674850,
+      "crc32": "441984a9",
+      "sha256": "f836567df2e48b3c1726aea0b391b44c04ffa4770bada56619fb69726cadb43d"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/12. I skogen .m4a",
+      "bytes": 579173,
+      "compressed_bytes": 579263,
+      "crc32": "91c806ae",
+      "sha256": "2e87475493cbda1a00718bc2bc7e40aba9be0c179c7eff6a7fb301d2df105534"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/17. Baka.m4a",
+      "bytes": 286699,
+      "compressed_bytes": 286744,
+      "crc32": "668d40d6",
+      "sha256": "43b215abc0941f3d0d34dc6374a0c3a9d3a8cef915b9f48dee2f0d2c96640c88"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/4. Hemma.m4a",
+      "bytes": 988775,
+      "compressed_bytes": 988930,
+      "crc32": "688b5f90",
+      "sha256": "63b234bdd1dbefe1188e0fbbb8f52021fef2ab65f23a81de1045fd2b2e17a167"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/19. Utejobb .m4a",
+      "bytes": 856778,
+      "compressed_bytes": 856913,
+      "crc32": "a9b2c346",
+      "sha256": "f182762b8754f3c1277115023072822b7d8056f42d84a08da46b9ad0fa18f9c3"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/20. Till doktorn .m4a",
+      "bytes": 758162,
+      "compressed_bytes": 758282,
+      "crc32": "d706eeb6",
+      "sha256": "9522ea2ef2f32890ee67f0186d603bb04861d5c2b36f596e8b9281eca4328d04"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/14. Skidor_Skridskor .m4a",
+      "bytes": 1219703,
+      "compressed_bytes": 1219893,
+      "crc32": "eba2d8ae",
+      "sha256": "cfe6eead6e74e7b1a3da9c9fa307f87a42122ffd59d093f0ee6892c0e30b3e79"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/16. Shopping .m4a",
+      "bytes": 574998,
+      "compressed_bytes": 575088,
+      "crc32": "1b0f90e4",
+      "sha256": "4dbcd4b04eaa3dff9677b05f398e6ea475225236850ebd8fc41c164e9b659b7b"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/9. Pengar.m4a",
+      "bytes": 726178,
+      "compressed_bytes": 726293,
+      "crc32": "04e6e719",
+      "sha256": "2cd9886005418775e62a40f8d565610dd3b2bebe30ac9420c5a1f7011b9bf9e7"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/13. Fiske.m4a",
+      "bytes": 799960,
+      "compressed_bytes": 800085,
+      "crc32": "460dba3d",
+      "sha256": "4dbbc3e7af420c6ae9f65106ccb7ab56b4efefe54cfdef972a3a83e6a516f865"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/15. Plocka bär .m4a",
+      "bytes": 1207266,
+      "compressed_bytes": 1207451,
+      "crc32": "0cd9b744",
+      "sha256": "b1065ccec248c2aaed4a2a8ded58446074cd45b0f37a7b12638968eb79b4817a"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/10. Folk.m4a",
+      "bytes": 684685,
+      "compressed_bytes": 684790,
+      "crc32": "5f103fcc",
+      "sha256": "7d62b93cfbe83d412480c6de78885517fabc9c0d896cff09d9be9aadd5b7723f"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/11. Besök .m4a",
+      "bytes": 970126,
+      "compressed_bytes": 970276,
+      "crc32": "989550e1",
+      "sha256": "597acb778d66babb555e6e04f8837ec5b09725b120b1987136f34aee1fea0156"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/7. Sova.m4a",
+      "bytes": 471573,
+      "compressed_bytes": 465543,
+      "crc32": "15fa2a78",
+      "sha256": "9bdd1d2aed1d2e1b8548bcf7cdcffcfd886919b38369dd490b2db92daf9e1853"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/8. Ringa.m4a",
+      "bytes": 705877,
+      "compressed_bytes": 705987,
+      "crc32": "65c12b5f",
+      "sha256": "372547f7f1b75a2fe1ceb8b77ceb74bed1de38c0127e72aa7be3fb225006e8c4"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/2. Vad håller du på med_.m4a",
+      "bytes": 710680,
+      "compressed_bytes": 710790,
+      "crc32": "e2e3da1f",
+      "sha256": "661c7847366425da256538a5df08aaa8540d32f37cf73beb1d07eabea2bc3e3e"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv15.m4a",
+      "bytes": 1366917,
+      "compressed_bytes": 1367127,
+      "crc32": "5e2af047",
+      "sha256": "ad7280182d837fc28a5ded070fabb01e64ef25797481f14ca8f13cdcb45a66a1"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv13.m4a",
+      "bytes": 1255353,
+      "compressed_bytes": 1255548,
+      "crc32": "451c6974",
+      "sha256": "bc4b3b1bf93511557fe91ff32ffc0e56c5687b1e4644d1a69cb78273dd49cde8"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv11.m4a",
+      "bytes": 1204939,
+      "compressed_bytes": 1205124,
+      "crc32": "4754f79a",
+      "sha256": "3f1711dc6f79b51f92d934cb70b8f595c8554311c43cd0ee5d3c38214fca8552"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 1/3. Middag.m4a",
+      "bytes": 948390,
+      "compressed_bytes": 948535,
+      "crc32": "1ecbe102",
+      "sha256": "7ae730e6f72f3227d9fa0214762412d2723c43d542de21e80e38f2339e14b373"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv14.m4a",
+      "bytes": 1502860,
+      "compressed_bytes": 1503090,
+      "crc32": "a08fd317",
+      "sha256": "d708ac9c15f0271fec65dc4a532636ca13c3f6762ef27b1470c9f05422bdc52f"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv8.m4a",
+      "bytes": 1776162,
+      "compressed_bytes": 1776437,
+      "crc32": "40e369ba",
+      "sha256": "a2413726060d07ea638ed78941993a6add562cb2bb5db5cc0bb2a8f80fa265f8"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv10.m4a",
+      "bytes": 1467312,
+      "compressed_bytes": 1467537,
+      "crc32": "cf517710",
+      "sha256": "af688305a5904f54c6704bf059939d52a1921b93b5d8bd52e42932cf14e3bbb8"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv3.m4a",
+      "bytes": 1367746,
+      "compressed_bytes": 1367956,
+      "crc32": "2a63232b",
+      "sha256": "6fc827cc434fe799aebe85eed425732363ec082068155a36543d84e1f51822a1"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv9.m4a",
+      "bytes": 1440967,
+      "compressed_bytes": 1441187,
+      "crc32": "687589e2",
+      "sha256": "6cfc591245cd3464960e97465f5ffbafbea1018beb41ea1ab299bc238cf05a38"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv12.m4a",
+      "bytes": 1468936,
+      "compressed_bytes": 1469161,
+      "crc32": "e90556c8",
+      "sha256": "6356da803323d789961f15372bf994615ce33d4ea067bccad8662157cd723137"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 3/Partitiv-processed.wav",
+      "bytes": 39944670,
+      "compressed_bytes": 7498668,
+      "crc32": "dbf1bf35",
+      "sha256": "1eba2a83a5f1618461f34fad2b93cd41b573fe1748fd55e334a7a4f66f6c9c2f"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv4.m4a",
+      "bytes": 1201613,
+      "compressed_bytes": 1201798,
+      "crc32": "bebcf0b7",
+      "sha256": "0bdfd8a8c721bc5b1e69dc9f598d5012ba656ad688e4710fb5a56a77117ed067"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv7.m4a",
+      "bytes": 1573796,
+      "compressed_bytes": 1574041,
+      "crc32": "dbd39e3e",
+      "sha256": "2c22c1ea6b83fadb4438b94a8ff1e60752e26e65e24bbf1f764d13e93717a4ed"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv1.m4a",
+      "bytes": 1616219,
+      "compressed_bytes": 1616469,
+      "crc32": "639a6a96",
+      "sha256": "31f392a12e42b6c933d84bd7c3cc356fd776e40a115d8a7d9874f312229e26a4"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv5.m4a",
+      "bytes": 1562578,
+      "compressed_bytes": 1562818,
+      "crc32": "a1d32abf",
+      "sha256": "91be88c06037941150586409d73ac5a56daea4c6ebae889c4bb5975379a83e46"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv2.m4a",
+      "bytes": 2076322,
+      "compressed_bytes": 2076642,
+      "crc32": "69fb029d",
+      "sha256": "ab693ca06860a84c6a0a510842f01eb39c6164280c3b9924b555042afcaad1c3"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 2/Konv6.m4a",
+      "bytes": 1314052,
+      "compressed_bytes": 1314257,
+      "crc32": "b56d1216",
+      "sha256": "a98b3d5ff98126f091a056f99c32daa8c37928a268a1367ba94d92f5dd766759"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 1.mp3",
+      "bytes": 2757932,
+      "compressed_bytes": 2758357,
+      "crc32": "2dd94a28",
+      "sha256": "79e35f1d9144afba12e34f27145c9867941742c21e901453c9f6b00fa97c59f0"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 6.mp3",
+      "bytes": 4686380,
+      "compressed_bytes": 4687100,
+      "crc32": "6e1cc9c1",
+      "sha256": "595fc41d0f51ba032eea78912efe3c2f2c5f041a87c65a7bbcee6e53c275dd99"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 15.mp3",
+      "bytes": 7481132,
+      "compressed_bytes": 7482277,
+      "crc32": "d5202a46",
+      "sha256": "cff974b9a9d566ae34fbe17f30de635a5468a5a9704ba08e0a7d3fc30bd354ad"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 3/Ackusativ I-processed.wav",
+      "bytes": 42749262,
+      "compressed_bytes": 8855646,
+      "crc32": "c3f72d75",
+      "sha256": "2b421b7f367a2e79499c5204c7d1de01aa81e847e677139c52dda2c105c0b49d"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 5.mp3",
+      "bytes": 5523500,
+      "compressed_bytes": 5524345,
+      "crc32": "1d4e6ec3",
+      "sha256": "ac64687696b4d4313a316babd81ad8d6e84244e0c1bf82ff0b33bb3d53dda60f"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 3/Nominativ-processed.wav",
+      "bytes": 43963978,
+      "compressed_bytes": 8520687,
+      "crc32": "9d28be68",
+      "sha256": "6e960588b2994d4ef8e30df15a5030c80e085418fcc87b77cb113ec3df620ed6"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 7.mp3",
+      "bytes": 2479916,
+      "compressed_bytes": 2480296,
+      "crc32": "43d61daa",
+      "sha256": "1d83bafb824c412658a8cf3ef84f9ef0ba03112203c15ab53ab6b8cdbb284e94"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 10.mp3",
+      "bytes": 3122732,
+      "compressed_bytes": 3123212,
+      "crc32": "087d8ddd",
+      "sha256": "b53082eca6aba7a437cf6c543e44cbcf9400d906f88de5b949d9e901225b574c"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 2.mp3",
+      "bytes": 4379180,
+      "compressed_bytes": 4379850,
+      "crc32": "3ec9f8f2",
+      "sha256": "613d96ac0cb395336f3cc4de1b85c20ff054b955389061f287910b15c1654bc2"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/6. Tarvita-type_Imperfekt.m4a",
+      "bytes": 1019139,
+      "compressed_bytes": 1019299,
+      "crc32": "e8a4de8d",
+      "sha256": "2e01581c817f9f0cad2516b3a1b0def39dc1e5101ab66abef9f2327e59def78d"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 3.mp3",
+      "bytes": 5653292,
+      "compressed_bytes": 5654157,
+      "crc32": "74c31fb2",
+      "sha256": "2ce6be378a944b69d0750012eb15a6b9be15a8a384180cc297e2767825816441"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/7. Vanheta-type_Imperfekt.m4a",
+      "bytes": 1434337,
+      "compressed_bytes": 1434557,
+      "crc32": "13d62ee4",
+      "sha256": "4c5f774b07f5309012e6cbd5412acb00bea631cf0525f905ae3da47a80dcce12"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 9.mp3",
+      "bytes": 3802412,
+      "compressed_bytes": 3802997,
+      "crc32": "1aa9d553",
+      "sha256": "61f4649ed027aa68278685f5bc083efc58bf2bde7945e4e071e7760a86427bc1"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Inessiv.m4a",
+      "bytes": 282143,
+      "compressed_bytes": 282188,
+      "crc32": "bedce476",
+      "sha256": "0a13d31e0bf153409766483e7fc5129c0a750b58a284fbf255a73b379d875394"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Illativ.m4a",
+      "bytes": 1801429,
+      "compressed_bytes": 1801704,
+      "crc32": "2ed4fd12",
+      "sha256": "b00c947f31487f36b05c0f1b1f748ba6dea3ccd1e019994eee2a14c94e5e90c8"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/2. Huomata-type_Perfect.m4a",
+      "bytes": 1436033,
+      "compressed_bytes": 1436253,
+      "crc32": "46f5b05a",
+      "sha256": "1e6c714906ed871e6a53aa4a36b1da79eff74ce9a1acd4c11d253b85fca88605"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Nominativ.mp3",
+      "bytes": 1260682,
+      "compressed_bytes": 1260877,
+      "crc32": "7dc49a3e",
+      "sha256": "05327901462eec9bdb67a575cf589b2eac9d6be159afda06f0b59fa5ccbad1f5"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/7. Vanheta-type_Perfekt.m4a",
+      "bytes": 1595441,
+      "compressed_bytes": 1595686,
+      "crc32": "be8668c5",
+      "sha256": "25246ff47998c91b2cc01f1f418b3ca59e06369e69d459478d3f8d53b134aad0"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/3. Saa_a-type_Imperfect.m4a",
+      "bytes": 1834554,
+      "compressed_bytes": 1834834,
+      "crc32": "e98bbd1c",
+      "sha256": "e850a0396d4525ec8e2bb2d73cf8411671bc2f33d434ef81668dbccb7a2a43be"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Adessiv.m4a",
+      "bytes": 2116528,
+      "compressed_bytes": 2116853,
+      "crc32": "a79ebc11",
+      "sha256": "a833cbf6fcf6ef0186a3407012e4f30ac4a80b0c33140c91e94e0f0d911be728"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 4.mp3",
+      "bytes": 6733100,
+      "compressed_bytes": 6734130,
+      "crc32": "27445653",
+      "sha256": "b908d339e991a1cb5fccc93bb237780460a75ef1f9302279fd1107e06d02df6d"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Translativ.m4a",
+      "bytes": 346947,
+      "compressed_bytes": 347002,
+      "crc32": "3a053215",
+      "sha256": "0d29e1f6cefb4a2e74ce5018da946a205cbe18f44d2f5911533cb65841ecc614"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 13.mp3",
+      "bytes": 5035052,
+      "compressed_bytes": 5035822,
+      "crc32": "adabdfdd",
+      "sha256": "f83093a0afabc9e186feed2d7cd603394c98a51daf66a709d08e8ae9090b8635"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 11.mp3",
+      "bytes": 6143276,
+      "compressed_bytes": 6144216,
+      "crc32": "3860a063",
+      "sha256": "c5746056c0912ebd9d2a161ef4e1d1e5304f93b50f0a7db89ef7a0d7878403fb"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Ablativ.m4a",
+      "bytes": 1711476,
+      "compressed_bytes": 1711741,
+      "crc32": "0fdd4db4",
+      "sha256": "15fa184145c59e7138ca39e4c3475c9c42144c63d19917af7e3fee2924a31bce"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/3 Saa_a-type_Perfect.m4a",
+      "bytes": 1742131,
+      "compressed_bytes": 1742401,
+      "crc32": "8f9446b6",
+      "sha256": "04c9547ffe741079500d330d5b9560ba8e5a7463ab0fa585fb80cb2aa4930d26"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Allativ.m4a",
+      "bytes": 2098386,
+      "compressed_bytes": 2098711,
+      "crc32": "b9af1e75",
+      "sha256": "e8fd908127d621e2ece699627aaa7fddea3b83ea9ab6d74a3d512054af3b5e89"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/1. Antaa-type_Imperfect.m4a",
+      "bytes": 1707084,
+      "compressed_bytes": 1707349,
+      "crc32": "4872e756",
+      "sha256": "a67589e26391fc0a25939366f302e0da923d428d1bd65c3c71a4fc0b0da49321"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/4. Nousta-type_Perfect.m4a",
+      "bytes": 1860557,
+      "compressed_bytes": 1860842,
+      "crc32": "e2da2f7e",
+      "sha256": "eb1b46bb379ed0d62b6130b50f101ef45e4c9902e3c9569e1f05516112342f03"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Page 6.m4a",
+      "bytes": 1252882,
+      "compressed_bytes": 1253077,
+      "crc32": "3a13f90b",
+      "sha256": "bbc52133684cdd181c9f0da6c5e8827d88654753d3e749a879229b26fc1b107a"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 17.wav",
+      "bytes": 9243330,
+      "compressed_bytes": 1876209,
+      "crc32": "3e8b19b8",
+      "sha256": "cff4f4cd5166e610bf0dd85ab682228709b3d59c021766386db185e98d668d6f"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Essiv.mp3",
+      "bytes": 1580651,
+      "compressed_bytes": 1580896,
+      "crc32": "2627be1b",
+      "sha256": "7ab1a8016159b60edb3ab14eb503b33300fd94fafd781bcef0b3898aadb77583"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Page 13.m4a",
+      "bytes": 817335,
+      "compressed_bytes": 817460,
+      "crc32": "c9362f2f",
+      "sha256": "27dd486f64ac52ecd836617961898aeab55cdcf31b6bb857a3fd9ae5c9942342"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_OM.m4a",
+      "bytes": 1308845,
+      "compressed_bytes": 1309045,
+      "crc32": "dc19e948",
+      "sha256": "9990fab8d9cc1f7d3a7c3eb5dbcc1c34c07d25bf9e4379fb61a41d03a1c06a2f"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Elativ.m4a",
+      "bytes": 2257809,
+      "compressed_bytes": 2258154,
+      "crc32": "6bba1cb0",
+      "sha256": "f69fddf3c429aa86a30add75a78e2047ecac28365ec73950af44713b1bc0dd02"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Page 8-9.m4a",
+      "bytes": 1061253,
+      "compressed_bytes": 1061418,
+      "crc32": "9047e2f5",
+      "sha256": "f498e8eddc8320466a69f1d4935d6a640c453473f75fdb76da5603aafe045630"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_FRAMFÖR.m4a",
+      "bytes": 1056731,
+      "compressed_bytes": 1056896,
+      "crc32": "ca86890b",
+      "sha256": "2e681783e9bbf90ea6439e4d8c4b4d812eda0b0ac13539d37eb0235f383fa014"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Partitiv.mp3",
+      "bytes": 1236937,
+      "compressed_bytes": 1237127,
+      "crc32": "d027150f",
+      "sha256": "9c3ea5855bf28b505c9a4f990a4458ef407bc8239139071e63ce9671d1270aea"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_MOT.m4a",
+      "bytes": 837120,
+      "compressed_bytes": 837250,
+      "crc32": "ea6606f5",
+      "sha256": "bdadcc8d78aa0e002300c354c3adc9a36837cf5a183431e51be48dee70edb5f7"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_UNDER.m4a",
+      "bytes": 964307,
+      "compressed_bytes": 964457,
+      "crc32": "632481e0",
+      "sha256": "07d4d3ce4d5821584a50913551dc4870b90c84cf1e166d087c5b072b5627b721"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Ackusativ I.mp3",
+      "bytes": 1373467,
+      "compressed_bytes": 1373677,
+      "crc32": "090ec226",
+      "sha256": "df70f4883f10b1e7b3a8165d8ae6efe5adcc0aead218b3ad6c22acb63c1baff9"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/böjning/Genitiv.mp3",
+      "bytes": 1910737,
+      "compressed_bytes": 1911032,
+      "crc32": "1d04ed0d",
+      "sha256": "ecf49790a6a0d23857197cd98af9f76cfc4085628d04b7ae882d072a1b08ab90"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Page 5.m4a",
+      "bytes": 1310840,
+      "compressed_bytes": 1311045,
+      "crc32": "e658dc9d",
+      "sha256": "4c951acc16efdb0e7686d3638fea2481c2198c5f1e4dfc40659e7e00d8400fb5"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Meankieli_ExtendedDialogues.docx",
+      "bytes": 6560,
+      "compressed_bytes": 6565,
+      "crc32": "a4fe1a0d",
+      "sha256": "a46ac4fa1f3896eccd9489dc435ef8226bf00ff16712ae3dbb9564c2f2a9eb74"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 14.mp3",
+      "bytes": 7159340,
+      "compressed_bytes": 7160435,
+      "crc32": "6e592e75",
+      "sha256": "167119c62969d4c1718a07cdaa4e68648157bc5294109721c0414ae1aa11c9d9"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_SEDAN.m4a",
+      "bytes": 1329195,
+      "compressed_bytes": 1329400,
+      "crc32": "13be873e",
+      "sha256": "d8a673fd1c54dfdddc7c6293c11cf9996afc2c42a49d4230c2fc83d5f076fab5"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Pages 11-12.m4a",
+      "bytes": 2356734,
+      "compressed_bytes": 2357094,
+      "crc32": "b565a565",
+      "sha256": "685b377de9137ee2678dde4825f91781ddb284392da13be19c0a56093effd797"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_EFTER.m4a",
+      "bytes": 1204551,
+      "compressed_bytes": 1204736,
+      "crc32": "15db23a8",
+      "sha256": "12a667e305fafde2ae0b67f7c35894ff2d6d61ec6043d1e92326ad9d0fda4265"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_FÖRE.m4a",
+      "bytes": 1013204,
+      "compressed_bytes": 1013359,
+      "crc32": "77f48689",
+      "sha256": "225dcfaf724ee29bcaa3f42bd51d7d71a8f7cb6b27d4ca582a15b3566f72ff7e"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_ÖVER.m4a",
+      "bytes": 1111369,
+      "compressed_bytes": 1111539,
+      "crc32": "33d31544",
+      "sha256": "9470d1dc9d063ade793857282451924833b38d3e461acda4fc94ecba09b59e0e"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_FRÅN.m4a",
+      "bytes": 1625401,
+      "compressed_bytes": 1625651,
+      "crc32": "ca1e3398",
+      "sha256": "cf76a69c6c1beccaa6a873a7e21a30b2e43f5f9e373afcd9226185b94a0a43cb"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 8.mp3",
+      "bytes": 4283180,
+      "compressed_bytes": 4283835,
+      "crc32": "8cea888d",
+      "sha256": "527678b615e23f4b7beca6b9fe40fb9f15210e6efcd1e4992eb3c4fd0af93968"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/7. Vanheta-type_Imperfekt (1).m4a",
+      "bytes": 1374700,
+      "compressed_bytes": 1374910,
+      "crc32": "0e2b445b",
+      "sha256": "c35b2173e31f154147f9d861bfa7c6faddb7ebefcb217e04f83b96d82e80d1e1"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_TILL.m4a",
+      "bytes": 1263067,
+      "compressed_bytes": 1263262,
+      "crc32": "b81c03d6",
+      "sha256": "21918016c8f284714772f98bfb1dd30207f6ab4fab895125c1c5b34d5703afea"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prep_PÅ.m4a",
+      "bytes": 2107867,
+      "compressed_bytes": 2108192,
+      "crc32": "09edc81c",
+      "sha256": "48b6ad6914bdc2ed7e7f808c90c12b7d463436d7b0dc3614921dca5882fbeac4"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Page 2-3.m4a",
+      "bytes": 2344439,
+      "compressed_bytes": 2344799,
+      "crc32": "286eb271",
+      "sha256": "24a73207a793ebd8023876046f374e461ce53914e2d4479248280b60e311980b"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prepositioner.docx",
+      "bytes": 12868,
+      "compressed_bytes": 12873,
+      "crc32": "4c1740ac",
+      "sha256": "11fc4192e76b23ea6bd07a919d20e6885c9e0c8dfc57fcd0564f63ac3f8cc3e3"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/4. Nousta-type_Imperfect.m4a",
+      "bytes": 2004986,
+      "compressed_bytes": 2005296,
+      "crc32": "3f0fba8b",
+      "sha256": "f3f827343ce3f79de49db8a0ac26aa6e640e1b3978c981923ddfb6ba91b16604"
+    },
+    {
+      "path": "Meänkieli/Apps/meankieli_dict_small.apk",
+      "bytes": 13651173,
+      "compressed_bytes": 11584430,
+      "crc32": "3cf7fc33",
+      "sha256": "4f00bd4a4c22d9159ac56f32f20e875851d29de4b71d7637315a1976d6286a82"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 18.wav",
+      "bytes": 26918446,
+      "compressed_bytes": 4437076,
+      "crc32": "b8b9c6c9",
+      "sha256": "44be07b42056192ef8eb6849c9553a6d29045d7b911b51c4449224b46218defb"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Page 4.m4a",
+      "bytes": 1235114,
+      "compressed_bytes": 1235304,
+      "crc32": "cb049488",
+      "sha256": "96584687455f0eb86acfbb1ea92810220273775fd9f208480245feb05f3b1784"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 12.mp3",
+      "bytes": 4025900,
+      "compressed_bytes": 4026515,
+      "crc32": "4e417c08",
+      "sha256": "aa53553c4c7a07754d14bb907962a123a32b725ea0a1770fe1f9f6fdb6c0ab33"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Page 7.m4a",
+      "bytes": 1928391,
+      "compressed_bytes": 1928686,
+      "crc32": "7e45cb98",
+      "sha256": "d052f9d3041e9619e106da648de889faa0f58cde00ef9e67c1e2daf6ab088c8b"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv6-processed.wav",
+      "bytes": 50391046,
+      "compressed_bytes": 9432567,
+      "crc32": "111c2648",
+      "sha256": "18a346684a543e08060504a90a857f7226df5a0fd42593a54cfa4c6646ec8140"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv13-processed.wav",
+      "bytes": 43474402,
+      "compressed_bytes": 8003432,
+      "crc32": "839859dd",
+      "sha256": "ca521c912e1acbde4b747f6392c54bb259d9b25248df1d8ed012b7e2096c5a44"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/1. Antaa-type_Perfect.m4a",
+      "bytes": 1877515,
+      "compressed_bytes": 1877805,
+      "crc32": "87736e98",
+      "sha256": "70fee9b62d731b5d9b47d15dce7c4a3e0ab9b4baa0e30cbc7e6c58e81ee80aa1"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/5. Tulla-type_Imperfekt.m4a",
+      "bytes": 1615226,
+      "compressed_bytes": 1615476,
+      "crc32": "bb554312",
+      "sha256": "1c9a23c1727f2c871f423e53802466fc03b07c2a04bfecbddc999fd6258f19d4"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv11-processed.wav",
+      "bytes": 43167466,
+      "compressed_bytes": 8156008,
+      "crc32": "0571a5e9",
+      "sha256": "83f2a97188750104d45e71906385acbfa819959bba352c172a61be41200609ea"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Page 1-2.m4a",
+      "bytes": 2913672,
+      "compressed_bytes": 2914117,
+      "crc32": "ff1fc1ff",
+      "sha256": "001d28954d2d16b4016d4f409b56df6d00be47481c4dc98c302b8a39b881ca8f"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/5. Tulla-type_Perfekt.m4a",
+      "bytes": 1780853,
+      "compressed_bytes": 1781128,
+      "crc32": "107bf769",
+      "sha256": "0292dc1ffe68693845b77f43a19338221d51d1beac40218dbfcb176727e1e879"
+    },
+    {
+      "path": "Meänkieli/Docs/Siirto_Oct11.docx",
+      "bytes": 14688,
+      "compressed_bytes": 14693,
+      "crc32": "6afea583",
+      "sha256": "80b65a0c26aaf59ad0ab7639c8d5bc987db7f5dd9c9f19bba5d769e18857ab79"
+    },
+    {
+      "path": "Meänkieli/Docs/ML_meankieli_perfect_imperfect_sentences.docx",
+      "bytes": 30214,
+      "compressed_bytes": 30219,
+      "crc32": "d37f77bb",
+      "sha256": "03b293161bdba68cf160f4cd630c741d35dcd372e8561e2b6c966ee2b8e5e525"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv7-processed.wav",
+      "bytes": 62635926,
+      "compressed_bytes": 11279266,
+      "crc32": "fba6044f",
+      "sha256": "0d32a6c40739c47507b6b0ca67953ea60496c1db9c28c7a0125c8134fc6f4aff"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 16.wav",
+      "bytes": 22997170,
+      "compressed_bytes": 4564564,
+      "crc32": "5d78f448",
+      "sha256": "e0036b75280088ec0c1efd298b9ad488123a8e023741e79aff9e2b1d35977aaf"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 20.wav",
+      "bytes": 29442662,
+      "compressed_bytes": 4947445,
+      "crc32": "17fdaca8",
+      "sha256": "4636bfe7cbade10821c3139acebbfb770bb343b27e9d53ea5cda4e7714880ebe"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 3/Essiv-processed.wav",
+      "bytes": 58474542,
+      "compressed_bytes": 10647305,
+      "crc32": "80beaf1f",
+      "sha256": "ee7ac2737184c29e0b44699557c0776db3eec7c96e63bcf030dc96bf83c325bb"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 3/Genitiv-processed.wav",
+      "bytes": 61550834,
+      "compressed_bytes": 11782482,
+      "crc32": "0b18f481",
+      "sha256": "c4d9b7f4340ecfa4dbb0915a537e8d38122071364f49a70edd3ceafc6b41c43b"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv4-processed.wav",
+      "bytes": 48517642,
+      "compressed_bytes": 8859988,
+      "crc32": "bc862551",
+      "sha256": "45e4901138853ebcb0de6849e3743fddbafffcd66bc069c016f536a46b3acb0a"
+    },
+    {
+      "path": "Meänkieli/Docs/Sanakirja.xlsx",
+      "bytes": 32059,
+      "compressed_bytes": 28439,
+      "crc32": "29063503",
+      "sha256": "a477f509cb3a23b5082a313905e7e9ea4056b83e56b0ac57a50219049235ee39"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv14-processed.wav",
+      "bytes": 49507346,
+      "compressed_bytes": 9305571,
+      "crc32": "b7dad8d7",
+      "sha256": "4bc89f6005ce1d023daad4b088958e243886c05a677384749ca4163644b1ebe7"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 1/convo 19.wav",
+      "bytes": 32967102,
+      "compressed_bytes": 5986161,
+      "crc32": "142d2a3e",
+      "sha256": "839469cb9c5500479412cd0651609e1fe1467adbcf66c83478265b89b14b72a6"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv1-processed.wav",
+      "bytes": 56917758,
+      "compressed_bytes": 11019969,
+      "crc32": "13a29311",
+      "sha256": "2ee4e11a3ed9c046bb95abac5fc4f7e61fee65a7c343c3f5188957bcf9bdff63"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/6. Tarvita-type_Perfekt.m4a",
+      "bytes": 1229706,
+      "compressed_bytes": 1229896,
+      "crc32": "14ea00da",
+      "sha256": "9c386fd197b6bc321635642e73c39a54a21cd894a3c5b4d9bbf719f3abfe0b0b"
+    },
+    {
+      "path": "Meänkieli/Docs/Phrases, notes.docx",
+      "bytes": 12112,
+      "compressed_bytes": 12117,
+      "crc32": "ed0ab83f",
+      "sha256": "3efae4e5567c95947a74b389d22728840edb2ba5918d61f3e3f91d777520f5b5"
+    },
+    {
+      "path": "Meänkieli/Docs/meänkieli frequency list.xlsx",
+      "bytes": 20541,
+      "compressed_bytes": 18777,
+      "crc32": "bf10cfe7",
+      "sha256": "d651aad97e31b0dbdb2557fe7653f3d7f51e15b0e8f8971eccfd3deecb7bb0b8"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv10-processed.wav",
+      "bytes": 55830218,
+      "compressed_bytes": 10368328,
+      "crc32": "4f87231c",
+      "sha256": "39c1cda60f61985a7820a94225b3f08a3e5db0981f283ef0f44ac78207b4850e"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv12-processed.wav",
+      "bytes": 52824326,
+      "compressed_bytes": 10210124,
+      "crc32": "737dfcf1",
+      "sha256": "736ba2ec80e899ec2aa2673864e2571d4b03567e0035bf12144693a3d15ce31a"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv15-processed.wav",
+      "bytes": 58043210,
+      "compressed_bytes": 10740397,
+      "crc32": "87ebfa6c",
+      "sha256": "ab6f7428d3e72e0551dd8698e55dedaa6d72c4396e390c1b484a06bf04aa8ea2"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv3-processed.wav",
+      "bytes": 60667910,
+      "compressed_bytes": 10848049,
+      "crc32": "d5954dc6",
+      "sha256": "51b01fffac9e1c607f88ef3aff4e83293dff251c0dfdcf62e5d10d01cbb12237"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/set 3/Page 10.m4a",
+      "bytes": 1034119,
+      "compressed_bytes": 1034279,
+      "crc32": "afbd894c",
+      "sha256": "d1df94f46700112056ea807dc5fd784ec277ee3ae75645e0c91953ccf63042bf"
+    },
+    {
+      "path": "Meänkieli/Audio files for android app/grammatik/dåtid/2. Huomata-type_Imperfect.m4a",
+      "bytes": 1685038,
+      "compressed_bytes": 1685298,
+      "crc32": "0f66cd79",
+      "sha256": "4f2646d80355014172e1dea052aa9f90c1a99970ab565492eda66e22fe81eba6"
+    },
+    {
+      "path": "Meänkieli/Archive/dialogue-trainer-v0.2.apk",
+      "bytes": 5808453,
+      "compressed_bytes": 4812188,
+      "crc32": "541320e4",
+      "sha256": "e40a3fca63ebd0dc2f352c661ecd33cd73939d45bc981e070dd5d45f43aa413d"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv5-processed.wav",
+      "bytes": 55188310,
+      "compressed_bytes": 10505453,
+      "crc32": "cfe398a7",
+      "sha256": "ce39926c096a1d8c6d3af2465f93f4909fd062595b66cf1fcc3ea7420d183d85"
+    },
+    {
+      "path": "Meänkieli/Archive/dialogue-trainer-v0.1.apk",
+      "bytes": 4726888,
+      "compressed_bytes": 3816812,
+      "crc32": "24586b58",
+      "sha256": "2b1ad47638b55e46716a3b5a7e58539443739139468164769992292e2a3f5d75"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv8-processed.wav",
+      "bytes": 74415822,
+      "compressed_bytes": 14133798,
+      "crc32": "f9c871e0",
+      "sha256": "59f64d0fbdde27f25d8c002bfb9d47425233ea8f68b0e27f95dce993ea2ce310"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv2-processed.wav",
+      "bytes": 83346774,
+      "compressed_bytes": 15393306,
+      "crc32": "1765831c",
+      "sha256": "32c27fde85b57d103fc40f0bed8c3a92cd17ed060c20f5b69784f63ac44512e1"
+    },
+    {
+      "path": "Meänkieli/Apps/dialogue-trainer-v0.3.apk",
+      "bytes": 5825799,
+      "compressed_bytes": 4814278,
+      "crc32": "098a9c7c",
+      "sha256": "782154df42aece40cbffe7c38b4ce006e344501dcbeacbe6c3f60188baa4217c"
+    },
+    {
+      "path": "Meänkieli/Completed audio files/Del 2/Konv9-processed.wav",
+      "bytes": 60206834,
+      "compressed_bytes": 11535359,
+      "crc32": "27580635",
+      "sha256": "cb80e33647019c51090d3f9c89c920794f114b4e2740c340bd2ef1c12439e800"
+    },
+    {
+      "path": "Meänkieli/Docs/Meänkieli Kurs Materiel.docx",
+      "bytes": 374319,
+      "compressed_bytes": 374379,
+      "crc32": "be3b9859",
+      "sha256": "5d8596f8db2e78ed16d162566c44fdc1fde0bb3ec46089f34e0fd44e9fcc59e5"
+    },
+    {
+      "path": "Meänkieli/Apps/Meankieli_dict_large.apk",
+      "bytes": 23259410,
+      "compressed_bytes": 20100382,
+      "crc32": "51c6a606",
+      "sha256": "79cef43fb6b9ba6ea04379fde7139e14398b86865c4fe3c723a5dbabe979c29f"
+    }
+  ],
+  "preservation_changes": [
+    {
+      "original_path": "Meänkieli/Audio files for android app/set 3/Meankieli_ExtendedDialogues.docx",
+      "retained_path": "Meänkieli/Archive/Meankieli_ExtendedDialogues-original.docx",
+      "replacement_path": "Meänkieli/Audio files for android app/set 3/Meankieli_ExtendedDialogues.docx",
+      "replacement_bytes": 24560,
+      "replacement_sha256": "b662cb38e220bcae3d7d2f1dbb648d6c2758422bcea8c9b8e4f56593efaf91bb"
+    }
+  ],
+  "archive_sha256": "915a36cd1817921fb2ca852321f4a46a11327f7aa549eb942307b37eaed2935f"
+}

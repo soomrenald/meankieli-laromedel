@@ -1,0 +1,1536 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Meänkieli audio file player</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background: #0a0c10;
+        color: #f6f7fb;
+        padding: 12px;
+        min-height: 100vh;
+        touch-action: manipulation;
+        overflow-x: hidden;
+      }
+
+      .app {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        border: 2px solid #2c74ff;
+        border-radius: 12px;
+        background: #0f1115;
+        box-shadow: 
+          0 8px 32px rgba(44, 116, 255, 0.2),
+          inset 0 0 0 1px rgba(44, 116, 255, 0.1),
+          0 0 0 1px rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+      }
+
+      .app__main {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .app__header {
+        margin-bottom: 12px;
+      }
+
+      .app__header h1 {
+        margin: 0 0 6px;
+        font-size: 1.5rem;
+      }
+
+      .app__header p {
+        margin: 0;
+        color: #c9cfdf;
+        font-size: 0.9rem;
+      }
+
+      .panel {
+        background: #171a21;
+        border-radius: 10px;
+        padding: 14px;
+        margin-bottom: 12px;
+        box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+      }
+
+      .controls-panel {
+        margin-bottom: 0;
+        padding-bottom: 14px;
+      }
+
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin-bottom: 14px;
+      }
+
+      .field label {
+        font-weight: 600;
+        font-size: 0.95rem;
+      }
+
+      .field__meta {
+        color: #9aa4b8;
+        font-size: 0.85rem;
+      }
+
+      input[type="file"] {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 8px;
+        border-radius: 8px;
+        background: #232835;
+        color: #f6f7fb;
+        border: 1px solid #38425a;
+      }
+
+      input[type="range"] {
+        width: 100%;
+        height: 40px;
+        -webkit-appearance: none;
+        appearance: none;
+        background: transparent;
+        cursor: pointer;
+      }
+
+      input[type="range"]::-webkit-slider-track {
+        width: 100%;
+        height: 6px;
+        background: #38425a;
+        border-radius: 3px;
+      }
+
+      input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background: #2c74ff;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-top: -7px;
+      }
+
+      input[type="range"]::-moz-range-track {
+        width: 100%;
+        height: 6px;
+        background: #38425a;
+        border-radius: 3px;
+      }
+
+      input[type="range"]::-moz-range-thumb {
+        width: 20px;
+        height: 20px;
+        background: #2c74ff;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+      }
+
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 12px;
+      }
+
+      button {
+        border: none;
+        border-radius: 8px;
+        padding: 14px 20px;
+        font-weight: 600;
+        font-size: 0.95rem;
+        cursor: pointer;
+        background: #2c74ff;
+        color: #f6f7fb;
+        transition: transform 0.1s ease, background 0.2s ease;
+        touch-action: manipulation;
+        min-height: 48px;
+        flex: 1;
+        min-width: 100px;
+      }
+
+      button:disabled {
+        cursor: not-allowed;
+        background: #38425a;
+        color: #c0c7d8;
+      }
+
+      button:not(:disabled):active {
+        transform: scale(0.96);
+        background: #1e5ae6;
+      }
+
+      .status {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+      }
+
+      .status--muted {
+        color: #9aa4b8;
+      }
+
+      .region-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 8px;
+        max-height: 400px;
+        overflow-y: auto;
+        padding-right: 6px;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .region-list::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .region-list::-webkit-scrollbar-track {
+        background: #0f1115;
+        border-radius: 3px;
+      }
+
+      .region-list::-webkit-scrollbar-thumb {
+        background: #38425a;
+        border-radius: 3px;
+      }
+
+      .region-list::-webkit-scrollbar-thumb:hover {
+        background: #4a5568;
+      }
+
+      .region-list li {
+        display: flex;
+      }
+
+      .region-button {
+        width: 100%;
+        text-align: left;
+        background: #232835;
+        color: #f6f7fb;
+        border-radius: 10px;
+        padding: 14px 16px;
+        font-size: 0.9rem;
+        min-height: 48px;
+        touch-action: manipulation;
+      }
+
+      .region-button.active {
+        background: #3a5ad6;
+      }
+
+      .region-button span {
+        display: block;
+        color: #c9cfdf;
+        font-weight: 400;
+        margin-top: 4px;
+        font-size: 0.85rem;
+      }
+
+      .waveform-container {
+        position: relative;
+      }
+
+      #waveformCanvas, #spectrumCanvas {
+        border: 1px solid #38425a;
+        touch-action: none;
+      }
+
+      @media (min-width: 768px) {
+        body {
+          padding: 24px;
+        }
+
+        .app {
+          padding: 24px;
+          display: grid;
+          grid-template-columns: 1fr 350px;
+          gap: 18px;
+          align-items: start;
+          border-radius: 16px;
+        }
+
+        .app__main {
+          gap: 18px;
+        }
+
+        .app__sidebar {
+          position: sticky;
+          top: 24px;
+          max-height: 66vh;
+          overflow-y: auto;
+        }
+
+        .panel {
+          padding: 18px;
+          border-radius: 12px;
+          margin-bottom: 18px;
+        }
+
+        .app__header h1 {
+          font-size: 1.9rem;
+        }
+
+        button {
+          padding: 10px 18px;
+          font-size: 1rem;
+          min-height: auto;
+          flex: none;
+        }
+
+        .region-button {
+          padding: 12px 14px;
+          min-height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="app">
+      <div class="app__main">
+        <header class="app__header">
+          <h1>Meänkieli audio file player</h1>
+          <p>
+            Load the file and play the regions individually.
+          </p>
+        </header>
+
+        <section class="panel">
+          <div class="field">
+            <label for="fileInput">Audio file</label>
+            <input id="fileInput" type="file" accept="audio/*" />
+            <div id="fileMeta" class="field__meta">No file loaded.</div>
+          </div>
+
+          <div class="field">
+            <label for="silenceSlider">
+              Silence length threshold:
+              <span id="silenceValue">740</span> ms
+            </label>
+            <input
+              id="silenceSlider"
+              type="range"
+              min="50"
+              max="2000"
+              step="10"
+              value="740"
+            />
+            <div class="field__meta">
+              Lower values create more regions; higher values merge more sound.
+            </div>
+          </div>
+        </section>
+
+        <section class="panel controls-panel">
+          <div class="controls">
+            <button id="prevButton" type="button" disabled>Previous</button>
+            <button id="playButton" type="button" disabled>Play</button>
+            <button id="nextButton" type="button" disabled>Next</button>
+          </div>
+          
+          <div class="field" style="margin-top: 16px;">
+            <label for="speedSlider">
+              Playback speed:
+              <span id="speedValue">1.0</span>x
+            </label>
+            <input
+              id="speedSlider"
+              type="range"
+              min="0.25"
+              max="2.0"
+              step="0.05"
+              value="1.0"
+            />
+          </div>
+          
+          <div class="waveform-container" style="margin-top: 16px;">
+            <div style="display: flex; gap: 12px; align-items: flex-start; flex-direction: column;">
+              <div style="width: 100%; position: relative;">
+                <canvas id="waveformCanvas" style="width: 100%; height: 120px; background: #0f1115; border-radius: 8px;"></canvas>
+              </div>
+              <button id="playSnippetButton" type="button" disabled style="width: 100%; align-self: stretch;">Play Snippet</button>
+            </div>
+            <div style="margin-top: 12px;">
+              <canvas id="spectrumCanvas" style="width: 100%; height: 150px; background: #0f1115; border-radius: 8px;"></canvas>
+            </div>
+          </div>
+          <div id="regionInfo" class="status" aria-live="polite" style="margin-top: 12px; margin-bottom: 0;">
+            Load an audio file to begin.
+          </div>
+          <div id="status" class="status status--muted" style="margin-bottom: 0;">Idle.</div>
+        </section>
+      </div>
+
+      <aside class="app__sidebar">
+        <section class="panel">
+          <h2>Detected sound regions</h2>
+          <ol id="regionList" class="region-list"></ol>
+        </section>
+      </aside>
+    </main>
+
+    <script>
+      const fileInput = document.getElementById("fileInput");
+      const silenceSlider = document.getElementById("silenceSlider");
+      const silenceValue = document.getElementById("silenceValue");
+      const playButton = document.getElementById("playButton");
+      const prevButton = document.getElementById("prevButton");
+      const nextButton = document.getElementById("nextButton");
+      const regionList = document.getElementById("regionList");
+      const regionInfo = document.getElementById("regionInfo");
+      const status = document.getElementById("status");
+      const fileMeta = document.getElementById("fileMeta");
+      const speedSlider = document.getElementById("speedSlider");
+      const speedValue = document.getElementById("speedValue");
+      const waveformCanvas = document.getElementById("waveformCanvas");
+      const spectrumCanvas = document.getElementById("spectrumCanvas");
+      const playSnippetButton = document.getElementById("playSnippetButton");
+
+      const state = {
+        audioContext: null,
+        audioBuffer: null,
+        regions: [],
+        currentIndex: 0,
+        audioElement: null,
+        audioUrl: null,
+        stopTimeout: null,
+        timeUpdateHandler: null,
+        playbackAnimationFrame: null,
+        playbackSpeed: 1.0,
+        waveformData: null,
+        selectionStart: null,
+        selectionEnd: null,
+        isSelecting: false,
+        draggingEdge: null, // 'start', 'end', or null
+        analyserNode: null,
+        mediaSourceNode: null,
+        isUsingRealtimeSpectrum: false,
+        cursorTime: null, // Time position of cursor for spectrum display
+        lastSpectrumData: null, // Store last computed spectrum data
+        lastSpectrumNyquist: null,
+        lastSpectrumNumBins: null,
+        touchStartX: null,
+        touchStartY: null,
+      };
+
+      const WINDOW_MS = 10;
+      const MIN_THRESHOLD = 0.005;
+      const RELATIVE_THRESHOLD = 0.04;
+
+      function setStatus(message) {
+        status.textContent = message;
+      }
+
+      function formatTime(seconds) {
+        if (!Number.isFinite(seconds)) {
+          return "0:00.000";
+        }
+        const minutes = Math.floor(seconds / 60);
+        const remainder = seconds % 60;
+        const padded = remainder.toFixed(3).padStart(6, "0");
+        return `${minutes}:${padded}`;
+      }
+
+      async function ensureAudioContext() {
+        if (!state.audioContext) {
+          const Context = window.AudioContext || window.webkitAudioContext;
+          state.audioContext = new Context();
+        }
+        if (state.audioContext.state === "suspended") {
+          await state.audioContext.resume();
+        }
+      }
+
+      function ensureAudioElement() {
+        if (!state.audioElement) {
+          const audio = new Audio();
+          audio.preload = "auto";
+          audio.playsInline = true;
+          state.audioElement = audio;
+        }
+      }
+
+      async function setupMediaSourceNode() {
+        if (state.mediaSourceNode) {
+          return; // Already set up
+        }
+        
+        if (!state.audioElement) {
+          return;
+        }
+
+        try {
+          await ensureAudioContext();
+          
+          // Create analyser first if it doesn't exist
+          if (!state.analyserNode) {
+            state.analyserNode = state.audioContext.createAnalyser();
+            state.analyserNode.fftSize = 2048;
+            state.analyserNode.smoothingTimeConstant = 0.8;
+          }
+          
+          // Try to create MediaElementSourceNode
+          try {
+            state.mediaSourceNode = state.audioContext.createMediaElementSource(state.audioElement);
+            // Connect: mediaSource -> analyser -> destination
+            state.mediaSourceNode.connect(state.analyserNode);
+            state.analyserNode.connect(state.audioContext.destination);
+          } catch (e) {
+            // MediaElementSourceNode can only be created once per element
+            // If it already exists, the audio element is already connected
+            // In this case, we can't use real-time spectrum analysis
+            console.warn("MediaElementSourceNode already exists - cannot use real-time spectrum:", e);
+            state.mediaSourceNode = null;
+            return;
+          }
+        } catch (error) {
+          console.warn("Could not set up media source node:", error);
+          state.mediaSourceNode = null;
+        }
+      }
+
+      async function ensureAudioElementReady() {
+        ensureAudioElement();
+        if (!state.audioElement) {
+          return;
+        }
+        if (state.audioElement.readyState >= 1) {
+          return;
+        }
+        await new Promise((resolve, reject) => {
+          const audio = state.audioElement;
+          const handleLoaded = () => {
+            cleanup();
+            resolve();
+          };
+          const handleError = () => {
+            cleanup();
+            reject(new Error("Audio element failed to load."));
+          };
+          const cleanup = () => {
+            audio.removeEventListener("loadedmetadata", handleLoaded);
+            audio.removeEventListener("error", handleError);
+          };
+          audio.addEventListener("loadedmetadata", handleLoaded);
+          audio.addEventListener("error", handleError);
+        });
+      }
+
+      function clearPlaybackTimers() {
+        if (state.stopTimeout) {
+          window.clearTimeout(state.stopTimeout);
+          state.stopTimeout = null;
+        }
+        if (state.timeUpdateHandler && state.audioElement) {
+          state.audioElement.removeEventListener(
+            "timeupdate",
+            state.timeUpdateHandler
+          );
+          state.timeUpdateHandler = null;
+        }
+        if (state.playbackAnimationFrame) {
+          cancelAnimationFrame(state.playbackAnimationFrame);
+          state.playbackAnimationFrame = null;
+        }
+        // Redraw waveform and spectrum to remove playback indicator
+        drawWaveform();
+        drawSpectrum();
+      }
+
+      function stopRegionPlayback() {
+        if (state.audioElement) {
+          state.audioElement.pause();
+        }
+        // Keep the connections as-is (mediaSource -> analyser -> destination)
+        // This way audio always plays through the analyser when available
+        state.isUsingRealtimeSpectrum = false;
+        clearPlaybackTimers();
+      }
+
+      function updateControls() {
+        const hasRegions = state.regions.length > 0;
+        playButton.disabled = !hasRegions;
+        prevButton.disabled = !hasRegions || state.currentIndex === 0;
+        nextButton.disabled =
+          !hasRegions || state.currentIndex === state.regions.length - 1;
+        playSnippetButton.disabled = !state.audioBuffer || state.selectionStart === null || state.selectionEnd === null;
+      }
+
+      function updateRegionInfo() {
+        if (!state.regions.length) {
+          regionInfo.textContent = "No regions detected yet.";
+          return;
+        }
+        const region = state.regions[state.currentIndex];
+        const start = region.startSample / state.audioBuffer.sampleRate;
+        const end = region.endSample / state.audioBuffer.sampleRate;
+        regionInfo.textContent = `Region ${state.currentIndex + 1} of ${
+          state.regions.length
+        } (${formatTime(start)} - ${formatTime(end)})`;
+      }
+
+      function setCurrentRegion(index, shouldPlay = false) {
+        if (!state.regions.length) {
+          return;
+        }
+        state.currentIndex = Math.max(
+          0,
+          Math.min(index, state.regions.length - 1)
+        );
+        updateRegionInfo();
+        updateControls();
+
+        regionList.querySelectorAll("button").forEach((button, idx) => {
+          const isActive = idx === state.currentIndex;
+          button.classList.toggle("active", isActive);
+          button.setAttribute("aria-current", isActive ? "true" : "false");
+        });
+
+        // Clear selection and redraw waveform for new region
+        state.selectionStart = null;
+        state.selectionEnd = null;
+        state.waveformData = null;
+        state.cursorTime = null; // Clear cursor time when changing regions
+        state.lastSpectrumData = null; // Clear last spectrum when changing regions
+        drawWaveform();
+        drawSpectrum();
+        updateControls();
+
+        if (shouldPlay) {
+          playCurrentRegion();
+        }
+      }
+
+      async function playCurrentRegion() {
+        if (!state.audioBuffer || !state.regions.length) {
+          return;
+        }
+        ensureAudioElement();
+        if (!state.audioElement) {
+          return;
+        }
+        stopRegionPlayback();
+
+        const region = state.regions[state.currentIndex];
+        const start = region.startSample / state.audioBuffer.sampleRate;
+        const duration =
+          (region.endSample - region.startSample) / state.audioBuffer.sampleRate;
+        const endTime = start + duration;
+
+        try {
+          await ensureAudioElementReady();
+          state.audioElement.playbackRate = state.playbackSpeed;
+          state.audioElement.currentTime = start;
+          const playPromise = state.audioElement.play();
+          if (playPromise) {
+            await playPromise;
+          }
+        } catch (error) {
+          setStatus("Playback blocked or failed. Tap Play again.");
+          return;
+        }
+
+        // Set up real-time spectrum analysis
+        await setupMediaSourceNode();
+        state.isUsingRealtimeSpectrum = state.mediaSourceNode !== null && state.analyserNode !== null;
+
+        state.timeUpdateHandler = () => {
+          if (state.audioElement && state.audioElement.currentTime >= endTime) {
+            stopRegionPlayback();
+          }
+          // Update waveform to show playback position
+          drawWaveform();
+        };
+        state.audioElement.addEventListener(
+          "timeupdate",
+          state.timeUpdateHandler
+        );
+        
+        // Start animation loop for smooth playback indicator and spectrum
+        if (state.playbackAnimationFrame) {
+          cancelAnimationFrame(state.playbackAnimationFrame);
+        }
+        const animatePlayback = () => {
+          if (state.audioElement && !state.audioElement.paused) {
+            drawWaveform();
+            drawSpectrum();
+            state.playbackAnimationFrame = requestAnimationFrame(animatePlayback);
+          } else {
+            state.playbackAnimationFrame = null;
+          }
+        };
+        state.playbackAnimationFrame = requestAnimationFrame(animatePlayback);
+
+        state.stopTimeout = window.setTimeout(() => {
+          stopRegionPlayback();
+        }, Math.max(0, (duration / state.playbackSpeed) * 1000 + 80));
+      }
+
+      async function playSnippet() {
+        if (!state.audioBuffer || state.selectionStart === null || state.selectionEnd === null || !state.regions.length) {
+          return;
+        }
+        ensureAudioElement();
+        if (!state.audioElement) {
+          return;
+        }
+        stopRegionPlayback();
+
+        // Convert relative selection times to absolute times
+        const region = state.regions[state.currentIndex];
+        const regionStartTime = region.startSample / state.audioBuffer.sampleRate;
+        const absoluteStart = regionStartTime + state.selectionStart;
+        const absoluteEnd = regionStartTime + state.selectionEnd;
+        const duration = state.selectionEnd - state.selectionStart;
+
+        try {
+          await ensureAudioElementReady();
+          state.audioElement.playbackRate = state.playbackSpeed;
+          state.audioElement.currentTime = absoluteStart;
+          const playPromise = state.audioElement.play();
+          if (playPromise) {
+            await playPromise;
+          }
+        } catch (error) {
+          setStatus("Playback blocked or failed. Tap Play Snippet again.");
+          return;
+        }
+
+        // Set up real-time spectrum analysis
+        await setupMediaSourceNode();
+        state.isUsingRealtimeSpectrum = state.mediaSourceNode !== null && state.analyserNode !== null;
+
+        state.timeUpdateHandler = () => {
+          if (state.audioElement && state.audioElement.currentTime >= absoluteEnd) {
+            stopRegionPlayback();
+          }
+          // Update waveform to show playback position
+          drawWaveform();
+        };
+        state.audioElement.addEventListener(
+          "timeupdate",
+          state.timeUpdateHandler
+        );
+        
+        // Start animation loop for smooth playback indicator and spectrum
+        if (state.playbackAnimationFrame) {
+          cancelAnimationFrame(state.playbackAnimationFrame);
+        }
+        const animatePlayback = () => {
+          if (state.audioElement && !state.audioElement.paused) {
+            drawWaveform();
+            drawSpectrum();
+            state.playbackAnimationFrame = requestAnimationFrame(animatePlayback);
+          } else {
+            state.playbackAnimationFrame = null;
+          }
+        };
+        state.playbackAnimationFrame = requestAnimationFrame(animatePlayback);
+
+        state.stopTimeout = window.setTimeout(() => {
+          stopRegionPlayback();
+        }, Math.max(0, (duration / state.playbackSpeed) * 1000 + 80));
+      }
+
+      function renderRegions() {
+        regionList.innerHTML = "";
+
+        if (!state.regions.length) {
+          updateControls();
+          updateRegionInfo();
+          return;
+        }
+
+        state.regions.forEach((region, index) => {
+          const start = region.startSample / state.audioBuffer.sampleRate;
+          const end = region.endSample / state.audioBuffer.sampleRate;
+
+          const li = document.createElement("li");
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "region-button";
+          button.innerHTML = `Region ${index + 1}
+            <span>${formatTime(start)} - ${formatTime(end)}</span>`;
+          button.addEventListener("click", () => {
+            setCurrentRegion(index, true);
+          });
+          li.appendChild(button);
+          regionList.appendChild(li);
+        });
+
+        setCurrentRegion(state.currentIndex);
+      }
+
+      function computeRegions(audioBuffer, silenceMs) {
+        const channelCount = audioBuffer.numberOfChannels;
+        const sampleRate = audioBuffer.sampleRate;
+        const totalSamples = audioBuffer.length;
+        const windowSize = Math.max(
+          1,
+          Math.floor((sampleRate * WINDOW_MS) / 1000)
+        );
+        const windowCount = Math.ceil(totalSamples / windowSize);
+        const silenceWindows = Math.max(1, Math.ceil(silenceMs / WINDOW_MS));
+
+        const rmsValues = new Float32Array(windowCount);
+        let maxRms = 0;
+
+        for (let i = 0; i < windowCount; i += 1) {
+          const start = i * windowSize;
+          const end = Math.min(start + windowSize, totalSamples);
+          let sumSquares = 0;
+          let samples = 0;
+
+          for (let sampleIndex = start; sampleIndex < end; sampleIndex += 1) {
+            let sampleValue = 0;
+            for (let channel = 0; channel < channelCount; channel += 1) {
+              sampleValue += audioBuffer.getChannelData(channel)[sampleIndex];
+            }
+            sampleValue /= channelCount;
+            sumSquares += sampleValue * sampleValue;
+            samples += 1;
+          }
+
+          const rms = Math.sqrt(sumSquares / Math.max(1, samples));
+          rmsValues[i] = rms;
+          if (rms > maxRms) {
+            maxRms = rms;
+          }
+        }
+
+        const threshold = Math.max(MIN_THRESHOLD, maxRms * RELATIVE_THRESHOLD);
+        const regions = [];
+        let regionStart = null;
+        let silentRun = 0;
+        let silentRunStart = 0;
+
+        const addRegion = (startWindow, endWindow) => {
+          const startSample = startWindow * windowSize;
+          const endSample = Math.min(endWindow * windowSize, totalSamples);
+          if (endSample > startSample) {
+            regions.push({ startSample, endSample });
+          }
+        };
+
+        for (let i = 0; i < windowCount; i += 1) {
+          const isSilent = rmsValues[i] < threshold;
+
+          if (isSilent) {
+            if (silentRun === 0) {
+              silentRunStart = i;
+            }
+            silentRun += 1;
+          } else {
+            if (regionStart === null) {
+              regionStart = i;
+            }
+
+            if (silentRun >= silenceWindows && regionStart !== null) {
+              addRegion(regionStart, silentRunStart);
+              regionStart = i;
+            }
+
+            silentRun = 0;
+          }
+        }
+
+        if (regionStart !== null) {
+          const endWindow =
+            silentRun >= silenceWindows ? silentRunStart : windowCount;
+          addRegion(regionStart, endWindow);
+        }
+
+        return {
+          regions,
+          threshold,
+        };
+      }
+
+      async function analyzeAudio() {
+        if (!state.audioBuffer) {
+          return;
+        }
+        stopRegionPlayback();
+        const silenceMs = Number(silenceSlider.value);
+        setStatus(`Analyzing with ${silenceMs} ms silence threshold...`);
+
+        await new Promise((resolve) => {
+          window.requestAnimationFrame(resolve);
+        });
+
+        const result = computeRegions(state.audioBuffer, silenceMs);
+        state.regions = result.regions;
+        state.currentIndex = 0;
+
+        renderRegions();
+        updateControls();
+        updateRegionInfo();
+        setStatus(
+          `Detected ${state.regions.length} region(s). Silence threshold: ${silenceMs} ms.`
+        );
+      }
+
+      fileInput.addEventListener("change", async (event) => {
+        const file = event.target.files[0];
+        if (!file) {
+          return;
+        }
+        setStatus("Decoding audio...");
+        fileMeta.textContent = `${file.name}`;
+        ensureAudioElement();
+        stopRegionPlayback();
+        if (state.audioUrl) {
+          URL.revokeObjectURL(state.audioUrl);
+        }
+        state.audioUrl = URL.createObjectURL(file);
+        if (state.audioElement) {
+          state.audioElement.src = state.audioUrl;
+          state.audioElement.load();
+          // Reset media source node when loading new file
+          state.mediaSourceNode = null;
+        }
+
+        try {
+          await ensureAudioContext();
+          const arrayBuffer = await file.arrayBuffer();
+          const buffer = await state.audioContext.decodeAudioData(arrayBuffer);
+          state.audioBuffer = buffer;
+          state.regions = [];
+          state.currentIndex = 0;
+          state.waveformData = null;
+          state.selectionStart = null;
+          state.selectionEnd = null;
+          state.lastSpectrumData = null; // Clear last spectrum when loading new file
+          state.cursorTime = null;
+          fileMeta.textContent = `${file.name} (${formatTime(buffer.duration)})`;
+          setStatus("Audio loaded. Detecting regions...");
+          await analyzeAudio();
+          drawWaveform();
+          drawSpectrum();
+          updateControls();
+        } catch (error) {
+          setStatus("Failed to decode audio file.");
+          regionInfo.textContent = "Unable to parse this audio file.";
+          state.audioBuffer = null;
+          state.regions = [];
+          stopRegionPlayback();
+        }
+      });
+
+      silenceSlider.addEventListener("input", () => {
+        silenceValue.textContent = silenceSlider.value;
+      });
+
+      silenceSlider.addEventListener("change", async () => {
+        if (state.audioBuffer) {
+          await analyzeAudio();
+        }
+      });
+
+      playButton.addEventListener("click", () => {
+        playCurrentRegion();
+      });
+
+      playSnippetButton.addEventListener("click", () => {
+        playSnippet();
+      });
+
+      prevButton.addEventListener("click", () => {
+        if (state.currentIndex > 0) {
+          setCurrentRegion(state.currentIndex - 1, true);
+        }
+      });
+
+      nextButton.addEventListener("click", () => {
+        if (state.currentIndex < state.regions.length - 1) {
+          setCurrentRegion(state.currentIndex + 1, true);
+        }
+      });
+
+      silenceValue.textContent = silenceSlider.value;
+      speedValue.textContent = speedSlider.value;
+      updateControls();
+
+      // Waveform visualization and selection
+      function drawWaveform() {
+        if (!state.audioBuffer || !waveformCanvas || !state.regions.length) {
+          return;
+        }
+
+        const canvas = waveformCanvas;
+        const ctx = canvas.getContext("2d");
+        const width = canvas.offsetWidth;
+        const height = canvas.offsetHeight;
+        canvas.width = width * window.devicePixelRatio;
+        canvas.height = height * window.devicePixelRatio;
+        ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+
+        ctx.fillStyle = "#0f1115";
+        ctx.fillRect(0, 0, width, height);
+
+        // Get current region
+        const region = state.regions[state.currentIndex];
+        const regionStartSample = region.startSample;
+        const regionEndSample = region.endSample;
+        const regionDuration = (regionEndSample - regionStartSample) / state.audioBuffer.sampleRate;
+
+        if (!state.waveformData || state.waveformData.regionIndex !== state.currentIndex) {
+          // Generate waveform data for current region only
+          const channelData = state.audioBuffer.getChannelData(0);
+          const regionSamples = regionEndSample - regionStartSample;
+          const samplesPerPixel = Math.floor(regionSamples / width);
+          state.waveformData = {
+            data: new Array(width),
+            regionIndex: state.currentIndex,
+            regionDuration: regionDuration
+          };
+
+          for (let i = 0; i < width; i++) {
+            let sum = 0;
+            let max = 0;
+            const pixelStartSample = regionStartSample + (i * samplesPerPixel);
+            const pixelEndSample = Math.min(pixelStartSample + samplesPerPixel, regionEndSample);
+
+            for (let j = pixelStartSample; j < pixelEndSample; j++) {
+              const val = Math.abs(channelData[j]);
+              sum += val;
+              max = Math.max(max, val);
+            }
+
+            state.waveformData.data[i] = {
+              avg: sum / Math.max(1, pixelEndSample - pixelStartSample),
+              max: max,
+            };
+          }
+        }
+
+        // Draw waveform
+        ctx.strokeStyle = "#2c74ff";
+        ctx.fillStyle = "#2c74ff";
+        ctx.lineWidth = 1;
+
+        const centerY = height / 2;
+        const maxAmplitude = height / 2 - 4;
+
+        for (let i = 0; i < state.waveformData.data.length; i++) {
+          const data = state.waveformData.data[i];
+          const amplitude = data.max * maxAmplitude;
+          const x = i;
+
+          ctx.beginPath();
+          ctx.moveTo(x, centerY - amplitude);
+          ctx.lineTo(x, centerY + amplitude);
+          ctx.stroke();
+        }
+
+        // Draw selection (relative to region)
+        if (state.selectionStart !== null && state.selectionEnd !== null) {
+          const startX = (state.selectionStart / regionDuration) * width;
+          const endX = (state.selectionEnd / regionDuration) * width;
+
+          ctx.fillStyle = "rgba(44, 116, 255, 0.3)";
+          ctx.fillRect(startX, 0, endX - startX, height);
+
+          // Draw draggable edges with visual indicator (larger for touch)
+          const edgeWidth = 6;
+          ctx.strokeStyle = "#2c74ff";
+          ctx.fillStyle = "#2c74ff";
+          ctx.lineWidth = 3;
+          
+          // Start edge
+          ctx.beginPath();
+          ctx.moveTo(startX, 0);
+          ctx.lineTo(startX, height);
+          ctx.stroke();
+          // Draw handle indicator (larger for touch)
+          ctx.fillRect(startX - edgeWidth/2, height/2 - 12, edgeWidth, 24);
+          
+          // End edge
+          ctx.beginPath();
+          ctx.moveTo(endX, 0);
+          ctx.lineTo(endX, height);
+          ctx.stroke();
+          // Draw handle indicator (larger for touch)
+          ctx.fillRect(endX - edgeWidth/2, height/2 - 12, edgeWidth, 24);
+        }
+
+        // Draw playback position indicator (red line)
+        if (state.audioElement && !state.audioElement.paused && state.audioElement.currentTime !== undefined) {
+          const regionStartTime = regionStartSample / state.audioBuffer.sampleRate;
+          const currentTime = state.audioElement.currentTime;
+          
+          // Only show indicator if playing within the current region
+          if (currentTime >= regionStartTime && currentTime <= (regionEndSample / state.audioBuffer.sampleRate)) {
+            const relativeTime = currentTime - regionStartTime;
+            const playheadX = (relativeTime / regionDuration) * width;
+            
+            if (playheadX >= 0 && playheadX <= width) {
+              ctx.strokeStyle = "#ff0000";
+              ctx.lineWidth = 3;
+              ctx.beginPath();
+              ctx.moveTo(playheadX, 0);
+              ctx.lineTo(playheadX, height);
+              ctx.stroke();
+            }
+          }
+        }
+      }
+
+      // FFT Spectrum visualization
+      function drawSpectrum() {
+        if (!spectrumCanvas) {
+          return;
+        }
+
+        const canvas = spectrumCanvas;
+        const ctx = canvas.getContext("2d");
+        const width = canvas.offsetWidth;
+        const height = canvas.offsetHeight;
+        canvas.width = width * window.devicePixelRatio;
+        canvas.height = height * window.devicePixelRatio;
+        ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+
+        ctx.fillStyle = "#0f1115";
+        ctx.fillRect(0, 0, width, height);
+
+        let frequencyData = null;
+        let nyquist = 22050; // Default
+        let numBins = 1024;
+
+        // Use real-time spectrum if available and playing
+        if (state.isUsingRealtimeSpectrum && state.analyserNode && state.audioElement && !state.audioElement.paused) {
+          const bufferLength = state.analyserNode.frequencyBinCount;
+          const dataArray = new Uint8Array(bufferLength);
+          state.analyserNode.getByteFrequencyData(dataArray);
+          frequencyData = dataArray;
+          nyquist = state.audioContext.sampleRate / 2;
+          numBins = bufferLength;
+          
+          // Store this spectrum as the last played spectrum
+          state.lastSpectrumData = new Uint8Array(dataArray);
+          state.lastSpectrumNyquist = nyquist;
+          state.lastSpectrumNumBins = numBins;
+        } else if (state.audioBuffer && state.regions.length) {
+          const region = state.regions[state.currentIndex];
+          const regionStartSample = region.startSample;
+          const regionEndSample = region.endSample;
+          const regionDuration = (regionEndSample - regionStartSample) / state.audioBuffer.sampleRate;
+          const channelData = state.audioBuffer.getChannelData(0);
+          const sampleRate = state.audioBuffer.sampleRate;
+          
+          // Priority: cursor-based spectrum > last played spectrum > default region spectrum
+          // If cursor time is set, compute FFT for a window around that time
+          if (state.cursorTime !== null && state.cursorTime >= 0 && state.cursorTime <= regionDuration) {
+            // Use the same FFT size as the analyser node (2048) for consistency
+            const fftSize = 2048;
+            const windowSamples = fftSize;
+            const cursorSample = regionStartSample + Math.floor(state.cursorTime * sampleRate);
+            const windowStart = Math.max(regionStartSample, cursorSample - Math.floor(windowSamples / 2));
+            const windowEnd = Math.min(regionEndSample, windowStart + windowSamples);
+            
+            const windowData = new Float32Array(fftSize);
+            const actualSamples = windowEnd - windowStart;
+            for (let i = 0; i < actualSamples; i++) {
+              windowData[i] = channelData[windowStart + i];
+            }
+            // Zero-pad if needed
+            for (let i = actualSamples; i < fftSize; i++) {
+              windowData[i] = 0;
+            }
+            
+            // Apply window function (Hanning) like the analyser does
+            for (let i = 0; i < actualSamples; i++) {
+              const window = 0.5 * (1 - Math.cos(2 * Math.PI * i / (actualSamples - 1)));
+              windowData[i] *= window;
+            }
+            
+            // Compute FFT for the window
+            const fftData = computeFFT(windowData, fftSize);
+            nyquist = sampleRate / 2;
+            numBins = fftSize / 2;
+            
+            // Convert to byte array format using similar normalization as AnalyserNode
+            // AnalyserNode uses dB scale, but we'll use linear with similar scaling
+            const maxMagnitude = Math.max(...fftData.map(m => m.magnitude));
+            frequencyData = new Uint8Array(numBins);
+            
+            // Use logarithmic-like scaling similar to AnalyserNode's getByteFrequencyData
+            for (let i = 0; i < numBins; i++) {
+              const magnitude = fftData[i].magnitude;
+              // Normalize and apply logarithmic-like scaling for better visual similarity
+              let normalized = maxMagnitude > 0 ? magnitude / maxMagnitude : 0;
+              // Apply similar scaling as AnalyserNode (roughly logarithmic)
+              normalized = Math.pow(normalized, 0.5); // Square root for smoother curve
+              frequencyData[i] = Math.floor(normalized * 255);
+            }
+            
+            // Store this spectrum as the last shown
+            state.lastSpectrumData = new Uint8Array(frequencyData);
+            state.lastSpectrumNyquist = nyquist;
+            state.lastSpectrumNumBins = numBins;
+          } else if (state.lastSpectrumData) {
+            // Use last shown spectrum instead of recomputing
+            frequencyData = state.lastSpectrumData;
+            nyquist = state.lastSpectrumNyquist;
+            numBins = state.lastSpectrumNumBins;
+          } else {
+            // Fall back to static spectrum of entire region (only if no last spectrum exists)
+            const regionSamples = regionEndSample - regionStartSample;
+            const regionData = new Float32Array(regionSamples);
+            for (let i = 0; i < regionSamples; i++) {
+              regionData[i] = channelData[regionStartSample + i];
+            }
+
+            // Use same FFT size as analyser for consistency
+            const fftSize = 2048;
+            const fftData = computeFFT(regionData, fftSize);
+            nyquist = sampleRate / 2;
+            numBins = fftSize / 2;
+            
+            // Convert to byte array format with similar scaling
+            const maxMagnitude = Math.max(...fftData.map(m => m.magnitude));
+            frequencyData = new Uint8Array(numBins);
+            for (let i = 0; i < numBins; i++) {
+              const magnitude = fftData[i].magnitude;
+              let normalized = maxMagnitude > 0 ? magnitude / maxMagnitude : 0;
+              normalized = Math.pow(normalized, 0.5); // Square root for smoother curve
+              frequencyData[i] = Math.floor(normalized * 255);
+            }
+            
+            // Store this as the last spectrum
+            state.lastSpectrumData = new Uint8Array(frequencyData);
+            state.lastSpectrumNyquist = nyquist;
+            state.lastSpectrumNumBins = numBins;
+          }
+        } else {
+          return; // Nothing to draw
+        }
+
+        // Apply low-pass filter: only show frequencies below 10kHz
+        const maxFreq = 10000; // 10kHz cutoff
+        const maxFreqBin = Math.floor((maxFreq / nyquist) * numBins);
+        const filteredBins = Math.min(maxFreqBin, numBins);
+        const filteredNyquist = maxFreq;
+        
+        // Draw spectrum
+        ctx.strokeStyle = "#00ff88";
+        ctx.fillStyle = "#00ff88";
+        ctx.lineWidth = 1;
+        
+        const barWidth = width / filteredBins;
+        
+        // Draw frequency bars (only up to 10kHz)
+        for (let i = 0; i < filteredBins && i * barWidth < width; i++) {
+          const magnitude = frequencyData[i] / 255; // Normalize to 0-1
+          const barHeight = magnitude * height;
+          const x = i * barWidth;
+          
+          ctx.fillRect(x, height - barHeight, Math.max(1, barWidth - 1), barHeight);
+        }
+        
+        // Draw frequency labels (only up to 10kHz)
+        ctx.fillStyle = "#9aa4b8";
+        ctx.font = "10px 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+        ctx.textAlign = "center";
+        const labelFrequencies = [100, 500, 1000, 2000, 5000, 10000];
+        labelFrequencies.forEach(freq => {
+          if (freq <= filteredNyquist) {
+            const x = (freq / filteredNyquist) * width;
+            if (x < width) {
+              ctx.fillText(freq + " Hz", x, height - 5);
+            }
+          }
+        });
+      }
+
+      // Simple FFT implementation
+      function computeFFT(samples, fftSize) {
+        // Zero-pad if necessary
+        const padded = new Float32Array(fftSize);
+        for (let i = 0; i < Math.min(samples.length, fftSize); i++) {
+          padded[i] = samples[i];
+        }
+        
+        // Apply window function (Hanning window)
+        for (let i = 0; i < padded.length; i++) {
+          const window = 0.5 * (1 - Math.cos(2 * Math.PI * i / (padded.length - 1)));
+          padded[i] *= window;
+        }
+        
+        // Perform FFT using Cooley-Tukey algorithm
+        const fft = fftRadix2(padded);
+        
+        // Convert to magnitude spectrum
+        const result = [];
+        for (let i = 0; i < fftSize / 2; i++) {
+          const real = fft[i * 2];
+          const imag = fft[i * 2 + 1];
+          const magnitude = Math.sqrt(real * real + imag * imag);
+          result.push({ magnitude, real, imag });
+        }
+        
+        return result;
+      }
+
+      // Radix-2 FFT implementation
+      function fftRadix2(samples) {
+        const N = samples.length;
+        if (N <= 1) {
+          const result = new Float32Array(N * 2);
+          for (let i = 0; i < N; i++) {
+            result[i * 2] = samples[i];
+            result[i * 2 + 1] = 0;
+          }
+          return result;
+        }
+        
+        // Bit-reverse permutation
+        const reversed = new Array(N);
+        const logN = Math.log2(N);
+        for (let i = 0; i < N; i++) {
+          let reversedIndex = 0;
+          for (let j = 0; j < logN; j++) {
+            reversedIndex = (reversedIndex << 1) | ((i >> j) & 1);
+          }
+          reversed[reversedIndex] = samples[i];
+        }
+        
+        // FFT computation
+        const result = new Float32Array(N * 2);
+        for (let i = 0; i < N; i++) {
+          result[i * 2] = reversed[i];
+          result[i * 2 + 1] = 0;
+        }
+        
+        for (let size = 2; size <= N; size *= 2) {
+          const step = N / size;
+          for (let i = 0; i < N; i += size) {
+            for (let j = 0; j < size / 2; j++) {
+              const u = i + j;
+              const v = u + size / 2;
+              const twiddleReal = Math.cos(-2 * Math.PI * j / size);
+              const twiddleImag = Math.sin(-2 * Math.PI * j / size);
+              
+              const tReal = result[v * 2] * twiddleReal - result[v * 2 + 1] * twiddleImag;
+              const tImag = result[v * 2] * twiddleImag + result[v * 2 + 1] * twiddleReal;
+              
+              result[v * 2] = result[u * 2] - tReal;
+              result[v * 2 + 1] = result[u * 2 + 1] - tImag;
+              result[u * 2] += tReal;
+              result[u * 2 + 1] += tImag;
+            }
+          }
+        }
+        
+        return result;
+      }
+
+      function getTimeFromX(x) {
+        if (!state.audioBuffer || !state.regions.length) return 0;
+        const region = state.regions[state.currentIndex];
+        const regionDuration = (region.endSample - region.startSample) / state.audioBuffer.sampleRate;
+        const rect = waveformCanvas.getBoundingClientRect();
+        const relativeX = x - rect.left;
+        const width = rect.width;
+        const time = (relativeX / width) * regionDuration;
+        return Math.max(0, Math.min(time, regionDuration));
+      }
+
+      function getXFromTime(time) {
+        if (!state.audioBuffer || !state.regions.length) return 0;
+        const region = state.regions[state.currentIndex];
+        const regionDuration = (region.endSample - region.startSample) / state.audioBuffer.sampleRate;
+        const rect = waveformCanvas.getBoundingClientRect();
+        const width = rect.width;
+        return (time / regionDuration) * width;
+      }
+
+      function getEdgeAtX(x) {
+        if (!state.audioBuffer || !state.regions.length || state.selectionStart === null || state.selectionEnd === null) {
+          return null;
+        }
+        const rect = waveformCanvas.getBoundingClientRect();
+        const relativeX = x - rect.left;
+        const region = state.regions[state.currentIndex];
+        const regionDuration = (region.endSample - region.startSample) / state.audioBuffer.sampleRate;
+        const startX = (state.selectionStart / regionDuration) * rect.width;
+        const endX = (state.selectionEnd / regionDuration) * rect.width;
+        const edgeThreshold = 12; // Larger threshold for touch
+
+        if (Math.abs(relativeX - startX) < edgeThreshold) {
+          return 'start';
+        } else if (Math.abs(relativeX - endX) < edgeThreshold) {
+          return 'end';
+        }
+        return null;
+      }
+
+      function handlePointerStart(e) {
+        if (!state.audioBuffer) return;
+        e.preventDefault();
+        
+        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+        state.touchStartX = clientX;
+        state.touchStartY = clientY;
+        
+        const time = getTimeFromX(clientX);
+        state.cursorTime = time;
+        
+        const edge = getEdgeAtX(clientX);
+        if (edge) {
+          // Start dragging an edge
+          state.draggingEdge = edge;
+          state.isSelecting = false;
+        } else {
+          // Start new selection
+          state.isSelecting = true;
+          state.draggingEdge = null;
+          state.selectionStart = time;
+          state.selectionEnd = time;
+        }
+        drawWaveform();
+        drawSpectrum(); // Update spectrum on touch/click
+        updateControls();
+      }
+
+      function handlePointerMove(e) {
+        if (!state.audioBuffer) return;
+        e.preventDefault();
+        
+        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        const time = getTimeFromX(clientX);
+        
+        if (state.draggingEdge) {
+          // Dragging an edge - update cursor time and spectrum
+          state.cursorTime = time;
+          const region = state.regions[state.currentIndex];
+          const regionDuration = (region.endSample - region.startSample) / state.audioBuffer.sampleRate;
+          
+          if (state.draggingEdge === 'start') {
+            state.selectionStart = Math.max(0, Math.min(time, state.selectionEnd - 0.01));
+          } else if (state.draggingEdge === 'end') {
+            state.selectionEnd = Math.min(regionDuration, Math.max(time, state.selectionStart + 0.01));
+          }
+          drawWaveform();
+          drawSpectrum(); // Update spectrum as edge is dragged
+          updateControls();
+        } else if (state.isSelecting) {
+          // Creating new selection - update cursor time and spectrum
+          state.cursorTime = time;
+          if (time < state.selectionStart) {
+            state.selectionEnd = state.selectionStart;
+            state.selectionStart = time;
+          } else {
+            state.selectionEnd = time;
+          }
+          drawWaveform();
+          drawSpectrum(); // Update spectrum as selection is made
+          updateControls();
+        }
+      }
+
+      function handlePointerEnd(e) {
+        e.preventDefault();
+        state.isSelecting = false;
+        state.draggingEdge = null;
+        state.touchStartX = null;
+        state.touchStartY = null;
+      }
+
+      function handlePointerLeave(e) {
+        state.isSelecting = false;
+        state.draggingEdge = null;
+        state.cursorTime = null; // Clear cursor time when leaving
+        state.touchStartX = null;
+        state.touchStartY = null;
+        drawSpectrum(); // Update spectrum to show default
+      }
+
+      // Add both mouse and touch event listeners
+      waveformCanvas.addEventListener("mousedown", handlePointerStart);
+      waveformCanvas.addEventListener("touchstart", handlePointerStart, { passive: false });
+      
+      waveformCanvas.addEventListener("mousemove", handlePointerMove);
+      waveformCanvas.addEventListener("touchmove", handlePointerMove, { passive: false });
+      
+      waveformCanvas.addEventListener("mouseup", handlePointerEnd);
+      waveformCanvas.addEventListener("touchend", handlePointerEnd);
+      waveformCanvas.addEventListener("touchcancel", handlePointerEnd);
+      
+      waveformCanvas.addEventListener("mouseleave", handlePointerLeave);
+      waveformCanvas.addEventListener("touchleave", handlePointerLeave);
+
+       // Update waveform when audio is analyzed
+       const originalAnalyzeAudio = analyzeAudio;
+       analyzeAudio = async function() {
+         await originalAnalyzeAudio();
+         state.waveformData = null;
+         state.selectionStart = null;
+         state.selectionEnd = null;
+         state.lastSpectrumData = null; // Clear last spectrum when analyzing
+         state.cursorTime = null;
+         setTimeout(() => {
+           if (state.regions.length > 0) {
+             drawWaveform();
+             drawSpectrum();
+           }
+           updateControls();
+         }, 0);
+       };
+
+      // Speed slider handler
+      speedSlider.addEventListener("input", () => {
+        state.playbackSpeed = parseFloat(speedSlider.value);
+        speedValue.textContent = state.playbackSpeed.toFixed(2);
+        if (state.audioElement) {
+          state.audioElement.playbackRate = state.playbackSpeed;
+        }
+      });
+
+      // Redraw waveform on resize
+      let resizeTimeout;
+      window.addEventListener("resize", () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+          state.waveformData = null;
+          drawWaveform();
+          drawSpectrum();
+        }, 250);
+      });
+
+      // Prevent zoom on double tap
+      let lastTouchEnd = 0;
+      document.addEventListener("touchend", (e) => {
+        const now = Date.now();
+        if (now - lastTouchEnd <= 300) {
+          e.preventDefault();
+        }
+        lastTouchEnd = now;
+      }, false);
+    </script>
+  </body>
+</html>

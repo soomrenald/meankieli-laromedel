@@ -1,0 +1,10 @@
+# Original Drive exports must stay outside Git.
+/Meänkieli-*.zip
+# Local runtime scratch only.
+__pycache__/
+# Dictionary/vocabulary provenance review is pending.
+/Meänkieli/Apps/Meankieli_dict_large.apk
+/Meänkieli/Apps/meankieli_dict_small.apk
+/Meänkieli/dictionary for chrome.zip
+/Meänkieli/Docs/Sanakirja.xlsx
+/Meänkieli/Docs/meänkieli frequency list.xlsx
