@@ -4,7 +4,7 @@ The owner selected regular Git for this initial import to preserve recording fil
 
 The archive contains 1,460,361,090 expanded bytes. Its largest file is `Meänkieli/Completed audio files/Del 2/Konv2-processed.wav`: 83,346,774 bytes (79.49 MiB). Twelve originals exceed 50 MiB, and none exceed 100 MiB.
 
-[GitHub's file-size guidance](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) warns above 50 MiB and blocks files above 100 MiB. It recommends small repositories, ideally below 1 GB. [Repository limits](https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits) enforce a 2 GB push limit. The compressed Git pack must be checked before uploading.
+[GitHub's file-size guidance](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) warns above 50 MiB and blocks files above 100 MiB. It recommends small repositories, ideally below 1 GB. [Repository limits](https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits) enforce a 2 GB push limit. The initial media checkpoint produced a 420,905,202-byte Git pack (401.41 MiB), which GitHub accepted. GitHub warned about the twelve files over 50 MiB; there were no files over its 100 MiB block threshold.
 
 Keep these binary originals stable. Avoid repeated replacements in Git history. If frequent revisions make the repository too large, release assets can preserve originals with download links from the same study folders. GitHub's large-file guide recommends releases for distributing large binaries and does not limit total release storage or bandwidth, though individual assets have limits.
 

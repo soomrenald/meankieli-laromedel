@@ -30,6 +30,8 @@ Both “7. Vanheta-type_Imperfekt.m4a” and “7. Vanheta-type_Imperfekt (1).m4
 
 ## Source text
 
+Each row retains the source verb label, Meänkieli sentence, and Swedish translation. Original comments remain below their source tables.
+
 ### 1. Antaa-type
 
 ### Perfect

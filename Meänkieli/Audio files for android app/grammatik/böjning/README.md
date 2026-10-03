@@ -27,185 +27,265 @@ The 12 recording titles match the case names in the course document: Nominativ, 
 
 ## Source text
 
+Swedish translations align with their corresponding Meänkieli utterances below. Wrapped source sentences are kept together, and alternatives share a row where the source provides one translation. English and Swedish source notes remain labelled outside the dialogue tables. No translation has been added.
+
 ### Nominativ
 
-Nominativ: ingen ändelse i singular
+**Source note / text without a separate translation:**
 
-Tämä on fiini  järven ranta
+> Nominativ: ingen ändelse i singular
 
-Täällä on lämmin ilma
+| Meänkieli | Svenska |
+| --- | --- |
+| Tämä on fiini  järven ranta | Det här  är en fin strand |
+| Täällä on lämmin ilma | Det är varmt väder här |
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+**Source note / text without a separate translation:**
+
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Genitiv
 
-Genitiv: singular ändelse *-n*
+**Source note / text without a separate translation:**
 
-Plural ändelser *-tten, -ten, -jen*
+> Genitiv: singular ändelse<em> -n</em>
 
-Kissa*n* häntä on pitkä
+**Source note / text without a separate translation:**
 
-Meitten taloi*tten* katot on vanhaat
+> Plural ändelser <em>-tten, -ten, -jen</em>
 
-Miehit*ten* koirat on nuoret
+| Meänkieli | Svenska |
+| --- | --- |
+| Kissa<em>n </em>häntä on pitkä | Kattens svans är lång |
+| Meitten taloi<em>tten</em> katot on vanhaat | Våra hustak är gamla |
+| Miehit<em>ten</em> koirat on nuoret | Männens hundar är unga |
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+**Source note / text without a separate translation:**
+
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Partitiv\*
 
-Partitiv:
+**Source note / text without a separate translation:**
 
-Partitiv singular: har att göra med *delar av n*å*got,*
+> Partitiv:
 
-(motsats till nominativ)
+**Source note / text without a separate translation:**
 
-Tre ändelser: *-a/ä, - ta/tä, - tta/ttä*
+> Partitiv singular: har att göra med <em>delar av n</em>å<em>got,</em>
 
-Partitiv plural: Två ändelser:  –a/ä, ta/tä
+**Source note / text without a separate translation:**
 
-Oleks/oletkos nähny tuotta kone*tta*?
+> (motsats till nominativ)
 
-Meillä on kaks(i) talo*a*
+**Source note / text without a separate translation:**
 
-Ei täällä ole semmosia ihmisi*ä*
+> Tre ändelser: <em>-a/ä, - ta/tä, - tta/ttä</em>
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+**Source note / text without a separate translation:**
+
+> Partitiv plural: Två ändelser:  –a/ä, ta/tä
+
+| Meänkieli | Svenska |
+| --- | --- |
+| Oleks/oletkos nähny tuotta kone<em>tta</em>? | Har du sett den där maskinen? |
+| Meillä on kaks(i) talo<em>a</em> | Vi har 2 hus |
+| Ei täällä ole semmosia ihmisi<em>ä</em> | Här finns inte sådana människor |
+
+**Source note / text without a separate translation:**
+
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Essiv
 
-Essiv: har att göra med tid, händelser, roller
+**Source note / text without a separate translation:**
 
-Har  ändelsen *-na, -nä*
+> Essiv: har att göra med tid, händelser, roller
 
-Met lähemmä kotia perjantai*na*
+**Source note / text without a separate translation:**
 
-Mie olin usein kipeä kläppinä
+> Har  ändelsen <em>-na, -nä</em>
 
-Mie olen handlanu tänä päivä*nä*
+| Meänkieli | Svenska |
+| --- | --- |
+| Met lähemmä kotia perjantai<em>na</em> | Vi åker hem på fredag |
+| Mie olin usein kipeä kläppinä | Jag var ofta sjuk som barn |
+| Mie olen handlanu tänä päivä<em>nä</em> | Jag har handlat idag |
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+**Source note / text without a separate translation:**
+
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Ackusativ
 
-Ackusativ I: har att göra med resultativ handling, helheter, bestämda mängder, jakande satser. Har ändelserna *-n, -t*
+**Source note / text without a separate translation:**
 
-Mie kohtasin suomalaise*t*
+> Ackusativ I: har att göra med resultativ handling, helheter, bestämda mängder, jakande satser. Har ändelserna<em> -n, -t</em>
 
-Net ostit lihapulla*t*
+| Meänkieli | Svenska |
+| --- | --- |
+| Mie kohtasin suomalaise<em>t</em> | Jag träffade finländarna |
+| Net ostit lihapulla<em>t</em> | Dom köpte köttbullarna |
+| Tunneks/tunnetkos sisare<em>n</em>? | Känner du systern? |
 
-Tunneks/tunnetkos sisare*n*?
+### Ackusativ II: har att göra med imperativ och passiv
 
-Ackusativ II: har att göra med imperativ och passiv
+| Meänkieli | Svenska |
+| --- | --- |
+| Osta tuon juston! | Köp den där osten! |
+| Ostethiin juston | Osten köptes |
+| Tule tänne! | Kom hit! |
 
-Osta tuon juston!
+**Source note / text without a separate translation:**
 
-Ostethiin juston
+> \[typo in the book, I think. There it says -kse but the examples are -ksi. We use -ksi\]
 
-Tule tänne!
+**Source note / text without a separate translation:**
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Translativ\*
 
-Translativ: har att göra med förändring och övergång. Har ändelsen *-ksi*
+**Source note / text without a separate translation:**
 
-Se hihto ja tuli toise*ks*i
+> Translativ: har att göra med förändring och övergång. Har ändelsen <em>-ksi</em>
 
-Se tuli halvema*ksi*
+| Meänkieli | Svenska |
+| --- | --- |
+| Se hihto ja tuli toise<em>ks</em>i | Han/hon åkte skidor och blev tvåa |
+| Se tuli halvema<em>ksi</em> | Det blev billigare |
+| Net menit huonomma<em>ksi</em> | Dom blev sämre |
 
-Net menit huonomma*ksi*
+**Source note / text without a separate translation:**
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Inessiv
 
-Inessiv: något är inne i. Har ändelserna *-ssa, -ssä*
+**Source note / text without a separate translation:**
 
-Poika on mettä*ssä*
+> Inessiv: något är inne i. Har ändelserna<em> -ssa, -ssä</em>
 
-Net on talossa/kämpä*ssä*
+| Meänkieli | Svenska |
+| --- | --- |
+| Poika on mettä<em>ssä</em> | Pojken är i skogen |
+| Net on talossa/kämpä<em>ssä</em> | Dom är i huset |
+| Mie olen sauna<em>ssa</em> | Jag är i bastun |
 
-Mie olen sauna*ssa*
+**Source note / text without a separate translation:**
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Elativ
 
-Elativ: uttrycker en rörelse **inifrån**. Har ändelsen
+**Source note / text without a separate translation:**
 
-*-sta, -stä*
+> Elativ: uttrycker en rörelse<strong> inifrån</strong>. Har ändelsen
 
-Se tuli ulos biili*stä*
+**Source note / text without a separate translation:**
 
-Sau näky huohnee*sta*
+> <em>-sta, -stä</em>
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+| Meänkieli | Svenska |
+| --- | --- |
+| Se tuli ulos biili<em>stä</em> | Han/hon kom ut från bilen |
+| Sau näky huohnee<em>sta</em> | Röken syntes från rummet |
+
+**Source note / text without a separate translation:**
+
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Illativ\*
 
-Illativ: uttrycker en rörelse **inåt**.
+**Source note / text without a separate translation:**
 
-Har ändelsen *-haan, -sheen, -shiin*
+> Illativ: uttrycker en rörelse <strong>inåt</strong>.
 
-Har *h+vokal (h-metates)*
+**Source note / text without a separate translation:**
 
-Kissa meni lof*haan*
+> Har ändelsen <em>-haan, -sheen, -shiin</em>
 
-Niilä tuli vesi kä*shiin*
+**Source note / text without a separate translation:**
 
-Alaks/alatkos sie pe*sheen* vaatheita?
+> Har <em>h+vokal (h-metates)</em>
 
-Mie menin talhoon
+| Meänkieli | Svenska |
+| --- | --- |
+| Kissa meni lof<em>haan</em> | Katten gick in i lådan |
+| Niilä tuli vesi kä<em>shiin</em> | Dom fick vatten på händerna |
+| Alaks/alatkos sie pe<em>sheen</em> vaatheita? | Ska du börja tvätta kläder? |
+| Mie menin talhoon | Jag gick in i huset. |
 
-(Man brukade säga talohoon men vi har tagit bort *o* och säger talhoon)
+**Source note / text without a separate translation:**
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+> (Man brukade säga talohoon men vi har tagit bort <em>o</em> och säger talhoon)
+
+**Source note / text without a separate translation:**
+
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Adessiv\*
 
-Adessiv: uttrycker läge utanför. Har ändelserna
+**Source note / text without a separate translation:**
 
-*-lla, -la* och *-llä, -lä*
+> Adessiv: uttrycker läge utanför. Har ändelserna
 
-Met lähemmä marsimhaan illa*lla*
+**Source note / text without a separate translation:**
 
-Oleks/Oletkos leikanu sen veite*lä*?
+> <em>-lla, -la</em> och <em>-llä, -lä</em>
 
-Sano sen meänkiele*lä*!
+| Meänkieli | Svenska |
+| --- | --- |
+| Met lähemmä marsimhaan illa<em>lla</em> | Vi ska gå ut (på promenad) på kvällen. |
+| Oleks/Oletkos leikanu sen veite<em>lä</em>? | Har du skurit den med kniven? |
+| Sano sen meänkiele<em>lä</em>! | Säg det på meänkieli! |
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+**Source note / text without a separate translation:**
+
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Ablativ\*
 
-Ablativ: uttrycker rörelse från något, närhet (plats/person)
+**Source note / text without a separate translation:**
 
-Har ändelserna *-lta, -ltä*
+> Ablativ: uttrycker rörelse från något, närhet (plats/person)
 
-Mie sain rahaa minun vaimo*lta*
+**Source note / text without a separate translation:**
 
-En mie kulu mithään miehe*ltä*
+> Har ändelserna <em>-lta, -ltä</em>
 
-Se näyttää hyvä*ltä*
+| Meänkieli | Svenska |
+| --- | --- |
+| Mie sain rahaa minun vaimo<em>lta</em> | Jag fick pengar av min fru. |
+| En mie kulu mithään miehe<em>ltä</em> | Jag hörde ingenting från mannen. |
+| Se näyttää hyvä<em>ltä</em> | Det ser bra ut. |
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+**Source note / text without a separate translation:**
+
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Allativ
 
-Allativ: uttrycker rörelse mot/till ett ställe och när man ger något till en person eller säger något till en person. Har ändelsen *-lle*
+**Source note / text without a separate translation:**
 
-Anna mu*lle* net avisit!
+> Allativ: uttrycker rörelse mot/till ett ställe och när man ger något till en person eller säger något till en person. Har ändelsen <em>-lle</em>
 
-Oleks/oletkos sanonu sen häne*lle*?
+| Meänkieli | Svenska |
+| --- | --- |
+| Anna mu<em>lle</em> net avisit! | Ge mig dom där tidningarna! |
+| Oleks/oletkos sanonu sen häne<em>lle</em>? | Har du sagt det till henne/honom? |
+| Mie annan ruokaa hevose<em>lle</em> | Jag ger mat till hästen |
+| Met lähemä kaupungi<em>lle</em> | Vi går/ska gå till stan |
 
-Mie annan ruokaa hevose*lle*
+**Source note / text without a separate translation:**
 
-Met lähemä kaupungi*lle*
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+> \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ### Abessiv\*
 
-Ovanligt kasus
+**Source note / text without a separate translation:**
+
+> Ovanligt kasus
 
 ## Conversations with case examples
 
@@ -213,554 +293,216 @@ Ovanligt kasus
 
 ### Nominativ har ingen ändelse i singular
 
-Sinun väska oon niin fiini. Mulla oon samaanlainen mutta eri färi. Mistäs sie olet ostanu sen?
-
-Se oon minun mamman/äitin väska, hän oon ostanu uuen.
-
-Kyläsä oon yksi uusi kauppa, mie lähen sinne tänä päivänä.
-
-Mie läheen matkhaan, minkas aikana sie läheet?
-
-Jos met lähtisimmä kolmen aikana? Mie kerkiän sitte takasi ennenko uutiset alkavat.
-
-Mie saattaan lähteä yhtä koska, mulla oon jacka täällä.
+| Meänkieli | Svenska |
+| --- | --- |
+| Sinun väska oon niin fiini. Mulla oon samaanlainen mutta eri färi. Mistäs sie olet ostanu sen? | Din väska är så fin, Jag har en likadan men i en annan färg. Var har du köpt den? |
+| Se oon minun mamman/äitin väska, hän oon ostanu uuen. | Det är min mammas väska, hon har köpt en ny. |
+| Kyläsä oon yksi uusi kauppa, mie lähen sinne tänä päivänä. | Det finns en ny affär i byn, jag ska gå dit idag. |
+| Mie läheen matkhaan, minkas aikana sie läheet? | Jag kommer med, vilken tid ska du åka? |
+| Jos met lähtisimmä kolmen aikana? Mie kerkiän sitte takasi ennenko uutiset alkavat. | Om vi skulle åka vid tre-tiden. Då hinner jag tillbaka innan nyheterna börjar. |
+| Mie saattaan lähteä yhtä koska, mulla oon jacka täällä. | Jag kan åka närsomhelst, jag har jackan här. |
 
 ### Genitiv, singular ändelse -n
 
-plural andelse -tten, -ten, -jen
+**Source note / text without a separate translation:**
 
-Koira*n* jalka oon kipeä.
+> plural andelse -tten, -ten, -jen
 
-Jo, koiri*tten* jalat oon tärväintynhet niistä terävistä kivistä. Tyttäri*tten* piilit oon tuolla, mie otaan koirat sinne.
+| Meänkieli | Svenska |
+| --- | --- |
+| Koira<em>n</em> jalka oon kipeä. | Hunden har ont i ett ben. |
+| Jo, koiri<em>tten</em> jalat oon tärväintynhet niistä terävistä kivistä. Tyttäri<em>tten</em> piilit oon tuolla, mie otaan koirat sinne. | Ja, hundarnas ben är skadade av dom vassa stenarna. Flickornas bilar är där, jag tar dit hundarna. |
+| Miehi<em>tten</em> piilit oon likempänä/lähempänä, net saattavat ajaa teät kotia. | Männens bilar är närmare, dom kan köra er hem. |
+| Hevosi<em>tten</em> ruoka oon minun piilissä. Saatatkos sie ottaa sen? | Hästarnas mat finns i min bil. Kan du ta den? |
+| Jo vain, mei<em>tten</em> piillissä oon hyviin siia. | Javisst, våra bilar har gott om plats. |
+| Minun avai<em>n</em> oon sisälä, mie nouan sen. | Min nyckel är inne, jag hämtar den. |
+| Ottaa sen sinisen väska<em>n</em> samalla, mulla oon saaphat siinä. | Ta den blåa väskan samtidigt, jag har stövlarna i den. |
+| Kukas oon menheet tyttäri<em>tten</em> kanssa? | Vem har åkt med flickorna? |
+| No mie uskon ette fariska ja muoriska meniit niitteen kanssa. | Tja, jag tror att farsan och morsan åkte med dom. |
 
-Miehi*tten* piilit oon likempänä/lähempänä, net saattavat ajaa teät kotia.
+### Partitiv, Partitiv singular: har att göra med <em>delar av n</em>å<em>got, </em>(motsats till nominativ)
 
-Hevosi*tten* ruoka oon minun piilissä. Saatatkos sie ottaa sen?
+**Source note / text without a separate translation:**
 
-Jo vain, mei*tten* piillissä oon hyviin siia.
+> Tre ändelser: <em>-a/ä, - ta/tä, - tta/ttä</em>
 
-Minun avai*n* oon sisälä, mie nouan sen.
+**Source note / text without a separate translation:**
 
-Ottaa sen sinisen väska*n* samalla, mulla oon saaphat siinä.
+> Partitiv plural: Två ändelser:  –a/ä, ta/tä
 
-Kukas oon menheet tyttäri*tten* kanssa?
-
-No mie uskon ette fariska ja muoriska meniit niitteen kanssa.
-
-### Partitiv, Partitiv singular: har att göra med *delar av n*å*got,* (motsats till nominativ)
-
-Tre ändelser: *-a/ä, - ta/tä, - tta/ttä*
-
-Partitiv plural: Två ändelser:  –a/ä, ta/tä
-
-Mitäs kieliä sie puhut? Puhut kos monta kiel*tä*?
-
-Ei, puhun vain engelska*a**.*
-
-Mie kuntelin tuo*tta* miest*ä*, se puhuu hyv*ää* ruoti*a*.
-
-Mit*ä*s tie*tä* sie ajat kotia?
-
-N*ä*et kos si*tä* korkea*ta* puu*ta*? Tie oon mettässä sen takana.
-
-Siellä oon lika/liian paljon korkei*ta* kivi*ä*, mie marsin missä oon talo*ja* ja hyvät tiet.
+| Meänkieli | Svenska |
+| --- | --- |
+| Mitäs kieliä sie puhut? Puhut kos monta kiel<em>tä</em>? | Vilka språk talar du? Talar du många språk? |
+| Ei, puhun vain engelska<em>a.</em> | Nej, jag talar bara engelska. |
+| Mie kuntelin tuo<em>tta</em> miest<em>ä</em>, se puhuu hyv<em>ää</em> ruoti<em>a</em>. | Jag lyssnade på den där mannen, han talar bra svenska. |
+| Mit<em>ä</em>s tie<em>tä</em> sie ajat kotia? | Vilken väg<em> </em>kör du hem? |
+| N<em>ä</em>et kos si<em>tä</em> korkea<em>ta</em> puu<em>ta</em>? Tie oon mettässä sen takana. | Ser du det där höga trädet? Vägen är i skogen bakom den. |
+| Siellä oon lika/liian paljon korkei<em>ta</em> kivi<em>ä</em>, mie marsin missä oon talo<em>ja </em>ja hyvät tiet. | Där finns för många höga stenar, jag går där det finns hus och bra vägar. |
 
 ### Essiv, har att göra med tid, händelser, roller
 
-Har  ändelsen *-na, -nä*
+**Source note / text without a separate translation:**
 
-Oleks sie ollu töissä tänä päivä*nä?*
+> Har  ändelsen <em>-na, -nä</em>
 
-Ei, mutta lähen töihin huomen*na*.
+| Meänkieli | Svenska |
+| --- | --- |
+| Oleks sie ollu töissä tänä päivä<em>nä?</em> | Har du jobbat idag? |
+| Ei, mutta lähen töihin huomen<em>na</em>. | Nej, men jag ska till jobbet i morgon. |
+| Mikäs työ sulla oon/missäs sie olet töissä? | Vad har du för jobb/var jobbar du? |
+| Mie olen töissä kemisti<em>nä</em>, se on statlinen tyo. <em>Tänä vuonna</em> mie olen ollu siellä neljätoista vuotta. | Jag jobbar som kemist, det är ett statligt jobb. I år har jag varit där i 14 år. |
+| Kunkas sie trivastut? | Hur trivs du? |
+| Mie trivastun hyviin, mie olen töissä kotoa ja se soppi mulle hyvin. Mutta nyt oon isot probleemit ko Trump halvaa panna pois kaiki. | Jag trivs bra, jag jobbar hemifrån och det passar mig bra. Men nu är det stora problem eftersom Trump vill ha bort alla. |
+| Mitäs sinun vaimo tekee? | Vad gör din fru? |
+| Hän on töyssä biologi<em>na</em> yhele danskalaisele företagile. | Hon jobbar som biolog för ett danskt företag. |
 
-Mikäs työ sulla oon/missäs sie olet töissä?
+### Ackusativ I har att göra med resultativ handling, helheter, bestämda mängder, jakande satser. Har ändelserna<em> -n, -t</em>
 
-Mie olen töissä kemisti*nä*, se on statlinen tyo. *Tänä vuonna* mie olen ollu siellä neljätoista vuotta.
-
-Kunkas sie trivastut?
-
-Mie trivastun hyviin, mie olen töissä kotoa ja se soppi mulle hyvin. Mutta nyt oon isot probleemit ko Trump halvaa panna pois kaiki.
-
-Mitäs sinun vaimo tekee?
-
-Hän on töyssä biologi*na* yhele danskalaisele företagile.
-
-### Ackusativ I har att göra med resultativ handling, helheter, bestämda mängder, jakande satser. Har ändelserna *-n, -t*
-
-Mie olen tornionlaaksolaine*n.*
-
-Niinkos, mie aattelin ette sie olet suomalaine*n*.
-
-Ei, suomalaiset puhuvat erhiinlaihiin mutta mie ymmärrän kohta kaikki.
-
-Mie kohtasin jokku suomalaise*t* Pajalassa*.*
-
-Jaha, kavitkos handlamassa siellä?
-
-Jo mie ostin juusto*t* ja lihapulla*t* ja ruokaa koirille.
-
-Kunkas monta koiraa sulla on?
-
-Meillä oon kolme koiraa ja neljä kissaa ja kolme kanoja. Met meinaama laittaa lissä kanoja ette saama munia. Verekset munat oon niin makeat.
+| Meänkieli | Svenska |
+| --- | --- |
+| Mie olen tornionlaaksolaine<em>n.</em> | Jag är tornedaling. |
+| Niinkos, mie aattelin ette sie olet suomalaine<em>n</em>. | Jaså, jag trodde att du var finländare. |
+| Ei, suomalaiset puhuvat erhiinlaihiin mutta mie ymmärrän kohta kaikki. | Nej, finländare pratar annorlunda men jag förstår nästan allt. |
+| Mie<em> </em>kohtasin jokku suomalaise<em>t </em>Pajalassa<em>.</em> | Jag träffade några finländare i Pajala. |
+| Jaha, kavitkos handlamassa siellä? | Jaha, var du och handlade där? |
+| Jo mie ostin juusto<em>t</em> ja lihapulla<em>t </em>ja ruokaa koirille. | Ja, jag köpte ost och köttbullar och mat åt hundarna. |
+| Kunkas monta koiraa sulla on? | Hur många hundar har du? |
+| Meillä oon kolme koiraa ja neljä kissaa ja kolme kanoja. Met meinaama laittaa lissä kanoja ette saama munia. Verekset munat oon niin makeat. | Vi har tre hundar och fyra katter och tre hönor. Vi tänker skaffa fler hönor för att få ägg. Färska ägg är så goda. |
 
 ### Ackusativ II har att göra med imperativ och passiv
 
-Katto, osta tuon juusto*n*! Se oon oikeen hyvä.
+| Meänkieli | Svenska |
+| --- | --- |
+| Katto, osta tuon juusto<em>n</em>! Se oon oikeen hyvä. | Titta, köp den där osten! Den är mycket bra. |
+| Jo, net suomalaise<em>t</em> ostit paljon sitä juustoa. | Ja, dom där finländarna köpte mycket av den osten. |
 
-Jo, net suomalaise*t* ostit paljon sitä juustoa.
+### Translativ har att göra med förändring och övergång. Har ändelsen <em>-ksi</em>
 
-### Translativ har att göra med förändring och övergång. Har ändelsen *-ksi*
+| Meänkieli | Svenska |
+| --- | --- |
+| Mie halvaisin sirtyä Danmarkiin ennenko mie tuleen vanhema<em>ksi.</em> | Jag skulle vilja flytta till Danmark innan jag blir äldre. |
+| Miksi Danmarkiin? | Varför till Danmark? |
+| Laura olis toyssä siellä mutta ei se ole varma viellä jos se halvaa siirtyä. | Laura skulle jobba där men hon är inte säker än om hon vill flytta. |
+| Tulis kos se halvemma<em>ksi</em> asua Danmarkissa? | Skulle det bli billigare att bo i Danmark? |
+| En mie usko ette se oon halvempi siellä. Laura oon käynä Danmarkissa mutta ei Ruotissa, mie meinaan ottaa sen matkhaan Ruothiin ensi kerralla. | Jag tror inte att det är billigare där. Laura har varit till Danmark men inte Sverige, jag tänker ta med henne till Sverige nästa gång. |
+| Kunkas elämä oon Amerikassa nyt? | Hur är livet i Amerika nu? |
+| Se oon tullu huonomma<em>ksi</em> elää Amerikassa ja mie halvaisin sirtyä pois sieltä. | Det har blivit sämre att leva i Amerika och jag skulle vilja flytta bort därifrån. |
 
-Mie halvaisin sirtyä Danmarkiin ennenko mie tuleen vanhema*ksi.*
+### Inessiv något är inne i. Har ändelserna<em> -ssa, -ssä</em>
 
-Miksi Danmarkiin?
-
-Laura olis toyssä siellä mutta ei se ole varma viellä jos se halvaa siirtyä.
-
-Tulis kos se halvemma*ksi* asua Danmarkissa?
-
-En mie usko ette se oon halvempi siellä. Laura oon käynä Danmarkissa mutta ei Ruotissa, mie meinaan ottaa sen matkhaan Ruothiin ensi kerralla.
-
-Kunkas elämä oon Amerikassa nyt?
-
-Se oon tullu huonomma*ksi* elää Amerikassa ja mie halvaisin sirtyä pois sieltä.
-
-### Inessiv något är inne i. Har ändelserna *-ssa, -ssä*
-
-Met asuma isossa kaupungi*ssa*, sen nimi oon Sacramento. Se oon Kalifornian pääkaupunki.
-
-Asuta kos kämpä*ssä* vain lägenheti*ssä*?
-
-Met asuma kämpä*ssä*, met ostima sen monta vuotta aikaa. Se oon sata vuotta vanhaa.
-
-Kunkas paljon huohneita siina oon?
-
-Siinä oon neljä huonetta ja kööki, ja iso kellari.
-
-Saata kos kanoja pittaa kaupungi*ssa*?
-
-Jo, sataa kyllä. Niitä oon monella. Meilla oon kukko kanssa, sitä ei sais pittää kaupungi*ssa*.
-
-Missäs tet käyttä semestillä?
-
-Met prukama mennä merelle koiritten kanssa, hyrämä kämppän siellä viikon.
-
-Tykkäävät kos koirat uia mere*ssä*?
-
-Ei, net tykkäävät enämpi laukkoa rannala.
+| Meänkieli | Svenska |
+| --- | --- |
+| Met asuma isossa kaupungi<em>ssa</em>, sen nimi oon Sacramento. Se oon Kalifornian pääkaupunki. | Vi bor i en stor stad, den heter Sacramento. Det är Kaliforniens huvudstad. |
+| Asuta kos kämpä<em>ssä</em> vain lägenheti<em>ssä</em>? | Bor ni i hus eller i lägenhet? |
+| Met asuma kämpä<em>ssä</em>, met ostima sen monta vuotta aikaa. Se oon sata vuotta vanhaa. | Vi bor i hus, vi köpte det för många år sen. Det är hundra år gammalt. |
+| Kunkas paljon huohneita siina oon? | Hur många rum finns det? |
+| Siinä oon neljä huonetta ja kööki, ja iso kellari. | Där finns fyra rum och kök, och stor källare. |
+| Saata kos kanoja pittaa kaupungi<em>ssa</em>? | Kan man ha höns i stan? |
+| Jo, sataa kyllä. Niitä oon monella. Meilla oon kukko kanssa, sitä ei sais pittää kaupungi<em>ssa</em>. | Ja, det kan man. Många har det. Vi har också tupp, det skulle man inte få ha i stan. |
+| Missäs tet käyttä semestillä? | Vart åker ni på semester? |
+| Met prukama mennä merelle koiritten kanssa, hyrämä kämppän siellä viikon. | Vi brukar åka till havet med hundarna, hyr ett hus där i en vecka. |
+| Tykkäävät kos koirat uia mere<em>ssä</em>? | Tycker hundarna om att simma i havet? |
+| Ei, net tykkäävät enämpi laukkoa rannala. | Nej, dom tycker bättre om att springa på stranden. |
 
 ### Elativ uttrycker en rörelse inifrån. Har ändelsen
 
-### *-sta, -stä*
+**Source note / text without a separate translation:**
 
-Mistä paika*sta* Laura tullee?
+> <em>-sta, -stä</em>
 
-Hänen kotipaika oon Northampton, ei se ole niin iso paikka. Issoin kaupunki siellä on Boston.
-
-Onkos hän ainua kläppi/lapsi?
-
-Ei, sillä oon yksi vanhempi sisar. Mulla oon kuvia, mie nouan net piili*stä.*
-
-Jo mie näen koirat, net tulevat ulos huohnee*sta.*
-
-Jo net halvavat aina olla ulkona.
-
-Missäs tet marsitta koiritten kanssa?
-
-Meillä oon yksi parkki lähellä, met prukama
-
-marsia siellä niiten kanssa.
-
-Meillä olit aina jahtikoirat, niitä ei saatanu pittää irti. Net laukosit pois.
-
-Kyllä meän koirat kanssa laukosit poies, met häymä pittää net koppelissa. Meän kissat ei saa mennä ulos ollekhaan, met piäma net aivan sisälä.
+| Meänkieli | Svenska |
+| --- | --- |
+| Mistä paika<em>sta</em> Laura tullee? | Från vilken plats (varifrån) kommer Laura? |
+| Hänen kotipaika oon Northampton, ei se ole niin iso paikka. Issoin kaupunki siellä on Boston. | Hennes hem är Northampton, det är ingen stor plats. Största stan där är Boston. |
+| Onkos hän ainua kläppi/lapsi? | Är hon enda barnet? |
+| Ei, sillä oon yksi vanhempi sisar. Mulla oon kuvia, mie nouan net piili<em>stä.</em> | Nej, hon har en äldre syster. Jag har foton, jag hämtar dom från bilen. |
+| Jo mie näen koirat, net tulevat ulos huohnee<em>sta.</em> | Ja jag ser hundarna, dom kommer ut ur rummet. |
+| Jo net halvavat aina olla ulkona. | Ja, dom vill alltid vara ute. |
+| Missäs tet marsitta koiritten kanssa? | Var går ni med hundarna? |
+| Meillä oon yksi parkki lähellä, met prukama<br>marsia siellä niiten kanssa. | Vi har en park i närheten, vi brukar gå där med dom. |
+| Meillä olit aina jahtikoirat, niitä ei saatanu pittää irti. Net laukosit pois. | Vi hade alltid jakthundar, man kunde inte släppa dom lösa. Dom skulle ha sprungit bort. |
+| Kyllä meän koirat kanssa laukosit poies, met häymä pittää net koppelissa. Meän kissat ei saa mennä ulos ollekhaan, met piäma net aivan sisälä. | Nog skulle våra hundar också springa bort, vi måste ha dom i koppel. Våra katter får inte gå ut alls, vi håller dom inne helt och hållet. |
 
 ### Illativ uttrycker en rörelse inåt.
 
-### Har ändelsen *-haan, -sheen, -shiin*
+**Source note / text without a separate translation:**
 
-Har *h+vokal (h-metates)*
+> Har ändelsen <em>-haan, -sheen, -shiin</em>
 
-Alaks/alatkos sie pe*sheen* vaatheita?
+**Source note / text without a separate translation:**
 
-Jo, mie häyn pestä vähän ennenko mie lähen kotia.
+> Har <em>h+vokal (h-metates)</em>
 
-Mulla tullee särky kä*shiin* kuumasta veestä. Mie häyn varotta ko mie pesen.
-
-Se kuluttaa kummalta. Mihinkäs mie panen puhtaat vatheet?
-
-Pane net tuohon lof*haan*. Siellä on hyviin siia. No koskas sie lähet kotia?
-
-Mulla mennee/lähtee lento huomen illalla. Mie olen framilla tiistaina.
-
-Minkäslainen ilma Sacramentossa on nyt?
-
-Siellä on oikeen kuuma ja saattaa olla pitkäsen ilma. Mutta se on oikeen kuiva ilma.
-
-Se näyttää ette täällä tullee sae huomenna. Met häymä panna potut ma*haan* tänä päivänä.
+| Meänkieli | Svenska |
+| --- | --- |
+| Alaks/alatkos sie pe<em>sheen</em> vaatheita? | Ska du börja tvätta kläder? |
+| Jo, mie häyn pestä vähän ennenko mie lähen kotia. | Ja, jag måste tvätta lite innan jag åker hem. |
+| Mulla tullee särky kä<em>shiin</em> kuumasta veestä. Mie häyn varotta ko mie pesen. | Jag får värk i händerna av hett vatten. Jag måste vara försiktig när jag tvättar. |
+| Se kuluttaa kummalta. Mihinkäs mie panen puhtaat vatheet? | Det låter konstigt. Vart ska jag sätta dom rena kläderna? |
+| Pane net tuohon lof<em>haan</em>. Siellä on hyviin siia. No koskas sie lähet kotia? | Sätt dom i den där lådan. Där finns gott om plats. Så när åker du hem? |
+| Mulla mennee/lähtee lento huomen illalla. Mie olen framilla tiistaina. | Mitt plan går i morgon kväll. Jag är framme på tisdag. |
+| Minkäslainen ilma Sacramentossa on nyt? | Hurdant väder är det i Sacramento nu? |
+| Siellä on oikeen kuuma ja saattaa olla pitkäsen ilma. Mutta se on oikeen kuiva ilma. | Där är väldigt varmt och det kan vara åskväder. Men det är mycket torr luft. |
+| Se näyttää ette täällä tullee sae huomenna. Met häymä panna potut ma<em>haan</em> tänä päivänä. | Det ser ut som om det kommer regn i morgon, Vi måste sätta potatisen i jorden idag. |
 
 ### Adessiv uttrycker läge utanför. Har ändelserna
 
-### *-lla, -la* och *-llä, -lä*
+**Source note / text without a separate translation:**
 
-Onkos Sacramentossa vaarallinen marsia ulkona illa*lla?* Se hän oon aika iso kaupunki.
+> <em>-lla, -la</em> och <em>-llä, -lä</em>
 
-Jo jossaki paikoissa saattaa olla vaarallista mutta emmä met pruukaa olla kaupungilla illalla. Ja met menemä aina piilil*lä*.
-
-Minkäslainen piilii teillä oon?
-
-Met olemma vasta ostanheet uuen piiliin, se oon paljon isompi sisällä ko meän vanhaa piili mutta met piämä molemmat. Ja molemmat piiliit on Toyota.
-
-Katto tuo*lla*, mulla tarttu oksa piiliin ovheen, mie en ole saanu pois sitä.
-
-Katkase sen veite*l**ä*!
-
-Mikäs kemist on meänkiele*lä?*
-
-Se on kemisti. Onkos se sinun työ?
-
-Jo justiins, mie olen kemisti, se oon statlinen työ. Se oon enniten datori työ nyt mutta mie olen ennen kollanu kaivoja Kalifoniassa ette mitäs veessä oon.
+| Meänkieli | Svenska |
+| --- | --- |
+| Onkos Sacramentossa vaarallinen marsia ulkona illa<em>lla? </em>Se hän oon aika iso kaupunki. | Är det farligt i Sacramento att ga ute på kvällen? Det är ju en ganska stor stad. |
+| Jo jossaki paikoissa saattaa olla vaarallista mutta emmä met pruukaa olla kaupungilla illalla. Ja met menemä aina piilil<em>lä</em>. | Ja, i vissa delar kan det vara farligt men vi brukar inte vara på stan på kvällen. Och vi kör alltid bil dit. |
+| Minkäslainen piilii teillä oon? | Hurdan bil har ni? |
+| Met olemma vasta ostanheet uuen piiliin, se oon paljon isompi sisällä ko meän vanhaa piili mutta met piämä molemmat. Ja molemmat piiliit on Toyota. | Vi har nyss köpt ny bil, den är mycket större inuti än vår gamla bil men vi behåller båda. Och båda bilarna är Toyota. |
+| Katto tuo<em>lla</em>, mulla tarttu oksa piiliin ovheen, mie en ole saanu pois sitä. | Titta där, jag har en gren som fastnade på bildörren, jag har inte fått bort den. |
+| Katkase sen veite<em>lä</em>! | Skär av den med kniv! |
+| Mikäs kemist on meänkiele<em>lä?</em> | Vad är kemist på meänkieli? |
+| Se on kemisti. Onkos se sinun työ? | Det är kemisti. Är det ditt jobb? |
+| Jo justiins, mie olen kemisti, se oon statlinen työ. Se oon enniten datori työ nyt mutta mie olen ennen kollanu kaivoja Kalifoniassa ette mitäs veessä oon. | Ja just det, jag är kemist, det är ett statligt jobb. Det är mest datorjobb nu men förr har jag kollat brunnar i Kalifornien för att se vad som finns i vattnet. |
 
 ### Ablativ uttrycker rörelse från något, närhet (plats/person)
 
-### Har ändelserna *-lta, -ltä*
-
-Oleks kuulu mithään vielä sinun vaimo*lta?*
-
-Jo se oon töyssä, kaikki kuulu hyvä*ltä* siellä.
-
-Minun miehe*ltä* ei ole vain kuulunu mithään.
-
-Se oon piain vasta lähteny asema*lta.*
-
-Jo, se saattaa. Nyt oon vissiin paljon trafiikkia ko se on perjantai.
-
-Niin se pruuka olla. Se on paras olla kotona. Saatat kos sie olla töissä kotoa?
-
-Kyllä mie häätysin olla konttorissa mutta mie olen kotona kuitenki.
-
-Onkos sinun vaimo töyssä kotoa?
-
-Jo pari päivää viikossa mutta hän on eniten töyssä konttori*lta*. Se hääty kohata ihmisiä ja silla oon paljon kokouksia.
-
-Työkaverit tarttevat paljon apua häne*ltä*.
-
-\*\* Skillnad mellan töissä och työssä:
-
-Töissä betyder **jobbet** (generellt)
-
-Työssä betyder **på** **jobbet**
-
-### Allativ uttrycker rörelse mot/till ett ställe och när man ger något till en person eller säger något till en person. Har ändelsen *-lle*
-
-Anna mu*lle* sen avisin, kattoma jos kaupungilla tapahtuu mithään tänä iltana.
-
-Ei mulla ole avisia, mie annoin sen häne*lle*.
-
-Se olis soma lähteä mere*lle*. Onkos Lulajassa paljon tekemistä?
-
-On kyllä aika paljon, olletikki kesälä.
-
-Kunkas se on asua Lulajassa? Saattaa kos siellä löytää työn?
-
-Siellä ei ole paljon töytä mutta jos universiteti*lle* menee niin niillä on piain töytä. Siellä saatta olla työtä su*lle*.
-
-Se näyttää ette kämpät on aika tyhriit Lulajassa. Onkos net halvemmat muualla norrbottenissa? Mie arvaan ette net on aika halvat tornionlaaksossa. Mie halvaisin ostaa kämpän minun vanhimmi*lle*.
-
-Jo net oon halvat tornionlaaksossa mutta net oon ussein vanhaat ja huonossa kunnossa. Ja tornionlaaksossa ei ole töyttä, senthään kämpät oon halvat siellä.
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-## Swedish translations of case examples
-
-Det här  är en fin strand
-
-Det är varmt väder här
-
-Kattens svans är lång
-
-Våra hustak är gamla
-
-Männens hundar är unga
-
-Har du sett den där maskinen?
-
-Vi har 2 hus
-
-Här finns inte sådana människor
-
-Vi åker hem på fredag
-
-Jag var ofta sjuk som barn
-
-Jag har handlat idag
-
-Jag träffade finländarna
-
-Dom köpte köttbullarna
-
-Känner du systern?
-
-Köp den där osten!
-
-Osten köptes
-
-Kom hit!
-
-\[typo in the book, I think. There it says -kse but the examples are -ksi. We use -ksi\]
-
-Han/hon åkte skidor och blev tvåa
-
-Det blev billigare
-
-Dom blev sämre
-
-Pojken är i skogen
-
-Dom är i huset
-
-Jag är i bastun
-
-Han/hon kom ut från bilen
-
-Röken syntes från rummet
-
-Katten gick in i lådan
-
-Dom fick vatten på händerna
-
-Ska du börja tvätta kläder?
-
-Jag gick in i huset.
-
-Vi ska gå ut (på promenad) på kvällen.
-
-Har du skurit den med kniven?
-
-Säg det på meänkieli!
-
-Jag fick pengar av min fru.
-
-Jag hörde ingenting från mannen.
-
-Det ser bra ut.
-
-Ge mig dom där tidningarna!
-
-Har du sagt det till henne/honom?
-
-Jag ger mat till hästen
-
-Vi går/ska gå till stan
-
-## Swedish translations of conversations
-
-Din väska är så fin, Jag har en likadan men i en annan färg. Var har du köpt den?
-
-Det är min mammas väska, hon har köpt en ny.
-
-Det finns en ny affär i byn, jag ska gå dit idag.
-
-Jag kommer med, vilken tid ska du åka?
-
-Om vi skulle åka vid tre-tiden. Då hinner jag tillbaka innan nyheterna börjar.
-
-Jag kan åka närsomhelst, jag har jackan här.
-
-Hunden har ont i ett ben.
-
-Ja, hundarnas ben är skadade av dom vassa stenarna. Flickornas bilar är där, jag tar dit hundarna.
-
-Männens bilar är närmare, dom kan köra er hem.
-
-Hästarnas mat finns i min bil. Kan du ta den?
-
-Javisst, våra bilar har gott om plats.
-
-Min nyckel är inne, jag hämtar den.
-
-Ta den blåa väskan samtidigt, jag har stövlarna i den.
-
-Vem har åkt med flickorna?
-
-Tja, jag tror att farsan och morsan åkte med dom.
-
-Vilka språk talar du? Talar du många språk?
-
-Nej, jag talar bara engelska.
-
-Jag lyssnade på den där mannen, han talar bra svenska.
-
-Vilken väg kör du hem?
-
-Ser du det där höga trädet? Vägen är i skogen bakom den.
-
-Där finns för många höga stenar, jag går där det finns hus och bra vägar.
-
-Har du jobbat idag?
-
-Nej, men jag ska till jobbet i morgon.
-
-Vad har du för jobb/var jobbar du?
-
-Jag jobbar som kemist, det är ett statligt jobb. I år har jag varit där i 14 år.
-
-Hur trivs du?
-
-Jag trivs bra, jag jobbar hemifrån och det passar mig bra. Men nu är det stora problem eftersom Trump vill ha bort alla.
-
-Vad gör din fru?
-
-Hon jobbar som biolog för ett danskt företag.
-
-Jag är tornedaling.
-
-Jaså, jag trodde att du var finländare.
-
-Nej, finländare pratar annorlunda men jag förstår nästan allt.
-
-Jag träffade några finländare i Pajala.
-
-Jaha, var du och handlade där?
-
-Ja, jag köpte ost och köttbullar och mat åt hundarna.
-
-Hur många hundar har du?
-
-Vi har tre hundar och fyra katter och tre hönor. Vi tänker skaffa fler hönor för att få ägg. Färska ägg är så goda.
-
-Titta, köp den där osten! Den är mycket bra.
-
-Ja, dom där finländarna köpte mycket av den osten.
-
-Jag skulle vilja flytta till Danmark innan jag blir äldre.
-
-Varför till Danmark?
-
-Laura skulle jobba där men hon är inte säker än om hon vill flytta.
-
-Skulle det bli billigare att bo i Danmark?
-
-Jag tror inte att det är billigare där. Laura har varit till Danmark men inte Sverige, jag tänker ta med henne till Sverige nästa gång.
-
-Hur är livet i Amerika nu?
-
-Det har blivit sämre att leva i Amerika och jag skulle vilja flytta bort därifrån.
-
-Vi bor i en stor stad, den heter Sacramento. Det är Kaliforniens huvudstad.
-
-Bor ni i hus eller i lägenhet?
-
-Vi bor i hus, vi köpte det för många år sen. Det är hundra år gammalt.
-
-Hur många rum finns det?
-
-Där finns fyra rum och kök, och stor källare.
-
-Kan man ha höns i stan?
-
-Ja, det kan man. Många har det. Vi har också tupp, det skulle man inte få ha i stan.
-
-Vart åker ni på semester?
-
-Vi brukar åka till havet med hundarna, hyr ett hus där i en vecka.
-
-Tycker hundarna om att simma i havet?
-
-Nej, dom tycker bättre om att springa på stranden.
-
-Från vilken plats (varifrån) kommer Laura?
-
-Hennes hem är Northampton, det är ingen stor plats. Största stan där är Boston.
-
-Är hon enda barnet?
-
-Nej, hon har en äldre syster. Jag har foton, jag hämtar dom från bilen.
-
-Ja jag ser hundarna, dom kommer ut ur rummet.
-
-Ja, dom vill alltid vara ute.
-
-Var går ni med hundarna?
-
-Vi har en park i närheten, vi brukar gå där med dom.
-
-Vi hade alltid jakthundar, man kunde inte släppa dom lösa. Dom skulle ha sprungit bort.
-
-Nog skulle våra hundar också springa bort, vi måste ha dom i koppel. Våra katter får inte gå ut alls, vi håller dom inne helt och hållet.
-
-Ska du börja tvätta kläder?
-
-Ja, jag måste tvätta lite innan jag åker hem.
-
-Jag får värk i händerna av hett vatten. Jag måste vara försiktig när jag tvättar.
-
-Det låter konstigt. Vart ska jag sätta dom rena kläderna?
-
-Sätt dom i den där lådan. Där finns gott om plats. Så när åker du hem?
-
-Mitt plan går i morgon kväll. Jag är framme på tisdag.
-
-Hurdant väder är det i Sacramento nu?
-
-Där är väldigt varmt och det kan vara åskväder. Men det är mycket torr luft.
-
-Det ser ut som om det kommer regn i morgon, Vi måste sätta potatisen i jorden idag.
-
-Är det farligt i Sacramento att ga ute på kvällen? Det är ju en ganska stor stad.
-
-Ja, i vissa delar kan det vara farligt men vi brukar inte vara på stan på kvällen. Och vi kör alltid bil dit.
-
-Hurdan bil har ni?
-
-Vi har nyss köpt ny bil, den är mycket större inuti än vår gamla bil men vi behåller båda. Och båda bilarna är Toyota.
-
-Titta där, jag har en gren som fastnade på bildörren, jag har inte fått bort den.
-
-Skär av den med kniv!
-
-Vad är kemist på meänkieli?
-
-Det är kemisti. Är det ditt jobb?
-
-Ja just det, jag är kemist, det är ett statligt jobb. Det är mest datorjobb nu men förr har jag kollat brunnar i Kalifornien för att se vad som finns i vattnet.
-
-Har du hört något från din fru?
-
-Ja, hon är på jobbet, allt låter bra där.
-
-Inget har hörts från min man.
-
-Han har kanske nyss åkt ifrån stationen.
-
-Ja, det är möjligt (så kan det vara). Det är visst mycket trafik nu när det är fredag.
-
-Så brukar det vara, Det är bäst att vara hemma. Kan du jobba hemifrån?
-
-Jag skulle nog måsta vara på kontoret men jag är hemma trots det.
-
-Jobbar din fru hemifrån?
-
-Ja ett par dar i veckan men hon jobbar mest på kontoret. Hon måste träffa folk och hon har många möten.
-
-Jobbarkompisarna behöver mycket hjälp från henne.
-
-Ge mig tidningen, vi ser om det händer något i stan ikväll.
-
-Jag har ingen tidning, jag gav den till henne.
-
-Det vore trevligt att åka till havet. Finns det mycket att göra i Luleå?
-
-Ja, ganska mycket, speciellt på sommaren.
-
-Hur är det att bo i Luleå? Kan man hitta ett jobb där?
-
-Där finns inte många jobb men om man går till universitetet så har dom kanske jobb. Det kan finnas jobb till dig.
-
-Det ser ut som om husen är ganska dyra i Luleå. Är dom billigare någon annanstans i Norrbotten? Jag gissar att dom är ganska billiga i Tornedalen. Jag skulle vilja köpa stuga till mina föräldrar.
-
-Ja dom är billiga i Tornedalen men dom är ofta gamla och i dåligt skick. Och i Tornedalen finns det inte jobb, därför är husen billiga där.
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+**Source note / text without a separate translation:**
+
+> Har ändelserna <em>-lta, -ltä</em>
+
+| Meänkieli | Svenska |
+| --- | --- |
+| Oleks kuulu mithään vielä sinun vaimo<em>lta?</em> | Har du hört något från din fru? |
+| Jo se oon töyssä, kaikki kuulu hyvä<em>ltä</em> siellä. | Ja, hon är på jobbet, allt låter bra där. |
+| Minun miehe<em>ltä </em>ei ole vain kuulunu mithään. | Inget har hörts från min man. |
+| Se oon piain vasta lähteny asema<em>lta.</em> | Han har kanske nyss åkt ifrån stationen. |
+| Jo, se saattaa. Nyt oon vissiin paljon trafiikkia ko se on perjantai. | Ja, det är möjligt (så kan det vara). Det är visst mycket trafik nu när det är fredag. |
+| Niin se pruuka olla. Se on paras olla kotona. Saatat kos sie olla töissä kotoa? | Så brukar det vara, Det är bäst att vara hemma. Kan du jobba hemifrån? |
+| Kyllä mie häätysin olla konttorissa mutta mie olen kotona kuitenki. | Jag skulle nog måsta vara på kontoret men jag är hemma trots det. |
+| Onkos sinun vaimo töyssä kotoa? | Jobbar din fru hemifrån? |
+| Jo pari päivää viikossa mutta hän on eniten töyssä konttori<em>lta</em>. Se hääty kohata ihmisiä ja silla oon paljon kokouksia. | Ja ett par dar i veckan men hon jobbar mest på kontoret. Hon måste träffa folk och hon har många möten. |
+| Työkaverit tarttevat paljon apua häne<em>ltä</em>. | Jobbarkompisarna behöver mycket hjälp från henne. |
+
+**Source note / text without a separate translation:**
+
+> \*\* Skillnad mellan töissä och työssä:
+
+**Source note / text without a separate translation:**
+
+> Töissä betyder <strong>jobbet</strong> (generellt)
+
+**Source note / text without a separate translation:**
+
+> Työssä betyder <strong>på jobbet</strong>
+
+### Allativ uttrycker rörelse mot/till ett ställe och när man ger något till en person eller säger något till en person. Har ändelsen <em>-lle</em>
+
+| Meänkieli | Svenska |
+| --- | --- |
+| Anna mu<em>lle</em> sen avisin, kattoma jos kaupungilla tapahtuu mithään tänä iltana. | Ge mig tidningen, vi ser om det händer något i stan ikväll. |
+| Ei mulla ole avisia, mie annoin sen häne<em>lle</em>. | Jag har ingen tidning, jag gav den till henne. |
+| Se olis soma lähteä mere<em>lle</em>. Onkos Lulajassa paljon tekemistä? | Det vore trevligt att åka till havet. Finns det mycket att göra i Luleå? |
+| On kyllä aika paljon, olletikki kesälä. | Ja, ganska mycket, speciellt på sommaren. |
+| Kunkas se on asua Lulajassa? Saattaa kos siellä löytää työn? | Hur är det att bo i Luleå? Kan man hitta ett jobb där? |
+| Siellä ei ole paljon töytä mutta jos universiteti<em>lle</em> menee niin niillä on piain töytä. Siellä saatta olla työtä su<em>lle</em>. | Där finns inte många jobb men om man går till universitetet så har dom kanske jobb. Det kan finnas jobb till dig. |
+| Se näyttää ette kämpät on aika tyhriit Lulajassa. Onkos net halvemmat muualla norrbottenissa? Mie arvaan ette net on aika halvat tornionlaaksossa. Mie halvaisin ostaa kämpän minun vanhimmi<em>lle</em>. | Det ser ut som om husen är ganska dyra i Luleå. Är dom billigare någon annanstans i Norrbotten? Jag gissar att dom är ganska billiga i Tornedalen. Jag skulle vilja köpa stuga till mina föräldrar. |
+| Jo net oon halvat tornionlaaksossa mutta net oon ussein vanhaat ja huonossa kunnossa. Ja tornionlaaksossa ei ole töyttä, senthään kämpät oon halvat siellä. | Ja dom är billiga i Tornedalen men dom är ofta gamla och i dåligt skick. Och i Tornedalen finns det inte jobb, därför är husen billiga där. |

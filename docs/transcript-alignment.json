@@ -1,0 +1,7358 @@
+{
+  "indexing": "Zero-based Word paragraph indexes within the specified table cell, or within the document body. A suffix .n denotes a source line-break segment; Set 1 paragraph 12 is split at its explicit tab-separated utterance boundary. Course table 1 means the first Word table; case sections use the second table. Meänkieli is source cell 0, Swedish is cell 1. Notes retain original languages.",
+  "sections": [
+    {
+      "section": "Set 1 / course table 1",
+      "source": "Meänkieli/Docs/Meänkieli Kurs Materiel.docx",
+      "source_sha256": "5d8596f8db2e78ed16d162566c44fdc1fde0bb3ec46089f34e0fd44e9fcc59e5",
+      "paired_rows": 118,
+      "source_units": 282,
+      "pairs": [
+        {
+          "meankieli": [
+            "3"
+          ],
+          "svenska": [
+            "3"
+          ]
+        },
+        {
+          "meankieli": [
+            "4"
+          ],
+          "svenska": [
+            "4"
+          ]
+        },
+        {
+          "meankieli": [
+            "6"
+          ],
+          "svenska": [
+            "6"
+          ]
+        },
+        {
+          "meankieli": [
+            "7"
+          ],
+          "svenska": [
+            "7"
+          ]
+        },
+        {
+          "meankieli": [
+            "12.0"
+          ],
+          "svenska": [
+            "12"
+          ]
+        },
+        {
+          "meankieli": [
+            "12.1"
+          ],
+          "svenska": [
+            "13"
+          ]
+        },
+        {
+          "meankieli": [
+            "16"
+          ],
+          "svenska": [
+            "17"
+          ]
+        },
+        {
+          "meankieli": [
+            "17"
+          ],
+          "svenska": [
+            "18"
+          ]
+        },
+        {
+          "meankieli": [
+            "19"
+          ],
+          "svenska": [
+            "20"
+          ]
+        },
+        {
+          "meankieli": [
+            "26"
+          ],
+          "svenska": [
+            "27"
+          ]
+        },
+        {
+          "meankieli": [
+            "29"
+          ],
+          "svenska": [
+            "30"
+          ]
+        },
+        {
+          "meankieli": [
+            "30"
+          ],
+          "svenska": [
+            "31"
+          ]
+        },
+        {
+          "meankieli": [
+            "31"
+          ],
+          "svenska": [
+            "32"
+          ]
+        },
+        {
+          "meankieli": [
+            "34"
+          ],
+          "svenska": [
+            "35"
+          ]
+        },
+        {
+          "meankieli": [
+            "35"
+          ],
+          "svenska": [
+            "36"
+          ]
+        },
+        {
+          "meankieli": [
+            "38"
+          ],
+          "svenska": [
+            "39"
+          ]
+        },
+        {
+          "meankieli": [
+            "39"
+          ],
+          "svenska": [
+            "40"
+          ]
+        },
+        {
+          "meankieli": [
+            "40"
+          ],
+          "svenska": [
+            "41"
+          ]
+        },
+        {
+          "meankieli": [
+            "42",
+            "43"
+          ],
+          "svenska": [
+            "43"
+          ]
+        },
+        {
+          "meankieli": [
+            "45"
+          ],
+          "svenska": [
+            "46"
+          ]
+        },
+        {
+          "meankieli": [
+            "47"
+          ],
+          "svenska": [
+            "48"
+          ]
+        },
+        {
+          "meankieli": [
+            "48"
+          ],
+          "svenska": [
+            "49"
+          ]
+        },
+        {
+          "meankieli": [
+            "55"
+          ],
+          "svenska": [
+            "57"
+          ]
+        },
+        {
+          "meankieli": [
+            "57"
+          ],
+          "svenska": [
+            "59"
+          ]
+        },
+        {
+          "meankieli": [
+            "59"
+          ],
+          "svenska": [
+            "61"
+          ]
+        },
+        {
+          "meankieli": [
+            "61"
+          ],
+          "svenska": [
+            "63"
+          ]
+        },
+        {
+          "meankieli": [
+            "64"
+          ],
+          "svenska": [
+            "66"
+          ]
+        },
+        {
+          "meankieli": [
+            "66"
+          ],
+          "svenska": [
+            "68"
+          ]
+        },
+        {
+          "meankieli": [
+            "72"
+          ],
+          "svenska": [
+            "74"
+          ]
+        },
+        {
+          "meankieli": [
+            "73"
+          ],
+          "svenska": [
+            "75"
+          ]
+        },
+        {
+          "meankieli": [
+            "75"
+          ],
+          "svenska": [
+            "77"
+          ]
+        },
+        {
+          "meankieli": [
+            "77"
+          ],
+          "svenska": [
+            "79"
+          ]
+        },
+        {
+          "meankieli": [
+            "79"
+          ],
+          "svenska": [
+            "81"
+          ]
+        },
+        {
+          "meankieli": [
+            "81"
+          ],
+          "svenska": [
+            "83"
+          ]
+        },
+        {
+          "meankieli": [
+            "83"
+          ],
+          "svenska": [
+            "85"
+          ]
+        },
+        {
+          "meankieli": [
+            "85"
+          ],
+          "svenska": [
+            "87"
+          ]
+        },
+        {
+          "meankieli": [
+            "89"
+          ],
+          "svenska": [
+            "91"
+          ]
+        },
+        {
+          "meankieli": [
+            "91"
+          ],
+          "svenska": [
+            "93"
+          ]
+        },
+        {
+          "meankieli": [
+            "93"
+          ],
+          "svenska": [
+            "95",
+            "96"
+          ]
+        },
+        {
+          "meankieli": [
+            "95"
+          ],
+          "svenska": [
+            "98"
+          ]
+        },
+        {
+          "meankieli": [
+            "97"
+          ],
+          "svenska": [
+            "100"
+          ]
+        },
+        {
+          "meankieli": [
+            "101"
+          ],
+          "svenska": [
+            "104"
+          ]
+        },
+        {
+          "meankieli": [
+            "103"
+          ],
+          "svenska": [
+            "106"
+          ]
+        },
+        {
+          "meankieli": [
+            "105"
+          ],
+          "svenska": [
+            "108"
+          ]
+        },
+        {
+          "meankieli": [
+            "107"
+          ],
+          "svenska": [
+            "110"
+          ]
+        },
+        {
+          "meankieli": [
+            "117"
+          ],
+          "svenska": [
+            "120"
+          ]
+        },
+        {
+          "meankieli": [
+            "118"
+          ],
+          "svenska": [
+            "122"
+          ]
+        },
+        {
+          "meankieli": [
+            "120"
+          ],
+          "svenska": [
+            "124"
+          ]
+        },
+        {
+          "meankieli": [
+            "122"
+          ],
+          "svenska": [
+            "126"
+          ]
+        },
+        {
+          "meankieli": [
+            "124"
+          ],
+          "svenska": [
+            "128"
+          ]
+        },
+        {
+          "meankieli": [
+            "126"
+          ],
+          "svenska": [
+            "130"
+          ]
+        },
+        {
+          "meankieli": [
+            "130"
+          ],
+          "svenska": [
+            "135"
+          ]
+        },
+        {
+          "meankieli": [
+            "131"
+          ],
+          "svenska": [
+            "137"
+          ]
+        },
+        {
+          "meankieli": [
+            "132"
+          ],
+          "svenska": [
+            "139"
+          ]
+        },
+        {
+          "meankieli": [
+            "134"
+          ],
+          "svenska": [
+            "141"
+          ]
+        },
+        {
+          "meankieli": [
+            "136"
+          ],
+          "svenska": [
+            "143"
+          ]
+        },
+        {
+          "meankieli": [
+            "138"
+          ],
+          "svenska": [
+            "145"
+          ]
+        },
+        {
+          "meankieli": [
+            "140"
+          ],
+          "svenska": [
+            "147"
+          ]
+        },
+        {
+          "meankieli": [
+            "144"
+          ],
+          "svenska": [
+            "152"
+          ]
+        },
+        {
+          "meankieli": [
+            "146"
+          ],
+          "svenska": [
+            "154"
+          ]
+        },
+        {
+          "meankieli": [
+            "148"
+          ],
+          "svenska": [
+            "156"
+          ]
+        },
+        {
+          "meankieli": [
+            "150",
+            "151"
+          ],
+          "svenska": [
+            "158"
+          ]
+        },
+        {
+          "meankieli": [
+            "154"
+          ],
+          "svenska": [
+            "162"
+          ]
+        },
+        {
+          "meankieli": [
+            "158"
+          ],
+          "svenska": [
+            "167"
+          ]
+        },
+        {
+          "meankieli": [
+            "160"
+          ],
+          "svenska": [
+            "169"
+          ]
+        },
+        {
+          "meankieli": [
+            "162"
+          ],
+          "svenska": [
+            "171"
+          ]
+        },
+        {
+          "meankieli": [
+            "164"
+          ],
+          "svenska": [
+            "173"
+          ]
+        },
+        {
+          "meankieli": [
+            "166"
+          ],
+          "svenska": [
+            "176"
+          ]
+        },
+        {
+          "meankieli": [
+            "168"
+          ],
+          "svenska": [
+            "178"
+          ]
+        },
+        {
+          "meankieli": [
+            "173"
+          ],
+          "svenska": [
+            "183"
+          ]
+        },
+        {
+          "meankieli": [
+            "179"
+          ],
+          "svenska": [
+            "189"
+          ]
+        },
+        {
+          "meankieli": [
+            "181"
+          ],
+          "svenska": [
+            "191"
+          ]
+        },
+        {
+          "meankieli": [
+            "183"
+          ],
+          "svenska": [
+            "193"
+          ]
+        },
+        {
+          "meankieli": [
+            "187"
+          ],
+          "svenska": [
+            "197"
+          ]
+        },
+        {
+          "meankieli": [
+            "193"
+          ],
+          "svenska": [
+            "203"
+          ]
+        },
+        {
+          "meankieli": [
+            "195"
+          ],
+          "svenska": [
+            "205"
+          ]
+        },
+        {
+          "meankieli": [
+            "197"
+          ],
+          "svenska": [
+            "207"
+          ]
+        },
+        {
+          "meankieli": [
+            "199"
+          ],
+          "svenska": [
+            "209"
+          ]
+        },
+        {
+          "meankieli": [
+            "201"
+          ],
+          "svenska": [
+            "211"
+          ]
+        },
+        {
+          "meankieli": [
+            "203"
+          ],
+          "svenska": [
+            "213"
+          ]
+        },
+        {
+          "meankieli": [
+            "211"
+          ],
+          "svenska": [
+            "221"
+          ]
+        },
+        {
+          "meankieli": [
+            "213"
+          ],
+          "svenska": [
+            "223"
+          ]
+        },
+        {
+          "meankieli": [
+            "215"
+          ],
+          "svenska": [
+            "225"
+          ]
+        },
+        {
+          "meankieli": [
+            "217"
+          ],
+          "svenska": [
+            "227"
+          ]
+        },
+        {
+          "meankieli": [
+            "219"
+          ],
+          "svenska": [
+            "229"
+          ]
+        },
+        {
+          "meankieli": [
+            "221"
+          ],
+          "svenska": [
+            "231"
+          ]
+        },
+        {
+          "meankieli": [
+            "224"
+          ],
+          "svenska": [
+            "234"
+          ]
+        },
+        {
+          "meankieli": [
+            "226"
+          ],
+          "svenska": [
+            "236"
+          ]
+        },
+        {
+          "meankieli": [
+            "233"
+          ],
+          "svenska": [
+            "243"
+          ]
+        },
+        {
+          "meankieli": [
+            "235"
+          ],
+          "svenska": [
+            "245"
+          ]
+        },
+        {
+          "meankieli": [
+            "238"
+          ],
+          "svenska": [
+            "248"
+          ]
+        },
+        {
+          "meankieli": [
+            "240"
+          ],
+          "svenska": [
+            "250"
+          ]
+        },
+        {
+          "meankieli": [
+            "243"
+          ],
+          "svenska": [
+            "253"
+          ]
+        },
+        {
+          "meankieli": [
+            "246"
+          ],
+          "svenska": [
+            "257"
+          ]
+        },
+        {
+          "meankieli": [
+            "253"
+          ],
+          "svenska": [
+            "264"
+          ]
+        },
+        {
+          "meankieli": [
+            "255"
+          ],
+          "svenska": [
+            "266"
+          ]
+        },
+        {
+          "meankieli": [
+            "257"
+          ],
+          "svenska": [
+            "268"
+          ]
+        },
+        {
+          "meankieli": [
+            "262"
+          ],
+          "svenska": [
+            "273"
+          ]
+        },
+        {
+          "meankieli": [
+            "264"
+          ],
+          "svenska": [
+            "276"
+          ]
+        },
+        {
+          "meankieli": [
+            "269"
+          ],
+          "svenska": [
+            "282"
+          ]
+        },
+        {
+          "meankieli": [
+            "271"
+          ],
+          "svenska": [
+            "284"
+          ]
+        },
+        {
+          "meankieli": [
+            "274"
+          ],
+          "svenska": [
+            "288"
+          ]
+        },
+        {
+          "meankieli": [
+            "276"
+          ],
+          "svenska": [
+            "290"
+          ]
+        },
+        {
+          "meankieli": [
+            "278"
+          ],
+          "svenska": [
+            "292"
+          ]
+        },
+        {
+          "meankieli": [
+            "283"
+          ],
+          "svenska": [
+            "297"
+          ]
+        },
+        {
+          "meankieli": [
+            "285"
+          ],
+          "svenska": [
+            "299"
+          ]
+        },
+        {
+          "meankieli": [
+            "287"
+          ],
+          "svenska": [
+            "301"
+          ]
+        },
+        {
+          "meankieli": [
+            "289"
+          ],
+          "svenska": [
+            "303"
+          ]
+        },
+        {
+          "meankieli": [
+            "291"
+          ],
+          "svenska": [
+            "305"
+          ]
+        },
+        {
+          "meankieli": [
+            "294"
+          ],
+          "svenska": [
+            "308"
+          ]
+        },
+        {
+          "meankieli": [
+            "296"
+          ],
+          "svenska": [
+            "310"
+          ]
+        },
+        {
+          "meankieli": [
+            "301"
+          ],
+          "svenska": [
+            "315"
+          ]
+        },
+        {
+          "meankieli": [
+            "303"
+          ],
+          "svenska": [
+            "317"
+          ]
+        },
+        {
+          "meankieli": [
+            "305"
+          ],
+          "svenska": [
+            "319"
+          ]
+        },
+        {
+          "meankieli": [
+            "307"
+          ],
+          "svenska": [
+            "321"
+          ]
+        },
+        {
+          "meankieli": [
+            "309"
+          ],
+          "svenska": [
+            "323"
+          ]
+        },
+        {
+          "meankieli": [
+            "311"
+          ],
+          "svenska": [
+            "325"
+          ]
+        },
+        {
+          "meankieli": [
+            "313"
+          ],
+          "svenska": [
+            "327"
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "side": 0,
+          "paragraph": "13"
+        },
+        {
+          "side": 0,
+          "paragraph": "14"
+        },
+        {
+          "side": 0,
+          "paragraph": "46"
+        },
+        {
+          "side": 0,
+          "paragraph": "62"
+        },
+        {
+          "side": 0,
+          "paragraph": "152"
+        },
+        {
+          "side": 0,
+          "paragraph": "169"
+        },
+        {
+          "side": 0,
+          "paragraph": "170"
+        },
+        {
+          "side": 0,
+          "paragraph": "171"
+        },
+        {
+          "side": 0,
+          "paragraph": "184"
+        },
+        {
+          "side": 0,
+          "paragraph": "185"
+        },
+        {
+          "side": 0,
+          "paragraph": "188"
+        },
+        {
+          "side": 0,
+          "paragraph": "205"
+        },
+        {
+          "side": 0,
+          "paragraph": "222"
+        },
+        {
+          "side": 0,
+          "paragraph": "236"
+        },
+        {
+          "side": 0,
+          "paragraph": "244"
+        },
+        {
+          "side": 0,
+          "paragraph": "258"
+        },
+        {
+          "side": 0,
+          "paragraph": "265"
+        },
+        {
+          "side": 0,
+          "paragraph": "272"
+        },
+        {
+          "side": 0,
+          "paragraph": "279"
+        },
+        {
+          "side": 1,
+          "paragraph": "298"
+        },
+        {
+          "side": 0,
+          "paragraph": "292"
+        }
+      ]
+    },
+    {
+      "section": "Böjning / case overview",
+      "source": "Meänkieli/Docs/Meänkieli Kurs Materiel.docx",
+      "source_sha256": "5d8596f8db2e78ed16d162566c44fdc1fde0bb3ec46089f34e0fd44e9fcc59e5",
+      "paired_rows": 39,
+      "source_units": 130,
+      "pairs": [
+        {
+          "meankieli": [
+            "5"
+          ],
+          "svenska": [
+            "5"
+          ]
+        },
+        {
+          "meankieli": [
+            "7"
+          ],
+          "svenska": [
+            "7"
+          ]
+        },
+        {
+          "meankieli": [
+            "16"
+          ],
+          "svenska": [
+            "16"
+          ]
+        },
+        {
+          "meankieli": [
+            "18"
+          ],
+          "svenska": [
+            "18"
+          ]
+        },
+        {
+          "meankieli": [
+            "20"
+          ],
+          "svenska": [
+            "20"
+          ]
+        },
+        {
+          "meankieli": [
+            "33"
+          ],
+          "svenska": [
+            "33"
+          ]
+        },
+        {
+          "meankieli": [
+            "35"
+          ],
+          "svenska": [
+            "35"
+          ]
+        },
+        {
+          "meankieli": [
+            "37"
+          ],
+          "svenska": [
+            "37"
+          ]
+        },
+        {
+          "meankieli": [
+            "46"
+          ],
+          "svenska": [
+            "46"
+          ]
+        },
+        {
+          "meankieli": [
+            "48"
+          ],
+          "svenska": [
+            "48"
+          ]
+        },
+        {
+          "meankieli": [
+            "50"
+          ],
+          "svenska": [
+            "50"
+          ]
+        },
+        {
+          "meankieli": [
+            "59"
+          ],
+          "svenska": [
+            "61"
+          ]
+        },
+        {
+          "meankieli": [
+            "61"
+          ],
+          "svenska": [
+            "63"
+          ]
+        },
+        {
+          "meankieli": [
+            "63"
+          ],
+          "svenska": [
+            "65"
+          ]
+        },
+        {
+          "meankieli": [
+            "68"
+          ],
+          "svenska": [
+            "70"
+          ]
+        },
+        {
+          "meankieli": [
+            "70"
+          ],
+          "svenska": [
+            "72"
+          ]
+        },
+        {
+          "meankieli": [
+            "72"
+          ],
+          "svenska": [
+            "74"
+          ]
+        },
+        {
+          "meankieli": [
+            "87"
+          ],
+          "svenska": [
+            "89"
+          ]
+        },
+        {
+          "meankieli": [
+            "89"
+          ],
+          "svenska": [
+            "91"
+          ]
+        },
+        {
+          "meankieli": [
+            "91"
+          ],
+          "svenska": [
+            "93"
+          ]
+        },
+        {
+          "meankieli": [
+            "101"
+          ],
+          "svenska": [
+            "103"
+          ]
+        },
+        {
+          "meankieli": [
+            "103"
+          ],
+          "svenska": [
+            "105"
+          ]
+        },
+        {
+          "meankieli": [
+            "105"
+          ],
+          "svenska": [
+            "107"
+          ]
+        },
+        {
+          "meankieli": [
+            "114"
+          ],
+          "svenska": [
+            "116"
+          ]
+        },
+        {
+          "meankieli": [
+            "116"
+          ],
+          "svenska": [
+            "118"
+          ]
+        },
+        {
+          "meankieli": [
+            "126"
+          ],
+          "svenska": [
+            "128"
+          ]
+        },
+        {
+          "meankieli": [
+            "128"
+          ],
+          "svenska": [
+            "130"
+          ]
+        },
+        {
+          "meankieli": [
+            "130"
+          ],
+          "svenska": [
+            "132"
+          ]
+        },
+        {
+          "meankieli": [
+            "133"
+          ],
+          "svenska": [
+            "135"
+          ]
+        },
+        {
+          "meankieli": [
+            "145"
+          ],
+          "svenska": [
+            "148"
+          ]
+        },
+        {
+          "meankieli": [
+            "147"
+          ],
+          "svenska": [
+            "150"
+          ]
+        },
+        {
+          "meankieli": [
+            "149"
+          ],
+          "svenska": [
+            "152"
+          ]
+        },
+        {
+          "meankieli": [
+            "159"
+          ],
+          "svenska": [
+            "163"
+          ]
+        },
+        {
+          "meankieli": [
+            "161"
+          ],
+          "svenska": [
+            "165"
+          ]
+        },
+        {
+          "meankieli": [
+            "163"
+          ],
+          "svenska": [
+            "167"
+          ]
+        },
+        {
+          "meankieli": [
+            "171"
+          ],
+          "svenska": [
+            "177"
+          ]
+        },
+        {
+          "meankieli": [
+            "173"
+          ],
+          "svenska": [
+            "179"
+          ]
+        },
+        {
+          "meankieli": [
+            "175"
+          ],
+          "svenska": [
+            "181"
+          ]
+        },
+        {
+          "meankieli": [
+            "177"
+          ],
+          "svenska": [
+            "183"
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "side": 0,
+          "paragraph": "2"
+        },
+        {
+          "side": 0,
+          "paragraph": "10"
+        },
+        {
+          "side": 0,
+          "paragraph": "13"
+        },
+        {
+          "side": 0,
+          "paragraph": "14"
+        },
+        {
+          "side": 0,
+          "paragraph": "23"
+        },
+        {
+          "side": 0,
+          "paragraph": "26"
+        },
+        {
+          "side": 0,
+          "paragraph": "28"
+        },
+        {
+          "side": 0,
+          "paragraph": "29"
+        },
+        {
+          "side": 0,
+          "paragraph": "30"
+        },
+        {
+          "side": 0,
+          "paragraph": "31"
+        },
+        {
+          "side": 0,
+          "paragraph": "39"
+        },
+        {
+          "side": 0,
+          "paragraph": "43"
+        },
+        {
+          "side": 0,
+          "paragraph": "44"
+        },
+        {
+          "side": 0,
+          "paragraph": "53"
+        },
+        {
+          "side": 0,
+          "paragraph": "57"
+        },
+        {
+          "side": 1,
+          "paragraph": "80"
+        },
+        {
+          "side": 0,
+          "paragraph": "74"
+        },
+        {
+          "side": 0,
+          "paragraph": "83"
+        },
+        {
+          "side": 0,
+          "paragraph": "93"
+        },
+        {
+          "side": 0,
+          "paragraph": "99"
+        },
+        {
+          "side": 0,
+          "paragraph": "107"
+        },
+        {
+          "side": 0,
+          "paragraph": "111"
+        },
+        {
+          "side": 0,
+          "paragraph": "112"
+        },
+        {
+          "side": 0,
+          "paragraph": "118"
+        },
+        {
+          "side": 0,
+          "paragraph": "122"
+        },
+        {
+          "side": 0,
+          "paragraph": "123"
+        },
+        {
+          "side": 0,
+          "paragraph": "124"
+        },
+        {
+          "side": 0,
+          "paragraph": "134"
+        },
+        {
+          "side": 0,
+          "paragraph": "138"
+        },
+        {
+          "side": 0,
+          "paragraph": "142"
+        },
+        {
+          "side": 0,
+          "paragraph": "143"
+        },
+        {
+          "side": 0,
+          "paragraph": "152"
+        },
+        {
+          "side": 0,
+          "paragraph": "156"
+        },
+        {
+          "side": 0,
+          "paragraph": "157"
+        },
+        {
+          "side": 0,
+          "paragraph": "165"
+        },
+        {
+          "side": 0,
+          "paragraph": "169"
+        },
+        {
+          "side": 0,
+          "paragraph": "179"
+        },
+        {
+          "side": 0,
+          "paragraph": "183"
+        }
+      ]
+    },
+    {
+      "section": "Set 2 / conversations 1–15",
+      "source": "Meänkieli/Docs/Meänkieli Kurs Materiel.docx",
+      "source_sha256": "5d8596f8db2e78ed16d162566c44fdc1fde0bb3ec46089f34e0fd44e9fcc59e5",
+      "paired_rows": 114,
+      "source_units": 293,
+      "pairs": [
+        {
+          "meankieli": [
+            "241"
+          ],
+          "svenska": [
+            "245"
+          ]
+        },
+        {
+          "meankieli": [
+            "243"
+          ],
+          "svenska": [
+            "247"
+          ]
+        },
+        {
+          "meankieli": [
+            "245"
+          ],
+          "svenska": [
+            "249"
+          ]
+        },
+        {
+          "meankieli": [
+            "248"
+          ],
+          "svenska": [
+            "251"
+          ]
+        },
+        {
+          "meankieli": [
+            "250"
+          ],
+          "svenska": [
+            "253"
+          ]
+        },
+        {
+          "meankieli": [
+            "252"
+          ],
+          "svenska": [
+            "256"
+          ]
+        },
+        {
+          "meankieli": [
+            "254"
+          ],
+          "svenska": [
+            "258"
+          ]
+        },
+        {
+          "meankieli": [
+            "256"
+          ],
+          "svenska": [
+            "260"
+          ]
+        },
+        {
+          "meankieli": [
+            "258"
+          ],
+          "svenska": [
+            "262"
+          ]
+        },
+        {
+          "meankieli": [
+            "274"
+          ],
+          "svenska": [
+            "276"
+          ]
+        },
+        {
+          "meankieli": [
+            "276"
+          ],
+          "svenska": [
+            "278"
+          ]
+        },
+        {
+          "meankieli": [
+            "278"
+          ],
+          "svenska": [
+            "280"
+          ]
+        },
+        {
+          "meankieli": [
+            "280"
+          ],
+          "svenska": [
+            "282"
+          ]
+        },
+        {
+          "meankieli": [
+            "282"
+          ],
+          "svenska": [
+            "284"
+          ]
+        },
+        {
+          "meankieli": [
+            "284"
+          ],
+          "svenska": [
+            "286"
+          ]
+        },
+        {
+          "meankieli": [
+            "287"
+          ],
+          "svenska": [
+            "289"
+          ]
+        },
+        {
+          "meankieli": [
+            "289"
+          ],
+          "svenska": [
+            "291"
+          ]
+        },
+        {
+          "meankieli": [
+            "291"
+          ],
+          "svenska": [
+            "293"
+          ]
+        },
+        {
+          "meankieli": [
+            "293"
+          ],
+          "svenska": [
+            "295"
+          ]
+        },
+        {
+          "meankieli": [
+            "296"
+          ],
+          "svenska": [
+            "297"
+          ]
+        },
+        {
+          "meankieli": [
+            "303"
+          ],
+          "svenska": [
+            "303"
+          ]
+        },
+        {
+          "meankieli": [
+            "305"
+          ],
+          "svenska": [
+            "305"
+          ]
+        },
+        {
+          "meankieli": [
+            "307"
+          ],
+          "svenska": [
+            "307"
+          ]
+        },
+        {
+          "meankieli": [
+            "309"
+          ],
+          "svenska": [
+            "309"
+          ]
+        },
+        {
+          "meankieli": [
+            "311"
+          ],
+          "svenska": [
+            "311"
+          ]
+        },
+        {
+          "meankieli": [
+            "313"
+          ],
+          "svenska": [
+            "314"
+          ]
+        },
+        {
+          "meankieli": [
+            "315"
+          ],
+          "svenska": [
+            "317"
+          ]
+        },
+        {
+          "meankieli": [
+            "318"
+          ],
+          "svenska": [
+            "320"
+          ]
+        },
+        {
+          "meankieli": [
+            "320"
+          ],
+          "svenska": [
+            "322"
+          ]
+        },
+        {
+          "meankieli": [
+            "326"
+          ],
+          "svenska": [
+            "331"
+          ]
+        },
+        {
+          "meankieli": [
+            "328"
+          ],
+          "svenska": [
+            "333"
+          ]
+        },
+        {
+          "meankieli": [
+            "330"
+          ],
+          "svenska": [
+            "335"
+          ]
+        },
+        {
+          "meankieli": [
+            "332"
+          ],
+          "svenska": [
+            "337"
+          ]
+        },
+        {
+          "meankieli": [
+            "334"
+          ],
+          "svenska": [
+            "340"
+          ]
+        },
+        {
+          "meankieli": [
+            "336"
+          ],
+          "svenska": [
+            "342"
+          ]
+        },
+        {
+          "meankieli": [
+            "338"
+          ],
+          "svenska": [
+            "344"
+          ]
+        },
+        {
+          "meankieli": [
+            "344"
+          ],
+          "svenska": [
+            "349"
+          ]
+        },
+        {
+          "meankieli": [
+            "346"
+          ],
+          "svenska": [
+            "351"
+          ]
+        },
+        {
+          "meankieli": [
+            "348"
+          ],
+          "svenska": [
+            "353"
+          ]
+        },
+        {
+          "meankieli": [
+            "350"
+          ],
+          "svenska": [
+            "355"
+          ]
+        },
+        {
+          "meankieli": [
+            "352"
+          ],
+          "svenska": [
+            "358"
+          ]
+        },
+        {
+          "meankieli": [
+            "354"
+          ],
+          "svenska": [
+            "360"
+          ]
+        },
+        {
+          "meankieli": [
+            "359"
+          ],
+          "svenska": [
+            "365"
+          ]
+        },
+        {
+          "meankieli": [
+            "361"
+          ],
+          "svenska": [
+            "367"
+          ]
+        },
+        {
+          "meankieli": [
+            "363"
+          ],
+          "svenska": [
+            "369"
+          ]
+        },
+        {
+          "meankieli": [
+            "365"
+          ],
+          "svenska": [
+            "371"
+          ]
+        },
+        {
+          "meankieli": [
+            "367"
+          ],
+          "svenska": [
+            "374"
+          ]
+        },
+        {
+          "meankieli": [
+            "369"
+          ],
+          "svenska": [
+            "376"
+          ]
+        },
+        {
+          "meankieli": [
+            "371"
+          ],
+          "svenska": [
+            "378"
+          ]
+        },
+        {
+          "meankieli": [
+            "378"
+          ],
+          "svenska": [
+            "385"
+          ]
+        },
+        {
+          "meankieli": [
+            "380"
+          ],
+          "svenska": [
+            "387"
+          ]
+        },
+        {
+          "meankieli": [
+            "382"
+          ],
+          "svenska": [
+            "389"
+          ]
+        },
+        {
+          "meankieli": [
+            "385"
+          ],
+          "svenska": [
+            "391"
+          ]
+        },
+        {
+          "meankieli": [
+            "387"
+          ],
+          "svenska": [
+            "393"
+          ]
+        },
+        {
+          "meankieli": [
+            "389"
+          ],
+          "svenska": [
+            "395"
+          ]
+        },
+        {
+          "meankieli": [
+            "396"
+          ],
+          "svenska": [
+            "402"
+          ]
+        },
+        {
+          "meankieli": [
+            "399"
+          ],
+          "svenska": [
+            "404"
+          ]
+        },
+        {
+          "meankieli": [
+            "401"
+          ],
+          "svenska": [
+            "406"
+          ]
+        },
+        {
+          "meankieli": [
+            "403"
+          ],
+          "svenska": [
+            "408"
+          ]
+        },
+        {
+          "meankieli": [
+            "406"
+          ],
+          "svenska": [
+            "410"
+          ]
+        },
+        {
+          "meankieli": [
+            "408"
+          ],
+          "svenska": [
+            "412"
+          ]
+        },
+        {
+          "meankieli": [
+            "411"
+          ],
+          "svenska": [
+            "414"
+          ]
+        },
+        {
+          "meankieli": [
+            "414"
+          ],
+          "svenska": [
+            "416"
+          ]
+        },
+        {
+          "meankieli": [
+            "426"
+          ],
+          "svenska": [
+            "433"
+          ]
+        },
+        {
+          "meankieli": [
+            "429"
+          ],
+          "svenska": [
+            "435"
+          ]
+        },
+        {
+          "meankieli": [
+            "431"
+          ],
+          "svenska": [
+            "437"
+          ]
+        },
+        {
+          "meankieli": [
+            "433"
+          ],
+          "svenska": [
+            "439"
+          ]
+        },
+        {
+          "meankieli": [
+            "436"
+          ],
+          "svenska": [
+            "441"
+          ]
+        },
+        {
+          "meankieli": [
+            "438"
+          ],
+          "svenska": [
+            "443"
+          ]
+        },
+        {
+          "meankieli": [
+            "440"
+          ],
+          "svenska": [
+            "445"
+          ]
+        },
+        {
+          "meankieli": [
+            "453"
+          ],
+          "svenska": [
+            "463"
+          ]
+        },
+        {
+          "meankieli": [
+            "455"
+          ],
+          "svenska": [
+            "465"
+          ]
+        },
+        {
+          "meankieli": [
+            "458"
+          ],
+          "svenska": [
+            "467"
+          ]
+        },
+        {
+          "meankieli": [
+            "461"
+          ],
+          "svenska": [
+            "469"
+          ]
+        },
+        {
+          "meankieli": [
+            "463"
+          ],
+          "svenska": [
+            "471"
+          ]
+        },
+        {
+          "meankieli": [
+            "465"
+          ],
+          "svenska": [
+            "473"
+          ]
+        },
+        {
+          "meankieli": [
+            "467"
+          ],
+          "svenska": [
+            "475"
+          ]
+        },
+        {
+          "meankieli": [
+            "469"
+          ],
+          "svenska": [
+            "477"
+          ]
+        },
+        {
+          "meankieli": [
+            "476"
+          ],
+          "svenska": [
+            "485"
+          ]
+        },
+        {
+          "meankieli": [
+            "478"
+          ],
+          "svenska": [
+            "487"
+          ]
+        },
+        {
+          "meankieli": [
+            "480"
+          ],
+          "svenska": [
+            "489"
+          ]
+        },
+        {
+          "meankieli": [
+            "482"
+          ],
+          "svenska": [
+            "491"
+          ]
+        },
+        {
+          "meankieli": [
+            "484"
+          ],
+          "svenska": [
+            "493"
+          ]
+        },
+        {
+          "meankieli": [
+            "486"
+          ],
+          "svenska": [
+            "495"
+          ]
+        },
+        {
+          "meankieli": [
+            "488"
+          ],
+          "svenska": [
+            "497"
+          ]
+        },
+        {
+          "meankieli": [
+            "490"
+          ],
+          "svenska": [
+            "499"
+          ]
+        },
+        {
+          "meankieli": [
+            "503"
+          ],
+          "svenska": [
+            "512"
+          ]
+        },
+        {
+          "meankieli": [
+            "505"
+          ],
+          "svenska": [
+            "514"
+          ]
+        },
+        {
+          "meankieli": [
+            "507"
+          ],
+          "svenska": [
+            "516"
+          ]
+        },
+        {
+          "meankieli": [
+            "509"
+          ],
+          "svenska": [
+            "518"
+          ]
+        },
+        {
+          "meankieli": [
+            "511"
+          ],
+          "svenska": [
+            "520"
+          ]
+        },
+        {
+          "meankieli": [
+            "514"
+          ],
+          "svenska": [
+            "522"
+          ]
+        },
+        {
+          "meankieli": [
+            "516"
+          ],
+          "svenska": [
+            "524"
+          ]
+        },
+        {
+          "meankieli": [
+            "518"
+          ],
+          "svenska": [
+            "526"
+          ]
+        },
+        {
+          "meankieli": [
+            "525"
+          ],
+          "svenska": [
+            "532"
+          ]
+        },
+        {
+          "meankieli": [
+            "527"
+          ],
+          "svenska": [
+            "534"
+          ]
+        },
+        {
+          "meankieli": [
+            "529"
+          ],
+          "svenska": [
+            "536"
+          ]
+        },
+        {
+          "meankieli": [
+            "531"
+          ],
+          "svenska": [
+            "538"
+          ]
+        },
+        {
+          "meankieli": [
+            "533"
+          ],
+          "svenska": [
+            "540"
+          ]
+        },
+        {
+          "meankieli": [
+            "535"
+          ],
+          "svenska": [
+            "542"
+          ]
+        },
+        {
+          "meankieli": [
+            "537"
+          ],
+          "svenska": [
+            "544"
+          ]
+        },
+        {
+          "meankieli": [
+            "548"
+          ],
+          "svenska": [
+            "555"
+          ]
+        },
+        {
+          "meankieli": [
+            "551"
+          ],
+          "svenska": [
+            "557"
+          ]
+        },
+        {
+          "meankieli": [
+            "553"
+          ],
+          "svenska": [
+            "559"
+          ]
+        },
+        {
+          "meankieli": [
+            "555"
+          ],
+          "svenska": [
+            "562"
+          ]
+        },
+        {
+          "meankieli": [
+            "557"
+          ],
+          "svenska": [
+            "565"
+          ]
+        },
+        {
+          "meankieli": [
+            "560"
+          ],
+          "svenska": [
+            "567"
+          ]
+        },
+        {
+          "meankieli": [
+            "567"
+          ],
+          "svenska": [
+            "575"
+          ]
+        },
+        {
+          "meankieli": [
+            "569"
+          ],
+          "svenska": [
+            "577"
+          ]
+        },
+        {
+          "meankieli": [
+            "571"
+          ],
+          "svenska": [
+            "579"
+          ]
+        },
+        {
+          "meankieli": [
+            "573"
+          ],
+          "svenska": [
+            "581"
+          ]
+        },
+        {
+          "meankieli": [
+            "575"
+          ],
+          "svenska": [
+            "583"
+          ]
+        },
+        {
+          "meankieli": [
+            "577"
+          ],
+          "svenska": [
+            "585"
+          ]
+        },
+        {
+          "meankieli": [
+            "579"
+          ],
+          "svenska": [
+            "587"
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "side": 1,
+          "paragraph": "241"
+        },
+        {
+          "side": 1,
+          "paragraph": "264"
+        },
+        {
+          "side": 1,
+          "paragraph": "265"
+        },
+        {
+          "side": 1,
+          "paragraph": "267"
+        },
+        {
+          "side": 0,
+          "paragraph": "260"
+        },
+        {
+          "side": 0,
+          "paragraph": "261"
+        },
+        {
+          "side": 0,
+          "paragraph": "265"
+        },
+        {
+          "side": 1,
+          "paragraph": "281"
+        },
+        {
+          "side": 1,
+          "paragraph": "300"
+        },
+        {
+          "side": 0,
+          "paragraph": "300"
+        },
+        {
+          "side": 1,
+          "paragraph": "328"
+        },
+        {
+          "side": 0,
+          "paragraph": "321"
+        },
+        {
+          "side": 0,
+          "paragraph": "323"
+        },
+        {
+          "side": 1,
+          "paragraph": "346"
+        },
+        {
+          "side": 0,
+          "paragraph": "341"
+        },
+        {
+          "side": 1,
+          "paragraph": "362"
+        },
+        {
+          "side": 0,
+          "paragraph": "356"
+        },
+        {
+          "side": 1,
+          "paragraph": "381"
+        },
+        {
+          "side": 0,
+          "paragraph": "374"
+        },
+        {
+          "side": 0,
+          "paragraph": "383"
+        },
+        {
+          "side": 1,
+          "paragraph": "398"
+        },
+        {
+          "side": 0,
+          "paragraph": "392"
+        },
+        {
+          "side": 1,
+          "paragraph": "428"
+        },
+        {
+          "side": 0,
+          "paragraph": "416"
+        },
+        {
+          "side": 0,
+          "paragraph": "417"
+        },
+        {
+          "side": 0,
+          "paragraph": "420"
+        },
+        {
+          "side": 0,
+          "paragraph": "421"
+        },
+        {
+          "side": 1,
+          "paragraph": "458"
+        },
+        {
+          "side": 0,
+          "paragraph": "443"
+        },
+        {
+          "side": 0,
+          "paragraph": "445"
+        },
+        {
+          "side": 0,
+          "paragraph": "448"
+        },
+        {
+          "side": 1,
+          "paragraph": "480"
+        },
+        {
+          "side": 0,
+          "paragraph": "472"
+        },
+        {
+          "side": 1,
+          "paragraph": "504"
+        },
+        {
+          "side": 0,
+          "paragraph": "492"
+        },
+        {
+          "side": 0,
+          "paragraph": "493"
+        },
+        {
+          "side": 0,
+          "paragraph": "496"
+        },
+        {
+          "side": 1,
+          "paragraph": "528"
+        },
+        {
+          "side": 0,
+          "paragraph": "521"
+        },
+        {
+          "side": 1,
+          "paragraph": "550"
+        },
+        {
+          "side": 0,
+          "paragraph": "539"
+        },
+        {
+          "side": 0,
+          "paragraph": "541"
+        },
+        {
+          "side": 0,
+          "paragraph": "543"
+        },
+        {
+          "side": 1,
+          "paragraph": "570"
+        },
+        {
+          "side": 0,
+          "paragraph": "563"
+        },
+        {
+          "side": 1,
+          "paragraph": "593"
+        },
+        {
+          "side": 0,
+          "paragraph": "582"
+        },
+        {
+          "side": 0,
+          "paragraph": "583"
+        },
+        {
+          "side": 0,
+          "paragraph": "585"
+        }
+      ]
+    },
+    {
+      "section": "Böjning / case conversations",
+      "source": "Meänkieli/Docs/Meänkieli Kurs Materiel.docx",
+      "source_sha256": "5d8596f8db2e78ed16d162566c44fdc1fde0bb3ec46089f34e0fd44e9fcc59e5",
+      "paired_rows": 103,
+      "source_units": 233,
+      "pairs": [
+        {
+          "meankieli": [
+            "592"
+          ],
+          "svenska": [
+            "600"
+          ]
+        },
+        {
+          "meankieli": [
+            "594"
+          ],
+          "svenska": [
+            "602"
+          ]
+        },
+        {
+          "meankieli": [
+            "596"
+          ],
+          "svenska": [
+            "604"
+          ]
+        },
+        {
+          "meankieli": [
+            "598"
+          ],
+          "svenska": [
+            "606"
+          ]
+        },
+        {
+          "meankieli": [
+            "600"
+          ],
+          "svenska": [
+            "608"
+          ]
+        },
+        {
+          "meankieli": [
+            "602"
+          ],
+          "svenska": [
+            "610"
+          ]
+        },
+        {
+          "meankieli": [
+            "609"
+          ],
+          "svenska": [
+            "617"
+          ]
+        },
+        {
+          "meankieli": [
+            "611"
+          ],
+          "svenska": [
+            "619"
+          ]
+        },
+        {
+          "meankieli": [
+            "613"
+          ],
+          "svenska": [
+            "621"
+          ]
+        },
+        {
+          "meankieli": [
+            "615"
+          ],
+          "svenska": [
+            "623"
+          ]
+        },
+        {
+          "meankieli": [
+            "617"
+          ],
+          "svenska": [
+            "625"
+          ]
+        },
+        {
+          "meankieli": [
+            "619"
+          ],
+          "svenska": [
+            "627"
+          ]
+        },
+        {
+          "meankieli": [
+            "621"
+          ],
+          "svenska": [
+            "629"
+          ]
+        },
+        {
+          "meankieli": [
+            "623"
+          ],
+          "svenska": [
+            "631"
+          ]
+        },
+        {
+          "meankieli": [
+            "625"
+          ],
+          "svenska": [
+            "633"
+          ]
+        },
+        {
+          "meankieli": [
+            "633"
+          ],
+          "svenska": [
+            "642"
+          ]
+        },
+        {
+          "meankieli": [
+            "636"
+          ],
+          "svenska": [
+            "644"
+          ]
+        },
+        {
+          "meankieli": [
+            "638"
+          ],
+          "svenska": [
+            "646"
+          ]
+        },
+        {
+          "meankieli": [
+            "641"
+          ],
+          "svenska": [
+            "648"
+          ]
+        },
+        {
+          "meankieli": [
+            "643"
+          ],
+          "svenska": [
+            "650"
+          ]
+        },
+        {
+          "meankieli": [
+            "645"
+          ],
+          "svenska": [
+            "652"
+          ]
+        },
+        {
+          "meankieli": [
+            "651"
+          ],
+          "svenska": [
+            "658"
+          ]
+        },
+        {
+          "meankieli": [
+            "653"
+          ],
+          "svenska": [
+            "660"
+          ]
+        },
+        {
+          "meankieli": [
+            "655"
+          ],
+          "svenska": [
+            "662"
+          ]
+        },
+        {
+          "meankieli": [
+            "657"
+          ],
+          "svenska": [
+            "664"
+          ]
+        },
+        {
+          "meankieli": [
+            "659"
+          ],
+          "svenska": [
+            "666"
+          ]
+        },
+        {
+          "meankieli": [
+            "661"
+          ],
+          "svenska": [
+            "669"
+          ]
+        },
+        {
+          "meankieli": [
+            "663"
+          ],
+          "svenska": [
+            "672"
+          ]
+        },
+        {
+          "meankieli": [
+            "666"
+          ],
+          "svenska": [
+            "675"
+          ]
+        },
+        {
+          "meankieli": [
+            "673"
+          ],
+          "svenska": [
+            "684"
+          ]
+        },
+        {
+          "meankieli": [
+            "675"
+          ],
+          "svenska": [
+            "686"
+          ]
+        },
+        {
+          "meankieli": [
+            "677"
+          ],
+          "svenska": [
+            "688"
+          ]
+        },
+        {
+          "meankieli": [
+            "679"
+          ],
+          "svenska": [
+            "690"
+          ]
+        },
+        {
+          "meankieli": [
+            "682"
+          ],
+          "svenska": [
+            "692"
+          ]
+        },
+        {
+          "meankieli": [
+            "684"
+          ],
+          "svenska": [
+            "694"
+          ]
+        },
+        {
+          "meankieli": [
+            "686"
+          ],
+          "svenska": [
+            "696"
+          ]
+        },
+        {
+          "meankieli": [
+            "688"
+          ],
+          "svenska": [
+            "698"
+          ]
+        },
+        {
+          "meankieli": [
+            "698"
+          ],
+          "svenska": [
+            "709"
+          ]
+        },
+        {
+          "meankieli": [
+            "701"
+          ],
+          "svenska": [
+            "711"
+          ]
+        },
+        {
+          "meankieli": [
+            "709"
+          ],
+          "svenska": [
+            "719"
+          ]
+        },
+        {
+          "meankieli": [
+            "711"
+          ],
+          "svenska": [
+            "721"
+          ]
+        },
+        {
+          "meankieli": [
+            "713"
+          ],
+          "svenska": [
+            "723"
+          ]
+        },
+        {
+          "meankieli": [
+            "715"
+          ],
+          "svenska": [
+            "725"
+          ]
+        },
+        {
+          "meankieli": [
+            "717"
+          ],
+          "svenska": [
+            "727"
+          ]
+        },
+        {
+          "meankieli": [
+            "720"
+          ],
+          "svenska": [
+            "729"
+          ]
+        },
+        {
+          "meankieli": [
+            "722"
+          ],
+          "svenska": [
+            "731"
+          ]
+        },
+        {
+          "meankieli": [
+            "728"
+          ],
+          "svenska": [
+            "737"
+          ]
+        },
+        {
+          "meankieli": [
+            "731"
+          ],
+          "svenska": [
+            "739"
+          ]
+        },
+        {
+          "meankieli": [
+            "733"
+          ],
+          "svenska": [
+            "741"
+          ]
+        },
+        {
+          "meankieli": [
+            "735"
+          ],
+          "svenska": [
+            "743"
+          ]
+        },
+        {
+          "meankieli": [
+            "737"
+          ],
+          "svenska": [
+            "745"
+          ]
+        },
+        {
+          "meankieli": [
+            "740"
+          ],
+          "svenska": [
+            "747"
+          ]
+        },
+        {
+          "meankieli": [
+            "742"
+          ],
+          "svenska": [
+            "749"
+          ]
+        },
+        {
+          "meankieli": [
+            "745"
+          ],
+          "svenska": [
+            "751"
+          ]
+        },
+        {
+          "meankieli": [
+            "747"
+          ],
+          "svenska": [
+            "753"
+          ]
+        },
+        {
+          "meankieli": [
+            "749"
+          ],
+          "svenska": [
+            "755"
+          ]
+        },
+        {
+          "meankieli": [
+            "751"
+          ],
+          "svenska": [
+            "757"
+          ]
+        },
+        {
+          "meankieli": [
+            "757"
+          ],
+          "svenska": [
+            "762"
+          ]
+        },
+        {
+          "meankieli": [
+            "759"
+          ],
+          "svenska": [
+            "764"
+          ]
+        },
+        {
+          "meankieli": [
+            "761"
+          ],
+          "svenska": [
+            "766"
+          ]
+        },
+        {
+          "meankieli": [
+            "763"
+          ],
+          "svenska": [
+            "768"
+          ]
+        },
+        {
+          "meankieli": [
+            "765"
+          ],
+          "svenska": [
+            "770"
+          ]
+        },
+        {
+          "meankieli": [
+            "768"
+          ],
+          "svenska": [
+            "772"
+          ]
+        },
+        {
+          "meankieli": [
+            "770"
+          ],
+          "svenska": [
+            "774"
+          ]
+        },
+        {
+          "meankieli": [
+            "772",
+            "773"
+          ],
+          "svenska": [
+            "776"
+          ]
+        },
+        {
+          "meankieli": [
+            "775"
+          ],
+          "svenska": [
+            "778"
+          ]
+        },
+        {
+          "meankieli": [
+            "779"
+          ],
+          "svenska": [
+            "781"
+          ]
+        },
+        {
+          "meankieli": [
+            "787"
+          ],
+          "svenska": [
+            "789"
+          ]
+        },
+        {
+          "meankieli": [
+            "789"
+          ],
+          "svenska": [
+            "791"
+          ]
+        },
+        {
+          "meankieli": [
+            "791"
+          ],
+          "svenska": [
+            "793"
+          ]
+        },
+        {
+          "meankieli": [
+            "793"
+          ],
+          "svenska": [
+            "795"
+          ]
+        },
+        {
+          "meankieli": [
+            "795"
+          ],
+          "svenska": [
+            "797"
+          ]
+        },
+        {
+          "meankieli": [
+            "797"
+          ],
+          "svenska": [
+            "799"
+          ]
+        },
+        {
+          "meankieli": [
+            "799"
+          ],
+          "svenska": [
+            "801"
+          ]
+        },
+        {
+          "meankieli": [
+            "801"
+          ],
+          "svenska": [
+            "803"
+          ]
+        },
+        {
+          "meankieli": [
+            "804"
+          ],
+          "svenska": [
+            "805"
+          ]
+        },
+        {
+          "meankieli": [
+            "811"
+          ],
+          "svenska": [
+            "810"
+          ]
+        },
+        {
+          "meankieli": [
+            "814"
+          ],
+          "svenska": [
+            "812"
+          ]
+        },
+        {
+          "meankieli": [
+            "817"
+          ],
+          "svenska": [
+            "815"
+          ]
+        },
+        {
+          "meankieli": [
+            "819"
+          ],
+          "svenska": [
+            "817"
+          ]
+        },
+        {
+          "meankieli": [
+            "821"
+          ],
+          "svenska": [
+            "819"
+          ]
+        },
+        {
+          "meankieli": [
+            "823"
+          ],
+          "svenska": [
+            "821"
+          ]
+        },
+        {
+          "meankieli": [
+            "825"
+          ],
+          "svenska": [
+            "823"
+          ]
+        },
+        {
+          "meankieli": [
+            "827"
+          ],
+          "svenska": [
+            "825"
+          ]
+        },
+        {
+          "meankieli": [
+            "829"
+          ],
+          "svenska": [
+            "827"
+          ]
+        },
+        {
+          "meankieli": [
+            "836"
+          ],
+          "svenska": [
+            "834"
+          ]
+        },
+        {
+          "meankieli": [
+            "838"
+          ],
+          "svenska": [
+            "836"
+          ]
+        },
+        {
+          "meankieli": [
+            "841"
+          ],
+          "svenska": [
+            "838"
+          ]
+        },
+        {
+          "meankieli": [
+            "843"
+          ],
+          "svenska": [
+            "840"
+          ]
+        },
+        {
+          "meankieli": [
+            "846"
+          ],
+          "svenska": [
+            "842"
+          ]
+        },
+        {
+          "meankieli": [
+            "848"
+          ],
+          "svenska": [
+            "844"
+          ]
+        },
+        {
+          "meankieli": [
+            "851"
+          ],
+          "svenska": [
+            "846"
+          ]
+        },
+        {
+          "meankieli": [
+            "854"
+          ],
+          "svenska": [
+            "849"
+          ]
+        },
+        {
+          "meankieli": [
+            "856"
+          ],
+          "svenska": [
+            "851"
+          ]
+        },
+        {
+          "meankieli": [
+            "858"
+          ],
+          "svenska": [
+            "853"
+          ]
+        },
+        {
+          "meankieli": [
+            "867"
+          ],
+          "svenska": [
+            "864"
+          ]
+        },
+        {
+          "meankieli": [
+            "869"
+          ],
+          "svenska": [
+            "866"
+          ]
+        },
+        {
+          "meankieli": [
+            "872"
+          ],
+          "svenska": [
+            "868"
+          ]
+        },
+        {
+          "meankieli": [
+            "874"
+          ],
+          "svenska": [
+            "870"
+          ]
+        },
+        {
+          "meankieli": [
+            "877"
+          ],
+          "svenska": [
+            "872"
+          ]
+        },
+        {
+          "meankieli": [
+            "879"
+          ],
+          "svenska": [
+            "874"
+          ]
+        },
+        {
+          "meankieli": [
+            "882"
+          ],
+          "svenska": [
+            "876"
+          ]
+        },
+        {
+          "meankieli": [
+            "885"
+          ],
+          "svenska": [
+            "878"
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "side": 0,
+          "paragraph": "607"
+        },
+        {
+          "side": 0,
+          "paragraph": "630"
+        },
+        {
+          "side": 0,
+          "paragraph": "631"
+        },
+        {
+          "side": 0,
+          "paragraph": "649"
+        },
+        {
+          "side": 0,
+          "paragraph": "755"
+        },
+        {
+          "side": 0,
+          "paragraph": "784"
+        },
+        {
+          "side": 0,
+          "paragraph": "785"
+        },
+        {
+          "side": 0,
+          "paragraph": "809"
+        },
+        {
+          "side": 0,
+          "paragraph": "834"
+        },
+        {
+          "side": 0,
+          "paragraph": "860"
+        },
+        {
+          "side": 0,
+          "paragraph": "861"
+        },
+        {
+          "side": 0,
+          "paragraph": "862"
+        }
+      ]
+    },
+    {
+      "section": "Course closing source labels",
+      "source": "Meänkieli/Docs/Meänkieli Kurs Materiel.docx",
+      "source_sha256": "5d8596f8db2e78ed16d162566c44fdc1fde0bb3ec46089f34e0fd44e9fcc59e5",
+      "paired_rows": 0,
+      "source_units": 6,
+      "pairs": [],
+      "annotations": [
+        {
+          "side": 0,
+          "paragraph": "891"
+        },
+        {
+          "side": 0,
+          "paragraph": "894"
+        },
+        {
+          "side": 0,
+          "paragraph": "949"
+        },
+        {
+          "side": 1,
+          "paragraph": "885"
+        },
+        {
+          "side": 1,
+          "paragraph": "888"
+        }
+      ]
+    },
+    {
+      "section": "Set 3 / speaker and following translation",
+      "source": "Meänkieli/Audio files for android app/set 3/Meankieli_ExtendedDialogues.docx",
+      "source_sha256": "b662cb38e220bcae3d7d2f1dbb648d6c2758422bcea8c9b8e4f56593efaf91bb",
+      "paired_rows": 209,
+      "source_units": 494,
+      "pairs": [
+        {
+          "meankieli": [
+            "4.0"
+          ],
+          "svenska": [
+            "5.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "6.0"
+          ],
+          "svenska": [
+            "7.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "8.0"
+          ],
+          "svenska": [
+            "9.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "10.0"
+          ],
+          "svenska": [
+            "11.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "12.0"
+          ],
+          "svenska": [
+            "13.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "14.0"
+          ],
+          "svenska": [
+            "15.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "19.0"
+          ],
+          "svenska": [
+            "20.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "21.0"
+          ],
+          "svenska": [
+            "22.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "23.0"
+          ],
+          "svenska": [
+            "24.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "25.0"
+          ],
+          "svenska": [
+            "26.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "27.0"
+          ],
+          "svenska": [
+            "28.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "32.0"
+          ],
+          "svenska": [
+            "33.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "34.0"
+          ],
+          "svenska": [
+            "35.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "36.0"
+          ],
+          "svenska": [
+            "37.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "38.0"
+          ],
+          "svenska": [
+            "39.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "40.0"
+          ],
+          "svenska": [
+            "41.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "42.0"
+          ],
+          "svenska": [
+            "43.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "47.0"
+          ],
+          "svenska": [
+            "48.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "48.1"
+          ],
+          "svenska": [
+            "49.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "50.0"
+          ],
+          "svenska": [
+            "51.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "51.1"
+          ],
+          "svenska": [
+            "52.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "52.1"
+          ],
+          "svenska": [
+            "53.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "57.0"
+          ],
+          "svenska": [
+            "58.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "58.1"
+          ],
+          "svenska": [
+            "59.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "59.1"
+          ],
+          "svenska": [
+            "60.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "60.1"
+          ],
+          "svenska": [
+            "61.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "61.1"
+          ],
+          "svenska": [
+            "62.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "66.0"
+          ],
+          "svenska": [
+            "67.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "67.1"
+          ],
+          "svenska": [
+            "68.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "68.1"
+          ],
+          "svenska": [
+            "69.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "69.1"
+          ],
+          "svenska": [
+            "70.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "70.1"
+          ],
+          "svenska": [
+            "71.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "75.0"
+          ],
+          "svenska": [
+            "76.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "76.1"
+          ],
+          "svenska": [
+            "77.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "77.1"
+          ],
+          "svenska": [
+            "78.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "78.1"
+          ],
+          "svenska": [
+            "79.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "79.1"
+          ],
+          "svenska": [
+            "80.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "84.0"
+          ],
+          "svenska": [
+            "85.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "85.1"
+          ],
+          "svenska": [
+            "86.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "86.1"
+          ],
+          "svenska": [
+            "87.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "88.0"
+          ],
+          "svenska": [
+            "89.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "89.1"
+          ],
+          "svenska": [
+            "90.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "96.0"
+          ],
+          "svenska": [
+            "97.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "97.1"
+          ],
+          "svenska": [
+            "98.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "98.1"
+          ],
+          "svenska": [
+            "99.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "99.1"
+          ],
+          "svenska": [
+            "100.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "100.1"
+          ],
+          "svenska": [
+            "101.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "101.1"
+          ],
+          "svenska": [
+            "102.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "106.0"
+          ],
+          "svenska": [
+            "107.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "107.1"
+          ],
+          "svenska": [
+            "108.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "108.1"
+          ],
+          "svenska": [
+            "109.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "109.1"
+          ],
+          "svenska": [
+            "110.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "110.1"
+          ],
+          "svenska": [
+            "111.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "111.1"
+          ],
+          "svenska": [
+            "112.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "116.0"
+          ],
+          "svenska": [
+            "117.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "117.1"
+          ],
+          "svenska": [
+            "118.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "118.1"
+          ],
+          "svenska": [
+            "119.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "119.1"
+          ],
+          "svenska": [
+            "120.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "120.1"
+          ],
+          "svenska": [
+            "121.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "121.1"
+          ],
+          "svenska": [
+            "122.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "126.0"
+          ],
+          "svenska": [
+            "127.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "127.1"
+          ],
+          "svenska": [
+            "128.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "128.1"
+          ],
+          "svenska": [
+            "129.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "129.1"
+          ],
+          "svenska": [
+            "130.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "130.1"
+          ],
+          "svenska": [
+            "131.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "131.1"
+          ],
+          "svenska": [
+            "132.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "136.0"
+          ],
+          "svenska": [
+            "137.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "137.1"
+          ],
+          "svenska": [
+            "138.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "138.1"
+          ],
+          "svenska": [
+            "139.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "139.1"
+          ],
+          "svenska": [
+            "140.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "140.1"
+          ],
+          "svenska": [
+            "141.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "141.1"
+          ],
+          "svenska": [
+            "142.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "146.0"
+          ],
+          "svenska": [
+            "147.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "147.1"
+          ],
+          "svenska": [
+            "148.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "148.1"
+          ],
+          "svenska": [
+            "149.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "149.1"
+          ],
+          "svenska": [
+            "150.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "150.1"
+          ],
+          "svenska": [
+            "151.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "151.1"
+          ],
+          "svenska": [
+            "152.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "156.0"
+          ],
+          "svenska": [
+            "157.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "157.1"
+          ],
+          "svenska": [
+            "158.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "158.1"
+          ],
+          "svenska": [
+            "159.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "159.1"
+          ],
+          "svenska": [
+            "160.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "160.1"
+          ],
+          "svenska": [
+            "161.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "161.1"
+          ],
+          "svenska": [
+            "162.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "166.0"
+          ],
+          "svenska": [
+            "167.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "167.1"
+          ],
+          "svenska": [
+            "168.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "168.1"
+          ],
+          "svenska": [
+            "169.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "170.1"
+          ],
+          "svenska": [
+            "171.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "171.1"
+          ],
+          "svenska": [
+            "172.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "172.1"
+          ],
+          "svenska": [
+            "173.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "177.0"
+          ],
+          "svenska": [
+            "178.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "178.1"
+          ],
+          "svenska": [
+            "179.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "179.1"
+          ],
+          "svenska": [
+            "180.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "180.1"
+          ],
+          "svenska": [
+            "181.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "181.1"
+          ],
+          "svenska": [
+            "182.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "182.1"
+          ],
+          "svenska": [
+            "183.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "187.0"
+          ],
+          "svenska": [
+            "188.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "188.1"
+          ],
+          "svenska": [
+            "189.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "189.1"
+          ],
+          "svenska": [
+            "190.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "190.1"
+          ],
+          "svenska": [
+            "191.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "191.1"
+          ],
+          "svenska": [
+            "192.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "192.1"
+          ],
+          "svenska": [
+            "193.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "197.0"
+          ],
+          "svenska": [
+            "198.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "199.0"
+          ],
+          "svenska": [
+            "200.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "201.1"
+          ],
+          "svenska": [
+            "202.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "202.1"
+          ],
+          "svenska": [
+            "203.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "203.1"
+          ],
+          "svenska": [
+            "204.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "204.1"
+          ],
+          "svenska": [
+            "205.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "209.0"
+          ],
+          "svenska": [
+            "210.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "210.1"
+          ],
+          "svenska": [
+            "211.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "211.1"
+          ],
+          "svenska": [
+            "212.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "213.0"
+          ],
+          "svenska": [
+            "214.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "214.1"
+          ],
+          "svenska": [
+            "215.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "215.1"
+          ],
+          "svenska": [
+            "216.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "220.0"
+          ],
+          "svenska": [
+            "221.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "221.1"
+          ],
+          "svenska": [
+            "222.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "222.1"
+          ],
+          "svenska": [
+            "223.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "223.1"
+          ],
+          "svenska": [
+            "224.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "224.1"
+          ],
+          "svenska": [
+            "225.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "225.1"
+          ],
+          "svenska": [
+            "226.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "230.0"
+          ],
+          "svenska": [
+            "231.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "231.1"
+          ],
+          "svenska": [
+            "232.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "232.1"
+          ],
+          "svenska": [
+            "233.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "233.1"
+          ],
+          "svenska": [
+            "234.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "234.1"
+          ],
+          "svenska": [
+            "235.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "235.1"
+          ],
+          "svenska": [
+            "236.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "240.0"
+          ],
+          "svenska": [
+            "241.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "241.1"
+          ],
+          "svenska": [
+            "242.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "242.1"
+          ],
+          "svenska": [
+            "243.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "247.0"
+          ],
+          "svenska": [
+            "248.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "248.1"
+          ],
+          "svenska": [
+            "249.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "249.1"
+          ],
+          "svenska": [
+            "250.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "250.1"
+          ],
+          "svenska": [
+            "251.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "251.1"
+          ],
+          "svenska": [
+            "252.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "252.1"
+          ],
+          "svenska": [
+            "253.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "256.0"
+          ],
+          "svenska": [
+            "257.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "257.1"
+          ],
+          "svenska": [
+            "258.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "258.1"
+          ],
+          "svenska": [
+            "259.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "259.1"
+          ],
+          "svenska": [
+            "260.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "260.1"
+          ],
+          "svenska": [
+            "261.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "261.1"
+          ],
+          "svenska": [
+            "262.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "268.0"
+          ],
+          "svenska": [
+            "269.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "269.1"
+          ],
+          "svenska": [
+            "270.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "270.1"
+          ],
+          "svenska": [
+            "271.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "271.1"
+          ],
+          "svenska": [
+            "272.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "272.1"
+          ],
+          "svenska": [
+            "273.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "273.1"
+          ],
+          "svenska": [
+            "274.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "278.0"
+          ],
+          "svenska": [
+            "279.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "279.1"
+          ],
+          "svenska": [
+            "280.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "280.1"
+          ],
+          "svenska": [
+            "281.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "281.1"
+          ],
+          "svenska": [
+            "282.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "282.1"
+          ],
+          "svenska": [
+            "283.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "288.0"
+          ],
+          "svenska": [
+            "289.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "289.1"
+          ],
+          "svenska": [
+            "290.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "290.1"
+          ],
+          "svenska": [
+            "291.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "291.1"
+          ],
+          "svenska": [
+            "292.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "296.0"
+          ],
+          "svenska": [
+            "297.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "297.1"
+          ],
+          "svenska": [
+            "298.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "298.1"
+          ],
+          "svenska": [
+            "299.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "299.1"
+          ],
+          "svenska": [
+            "300.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "300.1"
+          ],
+          "svenska": [
+            "301.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "305.0"
+          ],
+          "svenska": [
+            "306.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "306.1"
+          ],
+          "svenska": [
+            "307.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "307.1"
+          ],
+          "svenska": [
+            "308.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "308.1"
+          ],
+          "svenska": [
+            "309.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "309.1"
+          ],
+          "svenska": [
+            "310.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "313.0"
+          ],
+          "svenska": [
+            "314.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "314.1"
+          ],
+          "svenska": [
+            "315.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "315.1"
+          ],
+          "svenska": [
+            "316.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "316.1"
+          ],
+          "svenska": [
+            "317.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "317.1"
+          ],
+          "svenska": [
+            "318.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "321.0"
+          ],
+          "svenska": [
+            "322.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "323.0"
+          ],
+          "svenska": [
+            "324.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "324.1"
+          ],
+          "svenska": [
+            "325.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "325.1"
+          ],
+          "svenska": [
+            "326.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "326.1"
+          ],
+          "svenska": [
+            "327.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "330.0"
+          ],
+          "svenska": [
+            "331.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "331.1"
+          ],
+          "svenska": [
+            "332.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "332.1"
+          ],
+          "svenska": [
+            "333.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "333.1"
+          ],
+          "svenska": [
+            "334.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "334.1"
+          ],
+          "svenska": [
+            "335.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "339.0"
+          ],
+          "svenska": [
+            "340.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "340.1"
+          ],
+          "svenska": [
+            "341.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "341.1"
+          ],
+          "svenska": [
+            "342.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "342.1"
+          ],
+          "svenska": [
+            "343.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "343.1"
+          ],
+          "svenska": [
+            "344.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "348.0"
+          ],
+          "svenska": [
+            "349.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "349.1"
+          ],
+          "svenska": [
+            "350.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "351.0"
+          ],
+          "svenska": [
+            "352.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "352.1"
+          ],
+          "svenska": [
+            "353.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "353.1"
+          ],
+          "svenska": [
+            "354.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "358.0"
+          ],
+          "svenska": [
+            "359.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "359.1"
+          ],
+          "svenska": [
+            "360.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "361.0"
+          ],
+          "svenska": [
+            "362.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "362.1"
+          ],
+          "svenska": [
+            "363.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "363.1"
+          ],
+          "svenska": [
+            "364.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "368.0"
+          ],
+          "svenska": [
+            "369.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "369.1"
+          ],
+          "svenska": [
+            "370.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "370.1"
+          ],
+          "svenska": [
+            "371.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "371.1"
+          ],
+          "svenska": [
+            "372.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "372.1"
+          ],
+          "svenska": [
+            "373.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "377.0"
+          ],
+          "svenska": [
+            "378.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "378.1"
+          ],
+          "svenska": [
+            "379.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "379.1"
+          ],
+          "svenska": [
+            "380.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "380.1"
+          ],
+          "svenska": [
+            "381.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "384.0"
+          ],
+          "svenska": [
+            "385.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "385.1"
+          ],
+          "svenska": [
+            "386.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "386.1"
+          ],
+          "svenska": [
+            "387.0"
+          ]
+        },
+        {
+          "meankieli": [
+            "387.1"
+          ],
+          "svenska": [
+            "388.0"
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "side": 0,
+          "paragraph": "56.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "65.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "74.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "83.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "95.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "105.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "115.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "125.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "135.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "145.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "155.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "165.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "176.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "186.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "196.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "208.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "219.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "229.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "239.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "246.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "255.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "267.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "277.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "287.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "295.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "304.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "312.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "320.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "329.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "338.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "347.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "357.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "367.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "376.0"
+        },
+        {
+          "side": 0,
+          "paragraph": "383.0"
+        }
+      ]
+    },
+    {
+      "section": "Prepositioner / adjacent source example pairs",
+      "source": "Meänkieli/Audio files for android app/grammatik/prepositioner/Prepositioner.docx",
+      "source_sha256": "11fc4192e76b23ea6bd07a919d20e6885c9e0c8dfc57fcd0564f63ac3f8cc3e3",
+      "paired_rows": 114,
+      "source_units": 260,
+      "pairs": [
+        {
+          "meankieli": [
+            "5"
+          ],
+          "svenska": [
+            "4"
+          ]
+        },
+        {
+          "meankieli": [
+            "8"
+          ],
+          "svenska": [
+            "7"
+          ]
+        },
+        {
+          "meankieli": [
+            "11"
+          ],
+          "svenska": [
+            "10"
+          ]
+        },
+        {
+          "meankieli": [
+            "14"
+          ],
+          "svenska": [
+            "13"
+          ]
+        },
+        {
+          "meankieli": [
+            "17"
+          ],
+          "svenska": [
+            "16"
+          ]
+        },
+        {
+          "meankieli": [
+            "20"
+          ],
+          "svenska": [
+            "19"
+          ]
+        },
+        {
+          "meankieli": [
+            "23"
+          ],
+          "svenska": [
+            "22"
+          ]
+        },
+        {
+          "meankieli": [
+            "26"
+          ],
+          "svenska": [
+            "25"
+          ]
+        },
+        {
+          "meankieli": [
+            "29"
+          ],
+          "svenska": [
+            "28"
+          ]
+        },
+        {
+          "meankieli": [
+            "32"
+          ],
+          "svenska": [
+            "31"
+          ]
+        },
+        {
+          "meankieli": [
+            "35"
+          ],
+          "svenska": [
+            "34"
+          ]
+        },
+        {
+          "meankieli": [
+            "38"
+          ],
+          "svenska": [
+            "37"
+          ]
+        },
+        {
+          "meankieli": [
+            "41"
+          ],
+          "svenska": [
+            "40"
+          ]
+        },
+        {
+          "meankieli": [
+            "44"
+          ],
+          "svenska": [
+            "43"
+          ]
+        },
+        {
+          "meankieli": [
+            "47"
+          ],
+          "svenska": [
+            "46"
+          ]
+        },
+        {
+          "meankieli": [
+            "50"
+          ],
+          "svenska": [
+            "49"
+          ]
+        },
+        {
+          "meankieli": [
+            "53"
+          ],
+          "svenska": [
+            "52"
+          ]
+        },
+        {
+          "meankieli": [
+            "56"
+          ],
+          "svenska": [
+            "55"
+          ]
+        },
+        {
+          "meankieli": [
+            "63"
+          ],
+          "svenska": [
+            "62"
+          ]
+        },
+        {
+          "meankieli": [
+            "66"
+          ],
+          "svenska": [
+            "65"
+          ]
+        },
+        {
+          "meankieli": [
+            "69"
+          ],
+          "svenska": [
+            "68"
+          ]
+        },
+        {
+          "meankieli": [
+            "72"
+          ],
+          "svenska": [
+            "71"
+          ]
+        },
+        {
+          "meankieli": [
+            "75"
+          ],
+          "svenska": [
+            "74"
+          ]
+        },
+        {
+          "meankieli": [
+            "78"
+          ],
+          "svenska": [
+            "77"
+          ]
+        },
+        {
+          "meankieli": [
+            "81"
+          ],
+          "svenska": [
+            "80"
+          ]
+        },
+        {
+          "meankieli": [
+            "84"
+          ],
+          "svenska": [
+            "83"
+          ]
+        },
+        {
+          "meankieli": [
+            "87"
+          ],
+          "svenska": [
+            "86"
+          ]
+        },
+        {
+          "meankieli": [
+            "90"
+          ],
+          "svenska": [
+            "89"
+          ]
+        },
+        {
+          "meankieli": [
+            "93"
+          ],
+          "svenska": [
+            "92"
+          ]
+        },
+        {
+          "meankieli": [
+            "96"
+          ],
+          "svenska": [
+            "95"
+          ]
+        },
+        {
+          "meankieli": [
+            "99"
+          ],
+          "svenska": [
+            "98"
+          ]
+        },
+        {
+          "meankieli": [
+            "106"
+          ],
+          "svenska": [
+            "105"
+          ]
+        },
+        {
+          "meankieli": [
+            "109"
+          ],
+          "svenska": [
+            "108"
+          ]
+        },
+        {
+          "meankieli": [
+            "112"
+          ],
+          "svenska": [
+            "111"
+          ]
+        },
+        {
+          "meankieli": [
+            "116"
+          ],
+          "svenska": [
+            "115"
+          ]
+        },
+        {
+          "meankieli": [
+            "119"
+          ],
+          "svenska": [
+            "118"
+          ]
+        },
+        {
+          "meankieli": [
+            "122"
+          ],
+          "svenska": [
+            "121"
+          ]
+        },
+        {
+          "meankieli": [
+            "126"
+          ],
+          "svenska": [
+            "125"
+          ]
+        },
+        {
+          "meankieli": [
+            "129"
+          ],
+          "svenska": [
+            "128"
+          ]
+        },
+        {
+          "meankieli": [
+            "132"
+          ],
+          "svenska": [
+            "131"
+          ]
+        },
+        {
+          "meankieli": [
+            "135"
+          ],
+          "svenska": [
+            "134"
+          ]
+        },
+        {
+          "meankieli": [
+            "140"
+          ],
+          "svenska": [
+            "139"
+          ]
+        },
+        {
+          "meankieli": [
+            "150"
+          ],
+          "svenska": [
+            "149"
+          ]
+        },
+        {
+          "meankieli": [
+            "153"
+          ],
+          "svenska": [
+            "152"
+          ]
+        },
+        {
+          "meankieli": [
+            "156"
+          ],
+          "svenska": [
+            "155"
+          ]
+        },
+        {
+          "meankieli": [
+            "159"
+          ],
+          "svenska": [
+            "158"
+          ]
+        },
+        {
+          "meankieli": [
+            "162"
+          ],
+          "svenska": [
+            "161"
+          ]
+        },
+        {
+          "meankieli": [
+            "165"
+          ],
+          "svenska": [
+            "164"
+          ]
+        },
+        {
+          "meankieli": [
+            "168"
+          ],
+          "svenska": [
+            "167"
+          ]
+        },
+        {
+          "meankieli": [
+            "171"
+          ],
+          "svenska": [
+            "170"
+          ]
+        },
+        {
+          "meankieli": [
+            "174"
+          ],
+          "svenska": [
+            "173"
+          ]
+        },
+        {
+          "meankieli": [
+            "181"
+          ],
+          "svenska": [
+            "180"
+          ]
+        },
+        {
+          "meankieli": [
+            "184"
+          ],
+          "svenska": [
+            "183"
+          ]
+        },
+        {
+          "meankieli": [
+            "187"
+          ],
+          "svenska": [
+            "186"
+          ]
+        },
+        {
+          "meankieli": [
+            "190"
+          ],
+          "svenska": [
+            "189"
+          ]
+        },
+        {
+          "meankieli": [
+            "193"
+          ],
+          "svenska": [
+            "192"
+          ]
+        },
+        {
+          "meankieli": [
+            "196"
+          ],
+          "svenska": [
+            "195"
+          ]
+        },
+        {
+          "meankieli": [
+            "199"
+          ],
+          "svenska": [
+            "198"
+          ]
+        },
+        {
+          "meankieli": [
+            "202"
+          ],
+          "svenska": [
+            "201"
+          ]
+        },
+        {
+          "meankieli": [
+            "205"
+          ],
+          "svenska": [
+            "204"
+          ]
+        },
+        {
+          "meankieli": [
+            "208"
+          ],
+          "svenska": [
+            "207"
+          ]
+        },
+        {
+          "meankieli": [
+            "221"
+          ],
+          "svenska": [
+            "220"
+          ]
+        },
+        {
+          "meankieli": [
+            "224"
+          ],
+          "svenska": [
+            "223"
+          ]
+        },
+        {
+          "meankieli": [
+            "227"
+          ],
+          "svenska": [
+            "226"
+          ]
+        },
+        {
+          "meankieli": [
+            "230"
+          ],
+          "svenska": [
+            "229"
+          ]
+        },
+        {
+          "meankieli": [
+            "233"
+          ],
+          "svenska": [
+            "232"
+          ]
+        },
+        {
+          "meankieli": [
+            "236"
+          ],
+          "svenska": [
+            "235"
+          ]
+        },
+        {
+          "meankieli": [
+            "239"
+          ],
+          "svenska": [
+            "238"
+          ]
+        },
+        {
+          "meankieli": [
+            "242"
+          ],
+          "svenska": [
+            "241"
+          ]
+        },
+        {
+          "meankieli": [
+            "250"
+          ],
+          "svenska": [
+            "249"
+          ]
+        },
+        {
+          "meankieli": [
+            "253"
+          ],
+          "svenska": [
+            "252"
+          ]
+        },
+        {
+          "meankieli": [
+            "256"
+          ],
+          "svenska": [
+            "255"
+          ]
+        },
+        {
+          "meankieli": [
+            "259"
+          ],
+          "svenska": [
+            "258"
+          ]
+        },
+        {
+          "meankieli": [
+            "262"
+          ],
+          "svenska": [
+            "261"
+          ]
+        },
+        {
+          "meankieli": [
+            "265"
+          ],
+          "svenska": [
+            "264"
+          ]
+        },
+        {
+          "meankieli": [
+            "268"
+          ],
+          "svenska": [
+            "267"
+          ]
+        },
+        {
+          "meankieli": [
+            "271"
+          ],
+          "svenska": [
+            "270"
+          ]
+        },
+        {
+          "meankieli": [
+            "274"
+          ],
+          "svenska": [
+            "273"
+          ]
+        },
+        {
+          "meankieli": [
+            "281"
+          ],
+          "svenska": [
+            "280"
+          ]
+        },
+        {
+          "meankieli": [
+            "284"
+          ],
+          "svenska": [
+            "283"
+          ]
+        },
+        {
+          "meankieli": [
+            "287"
+          ],
+          "svenska": [
+            "286"
+          ]
+        },
+        {
+          "meankieli": [
+            "290"
+          ],
+          "svenska": [
+            "289"
+          ]
+        },
+        {
+          "meankieli": [
+            "293"
+          ],
+          "svenska": [
+            "292"
+          ]
+        },
+        {
+          "meankieli": [
+            "296"
+          ],
+          "svenska": [
+            "295"
+          ]
+        },
+        {
+          "meankieli": [
+            "299"
+          ],
+          "svenska": [
+            "298"
+          ]
+        },
+        {
+          "meankieli": [
+            "302"
+          ],
+          "svenska": [
+            "301"
+          ]
+        },
+        {
+          "meankieli": [
+            "305"
+          ],
+          "svenska": [
+            "304"
+          ]
+        },
+        {
+          "meankieli": [
+            "308"
+          ],
+          "svenska": [
+            "307"
+          ]
+        },
+        {
+          "meankieli": [
+            "313"
+          ],
+          "svenska": [
+            "312"
+          ]
+        },
+        {
+          "meankieli": [
+            "316"
+          ],
+          "svenska": [
+            "315"
+          ]
+        },
+        {
+          "meankieli": [
+            "319"
+          ],
+          "svenska": [
+            "318"
+          ]
+        },
+        {
+          "meankieli": [
+            "322"
+          ],
+          "svenska": [
+            "321"
+          ]
+        },
+        {
+          "meankieli": [
+            "325"
+          ],
+          "svenska": [
+            "324"
+          ]
+        },
+        {
+          "meankieli": [
+            "328"
+          ],
+          "svenska": [
+            "327"
+          ]
+        },
+        {
+          "meankieli": [
+            "331",
+            "332"
+          ],
+          "svenska": [
+            "330"
+          ]
+        },
+        {
+          "meankieli": [
+            "335"
+          ],
+          "svenska": [
+            "334"
+          ]
+        },
+        {
+          "meankieli": [
+            "338"
+          ],
+          "svenska": [
+            "337"
+          ]
+        },
+        {
+          "meankieli": [
+            "343"
+          ],
+          "svenska": [
+            "342"
+          ]
+        },
+        {
+          "meankieli": [
+            "346"
+          ],
+          "svenska": [
+            "345"
+          ]
+        },
+        {
+          "meankieli": [
+            "349"
+          ],
+          "svenska": [
+            "348"
+          ]
+        },
+        {
+          "meankieli": [
+            "352"
+          ],
+          "svenska": [
+            "351"
+          ]
+        },
+        {
+          "meankieli": [
+            "355"
+          ],
+          "svenska": [
+            "354"
+          ]
+        },
+        {
+          "meankieli": [
+            "358"
+          ],
+          "svenska": [
+            "357"
+          ]
+        },
+        {
+          "meankieli": [
+            "361"
+          ],
+          "svenska": [
+            "360"
+          ]
+        },
+        {
+          "meankieli": [
+            "364"
+          ],
+          "svenska": [
+            "363"
+          ]
+        },
+        {
+          "meankieli": [
+            "367"
+          ],
+          "svenska": [
+            "366"
+          ]
+        },
+        {
+          "meankieli": [
+            "373"
+          ],
+          "svenska": [
+            "372"
+          ]
+        },
+        {
+          "meankieli": [
+            "376"
+          ],
+          "svenska": [
+            "375"
+          ]
+        },
+        {
+          "meankieli": [
+            "379"
+          ],
+          "svenska": [
+            "378"
+          ]
+        },
+        {
+          "meankieli": [
+            "382"
+          ],
+          "svenska": [
+            "381"
+          ]
+        },
+        {
+          "meankieli": [
+            "386"
+          ],
+          "svenska": [
+            "385"
+          ]
+        },
+        {
+          "meankieli": [
+            "389"
+          ],
+          "svenska": [
+            "388"
+          ]
+        },
+        {
+          "meankieli": [
+            "392"
+          ],
+          "svenska": [
+            "391"
+          ]
+        },
+        {
+          "meankieli": [
+            "395"
+          ],
+          "svenska": [
+            "394"
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "side": 0,
+          "paragraph": "58"
+        },
+        {
+          "side": 0,
+          "paragraph": "101"
+        },
+        {
+          "side": 0,
+          "paragraph": "113"
+        },
+        {
+          "side": 0,
+          "paragraph": "123"
+        },
+        {
+          "side": 0,
+          "paragraph": "136"
+        },
+        {
+          "side": 0,
+          "paragraph": "137"
+        },
+        {
+          "side": 0,
+          "paragraph": "142"
+        },
+        {
+          "side": 0,
+          "paragraph": "146"
+        },
+        {
+          "side": 0,
+          "paragraph": "176"
+        },
+        {
+          "side": 0,
+          "paragraph": "210"
+        },
+        {
+          "side": 0,
+          "paragraph": "215"
+        },
+        {
+          "side": 0,
+          "paragraph": "216"
+        },
+        {
+          "side": 0,
+          "paragraph": "217"
+        },
+        {
+          "side": 0,
+          "paragraph": "245"
+        },
+        {
+          "side": 0,
+          "paragraph": "276"
+        },
+        {
+          "side": 0,
+          "paragraph": "310"
+        },
+        {
+          "side": 0,
+          "paragraph": "340"
+        },
+        {
+          "side": 0,
+          "paragraph": "369"
+        },
+        {
+          "side": 0,
+          "paragraph": "370"
+        },
+        {
+          "side": 0,
+          "paragraph": "383"
+        }
+      ]
+    },
+    {
+      "section": "Siirto / adjacent narrative translation pairs",
+      "source": "Meänkieli/Docs/Siirto_Oct11.docx",
+      "source_sha256": "80b65a0c26aaf59ad0ab7639c8d5bc987db7f5dd9c9f19bba5d769e18857ab79",
+      "paired_rows": 115,
+      "source_units": 238,
+      "pairs": [
+        {
+          "meankieli": [
+            "14"
+          ],
+          "svenska": [
+            "15"
+          ]
+        },
+        {
+          "meankieli": [
+            "17"
+          ],
+          "svenska": [
+            "18"
+          ]
+        },
+        {
+          "meankieli": [
+            "20"
+          ],
+          "svenska": [
+            "21"
+          ]
+        },
+        {
+          "meankieli": [
+            "23"
+          ],
+          "svenska": [
+            "24"
+          ]
+        },
+        {
+          "meankieli": [
+            "27"
+          ],
+          "svenska": [
+            "28"
+          ]
+        },
+        {
+          "meankieli": [
+            "30"
+          ],
+          "svenska": [
+            "31"
+          ]
+        },
+        {
+          "meankieli": [
+            "33"
+          ],
+          "svenska": [
+            "34"
+          ]
+        },
+        {
+          "meankieli": [
+            "36"
+          ],
+          "svenska": [
+            "37"
+          ]
+        },
+        {
+          "meankieli": [
+            "40"
+          ],
+          "svenska": [
+            "41"
+          ]
+        },
+        {
+          "meankieli": [
+            "43"
+          ],
+          "svenska": [
+            "44"
+          ]
+        },
+        {
+          "meankieli": [
+            "46"
+          ],
+          "svenska": [
+            "47"
+          ]
+        },
+        {
+          "meankieli": [
+            "49"
+          ],
+          "svenska": [
+            "50"
+          ]
+        },
+        {
+          "meankieli": [
+            "52"
+          ],
+          "svenska": [
+            "53"
+          ]
+        },
+        {
+          "meankieli": [
+            "55"
+          ],
+          "svenska": [
+            "56"
+          ]
+        },
+        {
+          "meankieli": [
+            "58"
+          ],
+          "svenska": [
+            "59"
+          ]
+        },
+        {
+          "meankieli": [
+            "61"
+          ],
+          "svenska": [
+            "62"
+          ]
+        },
+        {
+          "meankieli": [
+            "64"
+          ],
+          "svenska": [
+            "65"
+          ]
+        },
+        {
+          "meankieli": [
+            "67"
+          ],
+          "svenska": [
+            "68"
+          ]
+        },
+        {
+          "meankieli": [
+            "70"
+          ],
+          "svenska": [
+            "71"
+          ]
+        },
+        {
+          "meankieli": [
+            "74"
+          ],
+          "svenska": [
+            "75"
+          ]
+        },
+        {
+          "meankieli": [
+            "77"
+          ],
+          "svenska": [
+            "78"
+          ]
+        },
+        {
+          "meankieli": [
+            "80"
+          ],
+          "svenska": [
+            "81"
+          ]
+        },
+        {
+          "meankieli": [
+            "83"
+          ],
+          "svenska": [
+            "84"
+          ]
+        },
+        {
+          "meankieli": [
+            "87"
+          ],
+          "svenska": [
+            "88"
+          ]
+        },
+        {
+          "meankieli": [
+            "90"
+          ],
+          "svenska": [
+            "91"
+          ]
+        },
+        {
+          "meankieli": [
+            "93"
+          ],
+          "svenska": [
+            "94"
+          ]
+        },
+        {
+          "meankieli": [
+            "96"
+          ],
+          "svenska": [
+            "97"
+          ]
+        },
+        {
+          "meankieli": [
+            "99"
+          ],
+          "svenska": [
+            "100"
+          ]
+        },
+        {
+          "meankieli": [
+            "102"
+          ],
+          "svenska": [
+            "103"
+          ]
+        },
+        {
+          "meankieli": [
+            "105"
+          ],
+          "svenska": [
+            "106"
+          ]
+        },
+        {
+          "meankieli": [
+            "108"
+          ],
+          "svenska": [
+            "109"
+          ]
+        },
+        {
+          "meankieli": [
+            "112"
+          ],
+          "svenska": [
+            "113"
+          ]
+        },
+        {
+          "meankieli": [
+            "115"
+          ],
+          "svenska": [
+            "116"
+          ]
+        },
+        {
+          "meankieli": [
+            "118"
+          ],
+          "svenska": [
+            "119"
+          ]
+        },
+        {
+          "meankieli": [
+            "121"
+          ],
+          "svenska": [
+            "122"
+          ]
+        },
+        {
+          "meankieli": [
+            "124"
+          ],
+          "svenska": [
+            "125"
+          ]
+        },
+        {
+          "meankieli": [
+            "127"
+          ],
+          "svenska": [
+            "128"
+          ]
+        },
+        {
+          "meankieli": [
+            "130"
+          ],
+          "svenska": [
+            "131"
+          ]
+        },
+        {
+          "meankieli": [
+            "133"
+          ],
+          "svenska": [
+            "134"
+          ]
+        },
+        {
+          "meankieli": [
+            "136"
+          ],
+          "svenska": [
+            "137"
+          ]
+        },
+        {
+          "meankieli": [
+            "139"
+          ],
+          "svenska": [
+            "140"
+          ]
+        },
+        {
+          "meankieli": [
+            "142"
+          ],
+          "svenska": [
+            "143"
+          ]
+        },
+        {
+          "meankieli": [
+            "145"
+          ],
+          "svenska": [
+            "146"
+          ]
+        },
+        {
+          "meankieli": [
+            "148"
+          ],
+          "svenska": [
+            "149"
+          ]
+        },
+        {
+          "meankieli": [
+            "151"
+          ],
+          "svenska": [
+            "152"
+          ]
+        },
+        {
+          "meankieli": [
+            "154"
+          ],
+          "svenska": [
+            "155"
+          ]
+        },
+        {
+          "meankieli": [
+            "157"
+          ],
+          "svenska": [
+            "158"
+          ]
+        },
+        {
+          "meankieli": [
+            "160"
+          ],
+          "svenska": [
+            "161"
+          ]
+        },
+        {
+          "meankieli": [
+            "163"
+          ],
+          "svenska": [
+            "164"
+          ]
+        },
+        {
+          "meankieli": [
+            "166"
+          ],
+          "svenska": [
+            "167"
+          ]
+        },
+        {
+          "meankieli": [
+            "169"
+          ],
+          "svenska": [
+            "170"
+          ]
+        },
+        {
+          "meankieli": [
+            "173"
+          ],
+          "svenska": [
+            "174"
+          ]
+        },
+        {
+          "meankieli": [
+            "176"
+          ],
+          "svenska": [
+            "177"
+          ]
+        },
+        {
+          "meankieli": [
+            "179"
+          ],
+          "svenska": [
+            "180"
+          ]
+        },
+        {
+          "meankieli": [
+            "182"
+          ],
+          "svenska": [
+            "183"
+          ]
+        },
+        {
+          "meankieli": [
+            "185"
+          ],
+          "svenska": [
+            "186"
+          ]
+        },
+        {
+          "meankieli": [
+            "188"
+          ],
+          "svenska": [
+            "189"
+          ]
+        },
+        {
+          "meankieli": [
+            "191"
+          ],
+          "svenska": [
+            "192"
+          ]
+        },
+        {
+          "meankieli": [
+            "194"
+          ],
+          "svenska": [
+            "195"
+          ]
+        },
+        {
+          "meankieli": [
+            "197"
+          ],
+          "svenska": [
+            "198"
+          ]
+        },
+        {
+          "meankieli": [
+            "200"
+          ],
+          "svenska": [
+            "201"
+          ]
+        },
+        {
+          "meankieli": [
+            "203"
+          ],
+          "svenska": [
+            "204"
+          ]
+        },
+        {
+          "meankieli": [
+            "207"
+          ],
+          "svenska": [
+            "208"
+          ]
+        },
+        {
+          "meankieli": [
+            "210"
+          ],
+          "svenska": [
+            "211"
+          ]
+        },
+        {
+          "meankieli": [
+            "213"
+          ],
+          "svenska": [
+            "214"
+          ]
+        },
+        {
+          "meankieli": [
+            "216"
+          ],
+          "svenska": [
+            "217"
+          ]
+        },
+        {
+          "meankieli": [
+            "219"
+          ],
+          "svenska": [
+            "220"
+          ]
+        },
+        {
+          "meankieli": [
+            "222"
+          ],
+          "svenska": [
+            "223"
+          ]
+        },
+        {
+          "meankieli": [
+            "225"
+          ],
+          "svenska": [
+            "226"
+          ]
+        },
+        {
+          "meankieli": [
+            "228"
+          ],
+          "svenska": [
+            "229"
+          ]
+        },
+        {
+          "meankieli": [
+            "231"
+          ],
+          "svenska": [
+            "232"
+          ]
+        },
+        {
+          "meankieli": [
+            "234"
+          ],
+          "svenska": [
+            "235"
+          ]
+        },
+        {
+          "meankieli": [
+            "237"
+          ],
+          "svenska": [
+            "238"
+          ]
+        },
+        {
+          "meankieli": [
+            "241"
+          ],
+          "svenska": [
+            "242"
+          ]
+        },
+        {
+          "meankieli": [
+            "244"
+          ],
+          "svenska": [
+            "245"
+          ]
+        },
+        {
+          "meankieli": [
+            "247"
+          ],
+          "svenska": [
+            "248"
+          ]
+        },
+        {
+          "meankieli": [
+            "250"
+          ],
+          "svenska": [
+            "251"
+          ]
+        },
+        {
+          "meankieli": [
+            "253"
+          ],
+          "svenska": [
+            "254"
+          ]
+        },
+        {
+          "meankieli": [
+            "256"
+          ],
+          "svenska": [
+            "257"
+          ]
+        },
+        {
+          "meankieli": [
+            "259"
+          ],
+          "svenska": [
+            "260"
+          ]
+        },
+        {
+          "meankieli": [
+            "262"
+          ],
+          "svenska": [
+            "263"
+          ]
+        },
+        {
+          "meankieli": [
+            "265"
+          ],
+          "svenska": [
+            "266"
+          ]
+        },
+        {
+          "meankieli": [
+            "268"
+          ],
+          "svenska": [
+            "269"
+          ]
+        },
+        {
+          "meankieli": [
+            "271"
+          ],
+          "svenska": [
+            "272"
+          ]
+        },
+        {
+          "meankieli": [
+            "275"
+          ],
+          "svenska": [
+            "276"
+          ]
+        },
+        {
+          "meankieli": [
+            "278"
+          ],
+          "svenska": [
+            "279"
+          ]
+        },
+        {
+          "meankieli": [
+            "281"
+          ],
+          "svenska": [
+            "282"
+          ]
+        },
+        {
+          "meankieli": [
+            "284"
+          ],
+          "svenska": [
+            "285"
+          ]
+        },
+        {
+          "meankieli": [
+            "287"
+          ],
+          "svenska": [
+            "288"
+          ]
+        },
+        {
+          "meankieli": [
+            "290"
+          ],
+          "svenska": [
+            "291"
+          ]
+        },
+        {
+          "meankieli": [
+            "293"
+          ],
+          "svenska": [
+            "294"
+          ]
+        },
+        {
+          "meankieli": [
+            "296"
+          ],
+          "svenska": [
+            "297"
+          ]
+        },
+        {
+          "meankieli": [
+            "299"
+          ],
+          "svenska": [
+            "300"
+          ]
+        },
+        {
+          "meankieli": [
+            "302"
+          ],
+          "svenska": [
+            "303"
+          ]
+        },
+        {
+          "meankieli": [
+            "305"
+          ],
+          "svenska": [
+            "306"
+          ]
+        },
+        {
+          "meankieli": [
+            "308"
+          ],
+          "svenska": [
+            "309"
+          ]
+        },
+        {
+          "meankieli": [
+            "311"
+          ],
+          "svenska": [
+            "312"
+          ]
+        },
+        {
+          "meankieli": [
+            "314"
+          ],
+          "svenska": [
+            "315"
+          ]
+        },
+        {
+          "meankieli": [
+            "317"
+          ],
+          "svenska": [
+            "318"
+          ]
+        },
+        {
+          "meankieli": [
+            "320"
+          ],
+          "svenska": [
+            "321"
+          ]
+        },
+        {
+          "meankieli": [
+            "323"
+          ],
+          "svenska": [
+            "324"
+          ]
+        },
+        {
+          "meankieli": [
+            "326"
+          ],
+          "svenska": [
+            "327"
+          ]
+        },
+        {
+          "meankieli": [
+            "329"
+          ],
+          "svenska": [
+            "330"
+          ]
+        },
+        {
+          "meankieli": [
+            "332"
+          ],
+          "svenska": [
+            "333"
+          ]
+        },
+        {
+          "meankieli": [
+            "335"
+          ],
+          "svenska": [
+            "336"
+          ]
+        },
+        {
+          "meankieli": [
+            "338"
+          ],
+          "svenska": [
+            "339"
+          ]
+        },
+        {
+          "meankieli": [
+            "341"
+          ],
+          "svenska": [
+            "342"
+          ]
+        },
+        {
+          "meankieli": [
+            "344"
+          ],
+          "svenska": [
+            "345"
+          ]
+        },
+        {
+          "meankieli": [
+            "347"
+          ],
+          "svenska": [
+            "348"
+          ]
+        },
+        {
+          "meankieli": [
+            "350"
+          ],
+          "svenska": [
+            "351"
+          ]
+        },
+        {
+          "meankieli": [
+            "353"
+          ],
+          "svenska": [
+            "354"
+          ]
+        },
+        {
+          "meankieli": [
+            "356"
+          ],
+          "svenska": [
+            "357"
+          ]
+        },
+        {
+          "meankieli": [
+            "359"
+          ],
+          "svenska": [
+            "360"
+          ]
+        },
+        {
+          "meankieli": [
+            "362"
+          ],
+          "svenska": [
+            "363"
+          ]
+        },
+        {
+          "meankieli": [
+            "365"
+          ],
+          "svenska": [
+            "366"
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "side": 0,
+          "paragraph": "6"
+        },
+        {
+          "side": 0,
+          "paragraph": "9"
+        },
+        {
+          "side": 0,
+          "paragraph": "10"
+        },
+        {
+          "side": 0,
+          "paragraph": "11"
+        },
+        {
+          "side": 0,
+          "paragraph": "12"
+        },
+        {
+          "side": 0,
+          "paragraph": "25"
+        },
+        {
+          "side": 0,
+          "paragraph": "85"
+        },
+        {
+          "side": 0,
+          "paragraph": "110"
+        }
+      ]
+    },
+    {
+      "section": "Dåtid / explicit Word table rows",
+      "source": "Meänkieli/Docs/ML_meankieli_perfect_imperfect_sentences.docx",
+      "source_sha256": "03b293161bdba68cf160f4cd630c741d35dcd372e8561e2b6c966ee2b8e5e525",
+      "paired_rows": 127,
+      "tables": 14,
+      "columns": [
+        "Verb",
+        "Meänkieli",
+        "Svenska"
+      ],
+      "method": "Unchanged source-derived table rows; source notes retained."
+    }
+  ]
+}

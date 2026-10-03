@@ -4,7 +4,7 @@ Läromedel i meänkieli för självstudier.
 
 This collection brings together dialogue recordings, grammar examples, source documents, and local study apps. Start by reading a folder's dialogue text, then practice its recording in the browser audio player.
 
-**Progress checkpoint:** the recordings, Word documents, folder READMEs, browser player, and four real interface screenshots are prepared for inspection. Android dictionary screenshots and dictionary/vocabulary redistribution review remain incomplete. The trainer screenshots show its actual bundled interface running in a browser harness; native Android features are untested.
+The recordings, Word documents, folder READMEs, and apps are organized below. Screenshots of the actual Android apps on a simulated Pixel 9 Pro display are pending, as is the dictionary/vocabulary redistribution review. Native Android features have not yet been tested.
 
 ## Start studying
 
@@ -12,9 +12,7 @@ This collection brings together dialogue recordings, grammar examples, source do
 2. Download a recording, then [download the web audio player](Me%C3%A4nkieli/Apps/Audio_player_web_version.html) and open the HTML file locally.
 3. Follow the [screen-by-screen app guide](Me%C3%A4nkieli/Apps/README.md): load audio, choose a detected region, slow it down, and replay a waveform snippet.
 
-![The actual web player with a supplied dialogue recording](docs/screenshots/web-player-regions.jpg)
-
-The left side selects audio and controls playback; the right side lists detected phrases. The [app guide](Me%C3%A4nkieli/Apps/README.md) explains all four screenshots and which features were tested.
+The [app guide](Me%C3%A4nkieli/Apps/README.md) explains the controls, study workflow, and current test coverage.
 
 ## Repository structure
 
@@ -24,7 +22,7 @@ docs/
   MEDIA.md
   IMPORT.md
   archive-manifest.json
-  screenshots/
+  transcript-alignment.json
 Meänkieli/
   Apps/
     Audio_player_web_version.html
@@ -50,12 +48,12 @@ Meänkieli/
 
 ## Dialogue sources
 
-The folder READMEs contain the original dialogue and grammar text rather than Drive shortcut placeholders. Meänkieli, Swedish, English headings, spelling, diacritics, variants, and notes are retained. This is a presentation and organization pass, not a language correction pass.
+The folder READMEs contain the original dialogue and grammar text rather than Drive shortcut placeholders. Each Meänkieli utterance appears beside its source Swedish translation in a table. Meänkieli, Swedish, English headings, spelling, diacritics, variants, and notes are retained. This is a presentation and organization pass, not a language correction pass.
 
 Set 1, Set 2, and Böjning use matching sections of the course material. Prepositioner uses its included document, and Dåtid uses the seven verb-type perfect/imperfect tables. Set 3 uses the replacement supplied by the owner; the earlier three-dialogue file is archived. Page-to-paragraph boundaries and every audio line have not been independently verified. See [import and verification notes](docs/IMPORT.md).
 
 ## App coverage and remaining work
 
-The browser player ran with an original recording. The dialogue trainer's original v0.3 HTML ran with the same recording through a browser harness. Native Android installation, microphone recording, and the two native dictionary interfaces need further verification and actual Android screenshots. Dictionary APKs, keyboard vocabulary, and the two vocabulary spreadsheets remain preserved locally and are described without unavailable download links.
+The browser player ran with an original recording. Preliminary inspection of the trainer's bundled interface also used a browser harness; this does not verify its native Android behavior. The requested screenshots will come only from the actual Android apps running in an Android emulator with a Pixel 9 Pro display profile. Android installation, microphone recording, and the native dictionary interfaces still need verification. Dictionary APKs, keyboard vocabulary, and the two vocabulary spreadsheets remain preserved locally and are described without unavailable download links.
 
 The original 436.6 MiB Drive ZIP stays outside Git. Large recording originals are preserved without transcoding; see [media storage notes](docs/MEDIA.md). No Git LFS or account billing settings were enabled.
