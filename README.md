@@ -2,7 +2,9 @@
 
 Läromedel i meänkieli för självstudier.
 
-This collection brings together dialogue recordings, grammar examples, source documents, and local study apps. Start by reading a folder's dialogue text, then practice its recording in the browser audio player.
+This collection brings together dialogue recordings, grammar examples, source documents, and local study apps. All material is original from a native Meänkieli speaker from the Tornedalen region. This repo is a personal language study project which we are sharing for others interested in learning Meänkieli without easy access to native speakers.
+
+Start by reading a folder's dialogue text, then practice its recording in the browser audio player.
 
 The recordings, Word documents, folder READMEs, and apps are organized below. The [app guide](Me%C3%A4nkieli/Apps/README.md) contains instructions. 
 
