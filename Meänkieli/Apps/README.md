@@ -21,14 +21,14 @@ Use Android’s APK installation flow, then launch the dictionary. Both packages
 3. Each card gives the Meänkieli headword, its word class, and Swedish translation. **Examples** show Meänkieli sentences with Swedish counterparts when the entry contains them. Details are inline; the supplied screen has no separate detail or Copy button.
 4. Tap **×** to clear the search and enter another word.
 
-The packaged versions have different controls:
+The packaged versions have different databases:
 
-| Package | Controls confirmed in its code |
+| Package | database |
 | --- | --- |
-| Small APK | **Sök svenska eller meänkieli...** field, search updates after typing, **× / Clear Search**, Swedish-labelled exact and partial result groups, and inline examples. |
-| Large APK | **Search word...** field and **Search** button, **Exact Matches** and **Partial Matches**, inline examples, and **Add Entry**. |
+| Small APK | https://språk.isof.se/meänkieli |
+| Large APK | https://språk.isof.se/meänkieli and https://meankielensanakirja.com/. This version is not optimized and loads very slow. Not recommended for use. |
 
-For the **large APK**, type a word and tap **Search**. To add your own entry, tap **Add Entry**, fill **Meänkieli Word**, **Swedish Translation**, **Part of Speech**, and **Added By**, then tap **Add**. All four fields must be nonblank. **Cancel** closes the form without adding an entry. The code saves additions to the app’s local dictionary copy, leaving the repository’s original APK and XML unchanged. These large-edition controls are documented from code and are not pictured in the supplied capture. No dedicated entry-copy action was verified.
+
 
 ## Android dialogue trainer v0.3
 
