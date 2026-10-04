@@ -1,8 +1,6 @@
 {
   "date": "2026-10-03",
-  "status": "blocked_before_android_boot",
-  "native_app_screenshots": 0,
-  "apks_installed_or_executed": 0,
+  "status": "local_emulator_blocked_owner_screenshots_documented",
   "profile": {
     "sdk_profile_id": "pixel_9_pro",
     "manufacturer": "Google",
@@ -54,7 +52,12 @@
   "limits": [
     "No physical phone touched",
     "No host kernel, groups, or security settings changed",
-    "No APK native installation, file access, playback, recording, or dictionary UI verified",
+    "No independent local APK installation, permission, file access, playback, recording, or dictionary runtime test completed",
     "No web/browser-harness images used as native screenshots"
-  ]
+  ],
+  "native_screenshots_captured_by_this_environment": 0,
+  "apks_installed_or_executed_by_this_environment": 0,
+  "owner_supplied_native_app_screenshots": 5,
+  "screenshot_documentation_date": "2026-10-04",
+  "screenshot_evidence": "APP_VERIFICATION.md"
 }

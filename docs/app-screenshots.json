@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-04",
+  "source": "Actual Android screenshots supplied by repository owner",
+  "image_edits": "None; original PNG bytes and aspect ratios preserved. README width attributes affect display only.",
+  "device_model": "Not recorded",
+  "exact_screenshot_apk_builds": "Not recorded",
+  "coverage": "One dictionary capture, four audio-player captures; neither both dictionary editions nor successful local emulator execution is inferred.",
+  "images": [
+    {
+      "path": "docs/images/apps/4664.png",
+      "original_filename": "4664.png",
+      "description": "Dictionary search/results for aina",
+      "width_px": 768,
+      "height_px": 1713,
+      "bytes": 233243,
+      "sha256": "1fa29a5481ab88feafe12d09b4ebd27bf0407d5f5622d954cab2f62c936f0869"
+    },
+    {
+      "path": "docs/images/apps/4665.png",
+      "original_filename": "4665.png",
+      "description": "Audio playback with red position line",
+      "width_px": 768,
+      "height_px": 1713,
+      "bytes": 165670,
+      "sha256": "e4d9b2d410a793f9580e96401fed368432690be0e2a176ad8abaa9e91c0ca852"
+    },
+    {
+      "path": "docs/images/apps/4666.png",
+      "original_filename": "4666.png",
+      "description": "Audio file-loading and parameter menu",
+      "width_px": 768,
+      "height_px": 1713,
+      "bytes": 197139,
+      "sha256": "fd717156e8c137cc7826320b1eb7a6322516fbc7d4b659acb79f10f731e39367"
+    },
+    {
+      "path": "docs/images/apps/4667.png",
+      "original_filename": "4667.png",
+      "description": "Audio snippet selection ready for playback",
+      "width_px": 768,
+      "height_px": 1713,
+      "bytes": 162585,
+      "sha256": "f7edeb083962f1c05754d61acb542af1c9921c6e206fd9e480437188e7307212"
+    },
+    {
+      "path": "docs/images/apps/4668.png",
+      "original_filename": "4668.png",
+      "description": "Active speech recording",
+      "width_px": 768,
+      "height_px": 1713,
+      "bytes": 154252,
+      "sha256": "5b22abb98e388b35d66c7769f37f6d39eb183e6c31bee430d484a22e9e7a7f10"
+    }
+  ]
+}

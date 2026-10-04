@@ -2,34 +2,129 @@
 
 [Repository guide](../../README.md) · [Study recordings and text](../Audio%20files%20for%20android%20app/README.md)
 
-## Web audio player
+The five Android screenshots below were supplied by the repository owner. Tap a screenshot to open the original at full size. Instructions were checked against the web player and code packaged inside the supplied APKs. The screenshot device and exact APK builds were not recorded. [Screen coverage and code references](../../docs/APP_VERIFICATION.md) explain the evidence; earlier local emulator failures remain documented separately.
 
-[Download the HTML file](Audio_player_web_version.html), then open the downloaded file in a current browser. GitHub's file view displays source rather than running the app. No build step is needed. The supplied HTML has no external script dependencies or remote upload endpoint; it reads selected audio locally using the browser audio APIs.
-
-1. Choose **Audio file** and select a downloaded recording.
-2. Wait for decoding and the **Detected sound regions** list. Select a region, or use **Previous** and **Next**.
-3. Press **Play** to listen to the selected region. Adjust **Playback speed** from 0.25× to 2× for practice.
-4. Adjust **Silence length threshold** (50–2,000 ms) if the divisions are unsuitable. Shorter silence thresholds tend to split more phrases; longer thresholds tend to group them.
-5. Drag across the waveform to select part of the current region, adjust the selection edges, and press **Play Snippet**. The lower panel displays a spectrum.
-
-The web player decoded `3. Middag.m4a` as 1:17.833 and detected 18 regions at the default 740 ms silence threshold. Region navigation, speed changes, region playback, waveform selection, and snippet playback were exercised in desktop Chromium. Other browsers and mobile platforms have not been tested here.
-
-## Android dialogue trainer v0.3
-
-[Download dialogue-trainer-v0.3.apk](dialogue-trainer-v0.3.apk) (5.56 MiB). Installation, Android file permissions, microphone recording, and native lifecycle behavior remain untested. On an Android device, use your normal approved APK installation process, then launch the app. A disposable emulator was prepared, but it crashed before Android boot; native APK installation remains unverified. The manifest requires Android 8.0 or later.
-
-The intended APK workflow, based on the bundled interface and bridge calls, is to open **☰ → Open File(s)**, choose recordings, and practice selected regions. File arrows move between selected recordings; **Prev region**, **Play/Stop playing**, and **Next region** control the current phrase. **Add next** joins the next region into the current practice buffer. **Playback speed** runs from 0.1× to 1×, and **1x** restores normal speed. Drag the waveform to select a snippet. **Record** and **Play recorded** support pronunciation practice; their native microphone behavior has not been exercised.
-
-The menu exposes file selection, silence time (50–2,000 ms), sensitivity (1–25%), padding before/after regions (0–2,000 ms), and **Exit app**. Packaged defaults are 740 ms, 4%, and 500 ms padding on either side. Use these settings to tune phrase boundaries, starting with a short recording.
-
-**Actual Android screenshots pending:** the owner will supply native app captures. Both tested official emulator versions failed before Android boot. The prepared Pixel 9 Pro display profile is 1280 × 2856 at 480 logical dpi. See [setup evidence and remaining tests](../../docs/ANDROID_TESTING.md). Browser and browser-harness screenshots were removed at the owner's request. Preliminary bundled-interface tests are recorded in [verification notes](../../docs/IMPORT.md).
+[Dictionary](#android-dictionaries) · [Android audio trainer](#android-dialogue-trainer-v03) · [Web player](#web-audio-player) · [Keyboard wordlist](#keyboard-wordlist-archive)
 
 ## Android dictionaries
 
-[Download the large dictionary APK](https://raw.githubusercontent.com/soomrenald/meankieli-laromedel/main/Me%C3%A4nkieli/Apps/Meankieli_dict_large.apk) (22.18 MiB) and [download the small dictionary APK](https://raw.githubusercontent.com/soomrenald/meankieli-laromedel/main/Me%C3%A4nkieli/Apps/meankieli_dict_small.apk) (13.02 MiB) are native Android dictionary packages. Both bundle a Meänkieli–Swedish XML dictionary; the smaller package also includes SQLite/SQL assets. Its packaged strings include “Sök svenska eller meänkieli...”, indicating a bilingual search field. UI screens, installation steps specific to Android versions, and device behavior have not been verified, and no screenshots have been fabricated.
+[Download the large dictionary APK](https://raw.githubusercontent.com/soomrenald/meankieli-laromedel/main/Me%C3%A4nkieli/Apps/Meankieli_dict_large.apk) (22.18 MiB) · [Download the small dictionary APK](https://raw.githubusercontent.com/soomrenald/meankieli-laromedel/main/Me%C3%A4nkieli/Apps/meankieli_dict_small.apk) (13.02 MiB).
 
-The APKs are unchanged originals. Their lexical data matches the official ISOF CC0 dictionary; see [source attribution, licenses, and hash evidence](../../docs/DATA_SOURCES.md). Both manifests require Android 7.0 or later and use the same package ID, so choose one dictionary variant rather than expecting separate installations. Actual Android screenshots are awaiting the owner’s captures. Screen-specific behavior remains unverified; see [Android verification status](../../docs/ANDROID_TESTING.md).
+Use Android’s APK installation flow, then launch the dictionary. Both packages require Android 7.0 or later and use the same package ID: choose one variant. Installation and switching compatibility have not been tested here. Both contain the same Meänkieli–Swedish XML dictionary; [data attribution and component notices](../../docs/DATA_SOURCES.md) identify its official CC0 source. The original APKs are unchanged.
+
+<a href="../../docs/images/apps/4664.png"><img src="../../docs/images/apps/4664.png" width="360" alt="Android dictionary search for aina, showing one exact match, 45 partial matches, word classes, translations, and examples"></a>
+
+*Dictionary search and results. The owner’s capture shows “aina,” one **Exakt Matchning** result and 45 **Delmatch** results. Details and bilingual examples appear directly in the cards. This single capture does not document both APK editions.*
+
+1. Tap the search field and type a Swedish or Meänkieli word. In the Swedish-labelled interface, pause briefly for the results to update.
+2. Read **Exakt Matchning** first for exact matches, then **Delmatch** for partial matches. The counts show how many results belong to each group. Scroll to read more cards.
+3. Each card gives the Meänkieli headword, its word class, and Swedish translation. **Examples** show Meänkieli sentences with Swedish counterparts when the entry contains them. Details are inline; the supplied screen has no separate detail or Copy button.
+4. Tap **×** to clear the search and enter another word.
+
+The packaged versions have different controls:
+
+| Package | Controls confirmed in its code |
+| --- | --- |
+| Small APK | **Sök svenska eller meänkieli...** field, search updates after typing, **× / Clear Search**, Swedish-labelled exact and partial result groups, and inline examples. |
+| Large APK | **Search word...** field and **Search** button, **Exact Matches** and **Partial Matches**, inline examples, and **Add Entry**. |
+
+For the **large APK**, type a word and tap **Search**. To add your own entry, tap **Add Entry**, fill **Meänkieli Word**, **Swedish Translation**, **Part of Speech**, and **Added By**, then tap **Add**. All four fields must be nonblank. **Cancel** closes the form without adding an entry. The code saves additions to the app’s local dictionary copy, leaving the repository’s original APK and XML unchanged. These large-edition controls are documented from code and are not pictured in the supplied capture. No dedicated entry-copy action was verified.
+
+## Android dialogue trainer v0.3
+
+[Download dialogue-trainer-v0.3.apk](dialogue-trainer-v0.3.apk) (5.56 MiB). The manifest requires Android 8.0 or later. Install the APK and launch **Meänkieli Audio Player**. The native code requests microphone and audio/media access; older Android versions use a storage-access permission. Microphone access is needed to record your speech. The screenshots show app states, not permission dialogs or an independently tested installation.
+
+### Playback and navigation
+
+<a href="../../docs/images/apps/4665.png"><img src="../../docs/images/apps/4665.png" width="360" alt="Meänkieli Audio Player playing Essiv.m4a, with Stop playing, region controls, speed slider, and a red line in the waveform"></a>
+
+*Playback of **Essiv.m4a**, region 4 of 22. The red vertical line marks the current playback position within the displayed region.*
+
+| Control or display | How to use it |
+| --- | --- |
+| Filename and **◀ / ▶** below it | Show the current recording and move between files selected together. File arrows are disabled at the ends or when only one file was selected. |
+| **Detected sound regions** | Scroll below the waveform and tap a region to select it and start playback. The current region is highlighted. |
+| **Prev region / Next region** | Move one region backward or forward and start playing it. They stop at the first and last region. |
+| **Play / Stop playing** | Play the current region, or stop it early. A new **Play** starts again at the region’s beginning; this is a stop/restart control, not pause/resume. Playback ends at the region boundary. |
+| Red waveform line | Follows the original audio or snippet while it plays. Dragging the waveform selects a snippet rather than seeking with this line. |
+| **Playback speed** | Drag from 0.1× to 1× to slow the source region or snippet. Tap **1x** to restore normal speed. |
+| Region/status text | Shows the current region number, start/end times, total regions, detection settings, or the current action/error. |
+
+To repeat an utterance, tap **Play** again after it finishes. The packaged interface has no automatic loop/repeat switch or automatic advance to the next region.
+
+### Load files and tune the region boundaries
+
+<a href="../../docs/images/apps/4666.png"><img src="../../docs/images/apps/4666.png" width="360" alt="Audio Player menu with Open File(s), silence time and sensitivity, before/after padding, and Exit app"></a>
+
+*The **☰** menu loads recordings and adjusts detection. This capture shows the packaged defaults: 740 ms silence time, 4% sensitivity, and 500 ms padding on each side.*
+
+1. Download a [study recording](../Audio%20files%20for%20android%20app/README.md).
+2. Tap **☰ → Open File(s)** and choose one or more audio files in Android’s file picker. The filename appears after loading; wait for region detection to finish.
+3. Tap **☰** again or outside the menu to close it. Choose a region and listen before changing its boundaries.
+
+| Menu setting | Effect and practical use |
+| --- | --- |
+| **Silence threshold time** — 50–2,000 ms | How long a quiet gap must be before it can separate regions. Increase it when one utterance is split too often; decrease it when several utterances are grouped together. Default: 740 ms. |
+| **Silence threshold sensitivity** — 1–25% | Higher values classify more quiet sound as silence and may omit quiet speech. Lower values retain quieter speech but may include more background noise. Default: 4%. |
+| **Region padding before** — 0–2,000 ms | Adds audio before each detected region to keep its opening sounds. Default: 500 ms. |
+| **Region padding after** — 0–2,000 ms | Adds audio after each region to keep its ending sounds. Default: 500 ms. Overlapping padded regions are merged automatically. |
+| **Exit app** | Stops playback, clears loaded audio and the in-app take, releases native recording resources, and closes/removes the app task. |
+
+Releasing a detection or padding slider reanalyzes the current working audio, rebuilds the region list, clears the snippet selection, and returns to region 1. Tune these settings before making manual repairs. Android’s **Back** follows WebView history when available, otherwise normal Android Back behavior; **Exit app** explicitly performs the cleanup above.
+
+### Repair an utterance with Add next
+
+A long silence inside one utterance can make the detector split it into separate regions. **Add next** lets you repair that split while studying:
+
+1. Tap the first affected region in **Detected sound regions**, or reach it with **Prev region / Next region**. Listen to locate the split, then tap **Stop playing** if it is still playing.
+2. Tap **Add next**. The following region is merged into the current one. The current region stays selected, one entry disappears from the list, and the waveform redraws with any snippet selection cleared.
+3. Tap **Play** to hear the joined utterance. If it was split into three or more regions, tap **Add next** again for each additional part, checking the result as you go. It is disabled on the last region.
+
+When there is an unpadded gap between the two regions, the code shortens that gap to at most 100 ms in the working audio. Later region times shift accordingly. The source file is not overwritten, and there is no Undo or export control. Reopen the original recording to undo an unwanted repair; changing files and loading the original again also restores it. Reanalysis rebuilds the boundaries from the current working audio, so it does **not** restore silence already trimmed by **Add next**.
+
+### Select and play a snippet
+
+<a href="../../docs/images/apps/4667.png"><img src="../../docs/images/apps/4667.png" width="360" alt="Audio Player waveform with a blue selected interval and enabled Play Snippet button"></a>
+
+*The blue interval and its two vertical edges select a shorter part of the current region. **Play Snippet** is ready to play that interval.*
+
+1. Stop source playback, then drag across the waveform to select a word or phrase. The blue shaded area is the selection.
+2. Drag either blue edge to refine the start or end.
+3. Tap **Play Snippet**. It uses the selected playback speed and stops at the selection’s end. Tap **Stop playing** to stop early, or **Play Snippet** again afterward to repeat.
+4. To return to the whole region, tap **Play**. To replace the selection, drag elsewhere on the waveform. Changing regions, reanalysis, or **Add next** clears the snippet selection; there is no separate snippet-exit button.
+
+### Record and compare your speech
+
+<a href="../../docs/images/apps/4668.png"><img src="../../docs/images/apps/4668.png" width="360" alt="Audio Player recording speech, with a red Stop recording button and Recording status while region and snippet controls are disabled"></a>
+
+*Speech recording is active. **Record** has become **Stop recording**, and the main region/snippet controls are disabled.*
+
+1. Listen to the original region or snippet, then stop playback.
+2. Tap **Record** and speak your version. Grant microphone access if Android requests it.
+3. Tap **Stop recording**. Wait for the take to decode and **Play recorded** to become available. **Recording saved** means it is ready for in-app replay.
+4. Tap **Play recorded** to listen at normal speed. The same button becomes **Stop playing** while your take plays; tap it to stop early. Return to **Play** or **Play Snippet** to compare with the original.
+5. Record another completed take to replace the one available for replay. **Exit app** clears it. This version has no separate recording Reset, Save, Share, or Export button; the native temporary recording file is deleted after it is handed to the player.
+
+## Web audio player
+
+[Download the HTML file](Audio_player_web_version.html) and open it locally in a current browser. GitHub’s file view displays source rather than running the app. It needs no build step and reads the selected recording locally; the supplied HTML has no external script dependencies or remote upload endpoint.
+
+| Control or display | How to use it |
+| --- | --- |
+| **Audio file** | Choose one downloaded recording. The file metadata and detected regions appear after decoding. Selecting another file replaces the current audio. |
+| **Detected sound regions / Previous / Next** | Tap a list entry or a navigation button to select and immediately play a region. The region number and time bounds show what is selected. |
+| **Play** | Starts the selected region from its beginning; tap again to restart. It ends at the region boundary. There is no pause/resume or automatic loop control. |
+| **Playback speed** — 0.25×–2× | Slow down or speed up source/snippet playback. Move it back to 1× for normal speed; the web version has no separate **1x** reset button. |
+| **Silence length threshold** — 50–2,000 ms | Increase it to group more sound or decrease it to split more regions. Releasing it reanalyzes the file and clears the snippet selection. Default: 740 ms. |
+| Waveform and **Play Snippet** | Drag to select an interval, refine its edges, and play it. Use **Play** for the whole region or change regions to clear the selection. |
+| Lower spectrum panel | Shows frequency content during playback or around the waveform cursor/selection edge while inspecting the audio. |
+
+The web version does not expose the Android trainer’s multi-file arrows, adjustable sensitivity/padding, **Add next**, microphone recording, or **Exit app** menu. Close its browser tab when finished. The web player was exercised in desktop Chromium with an original recording; other browsers and mobile platforms remain untested here. [Verification notes](../../docs/IMPORT.md) retain those preliminary checks. All screenshots in this guide are the owner’s actual Android captures.
 
 ## Keyboard wordlist archive
 
-[Download the original keyboard wordlist ZIP](../dictionary%20for%20chrome.zip). It contains only `dictionary.txt`, not a Chrome extension. Its header identifies the **Gboard Dictionary version 1** format, with shortcut/word/language-tag columns and 14,575 data rows. It should be treated as a keyboard dictionary import file, despite its original filename. A Gboard import was not attempted, and no Chrome installation workflow is claimed. All 14,575 words match the official ISOF CC0 dictionary headwords; see [data attribution](../../docs/DATA_SOURCES.md).
+[Download the original dictionary for chrome.zip](../dictionary%20for%20chrome.zip) (52.20 KiB). It contains `Gboarddictionary.txt`, a 14,575-row Gboard-style wordlist, not a Chrome extension. Extract it and use Gboard’s personal-dictionary import if your Gboard version supports that format. The words match the official CC0 dictionary headwords; [source evidence](../../docs/DATA_SOURCES.md) records the check. Keyboard import and version-specific steps have not been tested here.
+
+## Earlier versions
+
+[Earlier trainer APKs](../Archive/README.md) are preserved for reference. The screenshots and control instructions above describe the current trainer interface; they do not verify archived versions.

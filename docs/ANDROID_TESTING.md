@@ -1,6 +1,8 @@
 # Native Android verification status
 
-Actual Android screenshots are blocked in this execution environment. The emulator exits with a segmentation fault before Android finishes booting or offers a usable ADB connection. No APK was installed or run, and no native screenshot was captured. The earlier web-player and browser-harness images are removed from the current repository files.
+Five actual Android screenshots supplied by the owner are now documented in the [app guide](../Me%C3%A4nkieli/Apps/README.md). [Screen coverage and code references](APP_VERIFICATION.md) record their original bytes and the source of the instructions. The screenshot device model and exact APK builds were not recorded.
+
+The earlier local emulator attempt remains blocked: the process exited with a segmentation fault before Android finished booting or offered a usable ADB connection. No APK was installed or run and no native screenshot was captured by this execution environment. The owner-provided images are separate evidence; browser-player and browser-harness images remain removed from the current files.
 
 ## Prepared setup and attempts
 
@@ -22,8 +24,6 @@ The prepared AVD and local launch helper remain in the ignored `.local-runtime/a
 
 The dictionaries share a package ID. Choose one variant on a device; they are not two independently named installations. These are manifest observations, not successful installation tests.
 
-## Work still requiring a running emulator
+## Remaining independent runtime checks
 
-Capture the trainer's loaded-recording, region/playback, waveform-selection, and settings screens using a supplied non-sensitive recording. Verify file selection, region navigation, speed reset, and snippet playback. Recording requires a separate microphone decision and remains untested.
-
-Run each dictionary APK in turn, capture its actual search/results and any additional screens it exposes, and document only the features observed. Preserve both original APKs and use a disposable AVD when switching variants. Actual captured Android pixels must replace the pending screenshots; browser-rendered substitutes do not satisfy this verification.
+The owner’s screenshots cover dictionary results and the trainer’s loaded-region/playback, menu, snippet-selection, and active-recording states. The guide now documents the controls from these pixels and the packaged code. Local emulator execution remains unverified, including APK installation, permission dialogs, file selection across Android versions, completed recording playback, and persistence of large-dictionary additions. No further emulator setup or compatibility trials were started for screenshot documentation.

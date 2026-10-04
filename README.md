@@ -4,7 +4,7 @@ Läromedel i meänkieli för självstudier.
 
 This collection brings together dialogue recordings, grammar examples, source documents, and local study apps. Start by reading a folder's dialogue text, then practice its recording in the browser audio player.
 
-The recordings, Word documents, folder READMEs, and apps are organized below. Actual Android app screenshots are awaiting the owner’s captures; [emulator startup failures](docs/ANDROID_TESTING.md) document the earlier local attempt. The dictionary APKs and keyboard wordlist are available with documented CC0 data attribution. Native Android features have not yet been tested.
+The recordings, Word documents, folder READMEs, and apps are organized below. The [app guide](Me%C3%A4nkieli/Apps/README.md) includes five actual Android screenshots supplied by the owner, with instructions checked against the packaged app code. The dictionary APKs and keyboard wordlist are available with documented CC0 data attribution. Native Android features have not been independently tested in this execution environment.
 
 ## Start studying
 
@@ -13,6 +13,15 @@ The recordings, Word documents, folder READMEs, and apps are organized below. Ac
 3. Follow the [screen-by-screen app guide](Me%C3%A4nkieli/Apps/README.md): load audio, choose a detected region, slow it down, and replay a waveform snippet.
 
 The [app guide](Me%C3%A4nkieli/Apps/README.md) explains the controls, study workflow, and current test coverage.
+
+## App screenshots
+
+<p>
+<a href="Me%C3%A4nkieli/Apps/README.md#android-dictionaries"><img src="docs/images/apps/4664.png" width="240" alt="Android dictionary results for aina"></a>
+<a href="Me%C3%A4nkieli/Apps/README.md#playback-and-navigation"><img src="docs/images/apps/4665.png" width="240" alt="Android audio playback with a red position line"></a>
+</p>
+
+*Dictionary search and audio playback, supplied by the owner. [See all five screens and their controls](Me%C3%A4nkieli/Apps/README.md), including settings, snippet playback, recording, and how to repair a split utterance with **Add next**.*
 
 ## Repository structure
 
@@ -24,6 +33,8 @@ docs/
   archive-manifest.json
   transcript-alignment.json
   DATA_SOURCES.md
+  APP_VERIFICATION.md
+  images/apps/              five original Android screenshots
 Meänkieli/
   Apps/
     Audio_player_web_version.html
@@ -58,6 +69,6 @@ Set 1, Set 2, and Böjning use matching sections of the course material. Preposi
 
 ## App coverage and remaining work
 
-The browser player ran with an original recording. Preliminary inspection of the trainer's bundled interface also used a browser harness; this does not verify its native Android behavior. The prepared Pixel 9 Pro emulator fails before Android boot; actual Android screenshots will be added from the owner’s captures when supplied. Android installation, microphone recording, and the native dictionary interfaces still need verification. Both dictionary APKs and the keyboard wordlist are available from the app guide, with [source attribution and license evidence](docs/DATA_SOURCES.md). Both [owner-created vocabulary spreadsheets](Me%C3%A4nkieli/Docs/README.md#owner-created-vocabulary-workbooks) are available unchanged, with their original sheet names and cell contents.
+The owner supplied actual Android captures of dictionary search, audio playback, the loading/settings menu, snippet selection, and speech recording. The app guide explains all exposed controls, including repeatable **Add next** repairs and their reset behavior, using the code packaged in the supplied APKs. The screenshots’ device model and exact APK builds were not recorded. Independent Android installation, permission, and runtime checks remain unverified; [local emulator diagnostics](docs/ANDROID_TESTING.md) record the earlier failure before boot. The browser player ran with an original recording in desktop Chromium. Both dictionary APKs and the keyboard wordlist are available from the app guide, with [source attribution and license evidence](docs/DATA_SOURCES.md). Both [owner-created vocabulary spreadsheets](Me%C3%A4nkieli/Docs/README.md#owner-created-vocabulary-workbooks) are available unchanged, with their original sheet names and cell contents.
 
 The original 436.6 MiB Drive ZIP stays outside Git. Large recording originals are preserved without transcoding; see [media storage notes](docs/MEDIA.md). No Git LFS or account billing settings were enabled.
