@@ -4,15 +4,15 @@ Läromedel i meänkieli för självstudier.
 
 This collection brings together dialogue recordings, grammar examples, source documents, and local study apps. Start by reading a folder's dialogue text, then practice its recording in the browser audio player.
 
-The recordings, Word documents, folder READMEs, and apps are organized below. The [app guide](Me%C3%A4nkieli/Apps/README.md) includes five actual Android screenshots supplied by the owner, with instructions checked against the packaged app code. The dictionary APKs and keyboard wordlist are available with documented CC0 data attribution. Native Android features have not been independently tested in this execution environment.
+The recordings, Word documents, folder READMEs, and apps are organized below. The [app guide](Me%C3%A4nkieli/Apps/README.md) contains instructions. 
 
 ## Start studying
 
-1. [Choose a dialogue or grammar folder](Me%C3%A4nkieli/Audio%20files%20for%20android%20app/README.md). Each folder displays its source text and links to the original document.
-2. Download a recording, then [download the web audio player](Me%C3%A4nkieli/Apps/Audio_player_web_version.html) and open the HTML file locally.
-3. Follow the [screen-by-screen app guide](Me%C3%A4nkieli/Apps/README.md): load audio, choose a detected region, slow it down, and replay a waveform snippet.
+1. [Audio files for the android app can be found here](Me%C3%A4nkieli/Audio%20files%20for%20android%20app/README.md). Set 1 and Set 2 progress in complexity, grammatik contains a variety of grammatical forms practice, and Set 3 is most complex. Additional audio files are in development and this repo will be updated regularly.
+2. [download the android apk and install](https://github.com/soomrenald/meankieli-laromedel/blob/main/Me%C3%A4nkieli/Apps/dialogue-trainer-v0.3.apk) Because this is not sourced from the google play store, you may need to [enable installation from unknown sources](https://docs.pandasuite.com/essentials/mobile-publishing/android/install-app-from-unknown-sources-on-android-device/). 
+3. [Download audio files](Me%C3%A4nkieli/Audio%20files%20for%20android%20app/README.md) and load them in them app.
 
-The [app guide](Me%C3%A4nkieli/Apps/README.md) explains the controls, study workflow, and current test coverage.
+The [app guide](Me%C3%A4nkieli/Apps/README.md) explains the controls and usage.
 
 ## App screenshots
 
@@ -21,7 +21,13 @@ The [app guide](Me%C3%A4nkieli/Apps/README.md) explains the controls, study work
 <a href="Me%C3%A4nkieli/Apps/README.md#playback-and-navigation"><img src="docs/images/apps/4665.png" width="240" alt="Android audio playback with a red position line"></a>
 </p>
 
-*Dictionary search and audio playback, supplied by the owner. [See all five screens and their controls](Me%C3%A4nkieli/Apps/README.md), including settings, snippet playback, recording, and how to repair a split utterance with **Add next**.*
+*Dictionary search and audio playback. [See all five screens and their controls](Me%C3%A4nkieli/Apps/README.md), including settings, snippet playback, recording, and how to repair a split utterance with **Add next**.*
+
+In addition to the android app, there is also a [browser implementation](https://github.com/soomrenald/meankieli-laromedel/blob/main/Me%C3%A4nkieli/Apps/Audio_player_web_version.html). More information about this implementation can be found [in the readme](https://github.com/soomrenald/meankieli-laromedel/blob/main/Me%C3%A4nkieli/Apps/README.md#web-audio-player).
+
+## Meänkieli Sanakirja
+
+[This Swedish-Meänkieli dictionary is an android app](https://github.com/soomrenald/meankieli-laromedel/blob/main/Me%C3%A4nkieli/Apps/meankieli_dict_small.apk) which references the database maintained by [Institutet för språk och folkminnen](https://xn--sprk-soa.isof.se/me%c3%a4nkieli/). More information can be found [in the readme](https://github.com/soomrenald/meankieli-laromedel/blob/main/Me%C3%A4nkieli/Apps/README.md).
 
 ## Repository structure
 
@@ -63,12 +69,10 @@ Meänkieli/
 
 ## Dialogue sources
 
-The folder READMEs contain the original dialogue and grammar text rather than Drive shortcut placeholders. Each Meänkieli utterance appears beside its source Swedish translation in a table. Meänkieli, Swedish, English headings, spelling, diacritics, variants, and notes are retained. This is a presentation and organization pass, not a language correction pass.
+The folder READMEs contain the transcripts for the audio files. Each Meänkieli utterance appears beside its source Swedish translation in a table. All material contained in the audio files and transcripts is original and fictitious. All names appearing are fictitious. 
 
-Set 1, Set 2, and Böjning use matching sections of the course material. Prepositioner uses its included document, and Dåtid uses the seven verb-type perfect/imperfect tables. Set 3 uses the replacement supplied by the owner; the earlier three-dialogue file is archived. Page-to-paragraph boundaries and every audio line have not been independently verified. See [import and verification notes](docs/IMPORT.md).
+## Future work
 
-## App coverage and remaining work
+This repo is regularly maintained and new audio file material is in development and will be updated here. Additional language study resources are also in development and will be updated here when published.
 
-The owner supplied actual Android captures of dictionary search, audio playback, the loading/settings menu, snippet selection, and speech recording. The app guide explains all exposed controls, including repeatable **Add next** repairs and their reset behavior, using the code packaged in the supplied APKs. The screenshots’ device model and exact APK builds were not recorded. Independent Android installation, permission, and runtime checks remain unverified; [local emulator diagnostics](docs/ANDROID_TESTING.md) record the earlier failure before boot. The browser player ran with an original recording in desktop Chromium. Both dictionary APKs and the keyboard wordlist are available from the app guide, with [source attribution and license evidence](docs/DATA_SOURCES.md). Both [owner-created vocabulary spreadsheets](Me%C3%A4nkieli/Docs/README.md#owner-created-vocabulary-workbooks) are available unchanged, with their original sheet names and cell contents.
 
-The original 436.6 MiB Drive ZIP stays outside Git. Large recording originals are preserved without transcoding; see [media storage notes](docs/MEDIA.md). No Git LFS or account billing settings were enabled.
