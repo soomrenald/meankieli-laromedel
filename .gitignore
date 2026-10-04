@@ -3,6 +3,3 @@
 # Local runtime scratch only.
 __pycache__/
 /.local-runtime/
-# Vocabulary spreadsheet provenance review is pending.
-/Meänkieli/Docs/Sanakirja.xlsx
-/Meänkieli/Docs/meänkieli frequency list.xlsx

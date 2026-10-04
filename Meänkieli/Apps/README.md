@@ -22,13 +22,13 @@ The intended APK workflow, based on the bundled interface and bridge calls, is t
 
 The menu exposes file selection, silence time (50–2,000 ms), sensitivity (1–25%), padding before/after regions (0–2,000 ms), and **Exit app**. Packaged defaults are 740 ms, 4%, and 500 ms padding on either side. Use these settings to tune phrase boundaries, starting with a short recording.
 
-**Native Android screenshots blocked:** both tested official emulator versions failed before Android boot. The prepared Pixel 9 Pro display profile is 1280 × 2856 at 480 logical dpi. See [setup evidence and remaining tests](../../docs/ANDROID_TESTING.md). Browser and browser-harness screenshots were removed at the owner's request. Preliminary bundled-interface tests are recorded in [verification notes](../../docs/IMPORT.md).
+**Actual Android screenshots pending:** the owner will supply native app captures. Both tested official emulator versions failed before Android boot. The prepared Pixel 9 Pro display profile is 1280 × 2856 at 480 logical dpi. See [setup evidence and remaining tests](../../docs/ANDROID_TESTING.md). Browser and browser-harness screenshots were removed at the owner's request. Preliminary bundled-interface tests are recorded in [verification notes](../../docs/IMPORT.md).
 
 ## Android dictionaries
 
 [Download the large dictionary APK](https://raw.githubusercontent.com/soomrenald/meankieli-laromedel/main/Me%C3%A4nkieli/Apps/Meankieli_dict_large.apk) (22.18 MiB) and [download the small dictionary APK](https://raw.githubusercontent.com/soomrenald/meankieli-laromedel/main/Me%C3%A4nkieli/Apps/meankieli_dict_small.apk) (13.02 MiB) are native Android dictionary packages. Both bundle a Meänkieli–Swedish XML dictionary; the smaller package also includes SQLite/SQL assets. Its packaged strings include “Sök svenska eller meänkieli...”, indicating a bilingual search field. UI screens, installation steps specific to Android versions, and device behavior have not been verified, and no screenshots have been fabricated.
 
-The APKs are unchanged originals. Their lexical data matches the official ISOF CC0 dictionary; see [source attribution, licenses, and hash evidence](../../docs/DATA_SOURCES.md). Both manifests require Android 7.0 or later and use the same package ID, so choose one dictionary variant rather than expecting separate installations. Native screenshots and screen-specific behavior remain blocked by emulator startup failures; see [Android verification status](../../docs/ANDROID_TESTING.md).
+The APKs are unchanged originals. Their lexical data matches the official ISOF CC0 dictionary; see [source attribution, licenses, and hash evidence](../../docs/DATA_SOURCES.md). Both manifests require Android 7.0 or later and use the same package ID, so choose one dictionary variant rather than expecting separate installations. Actual Android screenshots are awaiting the owner’s captures. Screen-specific behavior remains unverified; see [Android verification status](../../docs/ANDROID_TESTING.md).
 
 ## Keyboard wordlist archive
 

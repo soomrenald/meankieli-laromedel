@@ -16,7 +16,9 @@ Both APKs embed the same `assets/fit-swe-lr-trie.xml`: 32,507 entries and 42,526
 
 The embedded XML also matches the owner's [public source file](https://github.com/soomrenald/meankielii_dictionary_wiki/blob/1f160e4d21650fb6cebc06481330fa174cb72714/fit-swe-lr-trie.xml) exactly after CRLF/LF normalization. The original keyboard ZIP has 14,575 Gboard-format words, all found among the official dictionary's headwords. [dictionary-provenance.json](dictionary-provenance.json) records comparison methods, counts, source-file hashes, and original APK hashes.
 
-The two vocabulary spreadsheets remain local while their individual sources are identified. This dictionary-data match does not establish the source of every spreadsheet cell.
+## Owner-created vocabulary workbooks
+
+The owner confirmed on 2026-10-04 that they created both [Sanakirja.xlsx](../Me%C3%A4nkieli/Docs/Sanakirja.xlsx) and [meänkieli frequency list.xlsx](../Me%C3%A4nkieli/Docs/me%C3%A4nkieli%20frequency%20list.xlsx). Both are published byte-for-byte as supplied in the original archive. [spreadsheet-provenance.json](spreadsheet-provenance.json) records their hashes and readability checks. No additional license has been assigned to the workbooks; the CC0 attribution above applies to the identified dictionary data.
 
 ## Bundled Android libraries
 

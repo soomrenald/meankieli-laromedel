@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-04",
+  "source_status": "owner_created",
+  "owner_confirmation": {
+    "scope": "Both Sanakirja.xlsx and meänkieli frequency list.xlsx",
+    "statement": "I created them"
+  },
+  "license_status": "No additional license assigned; dictionary CC0 attribution is separate.",
+  "preservation": "Original filenames, folder structure and bytes retained. No cell or formatting edits.",
+  "archive_sha256": "915a36cd1817921fb2ca852321f4a46a11327f7aa549eb942307b37eaed2935f",
+  "checks": [
+    "XLSX bytes and SHA-256 match original ZIP and archive manifest",
+    "Nested ZIP CRC checks pass",
+    "All XML and relationship parts parse",
+    "Worksheet relationships resolve",
+    "Shared string and style indexes resolve",
+    "All populated cell values are readable"
+  ],
+  "limits": [
+    "Desktop spreadsheet application behavior was not tested; original layout and contents were not modified."
+  ],
+  "workbooks": [
+    {
+      "path": "Meänkieli/Docs/Sanakirja.xlsx",
+      "bytes": 32059,
+      "sha256": "a477f509cb3a23b5082a313905e7e9ea4056b83e56b0ac57a50219049235ee39",
+      "sheets": [
+        {
+          "name": "sanoja",
+          "populated_cells": 1927
+        },
+        {
+          "name": "fraser",
+          "populated_cells": 23
+        },
+        {
+          "name": "kieloppi",
+          "populated_cells": 44
+        },
+        {
+          "name": "TVPROGRAM",
+          "populated_cells": 51
+        }
+      ],
+      "formulas": 0
+    },
+    {
+      "path": "Meänkieli/Docs/meänkieli frequency list.xlsx",
+      "bytes": 20541,
+      "sha256": "d651aad97e31b0dbdb2557fe7653f3d7f51e15b0e8f8971eccfd3deecb7bb0b8",
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "populated_cells": 1015
+        }
+      ],
+      "formulas": 0
+    }
+  ]
+}
