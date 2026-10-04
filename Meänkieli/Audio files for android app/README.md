@@ -1,6 +1,6 @@
 # Study recordings for the audio players
 
-These files are intended for us with the [Android dialogue trainer app](https://github.com/soomrenald/meankieli-laromedel/blob/main/Me%C3%A4nkieli/Apps/dialogue-trainer-v0.3.apk. 
+These files are intended for us with the [Android dialogue trainer app](https://github.com/soomrenald/meankieli-laromedel/blob/main/Me%C3%A4nkieli/Apps/dialogue-trainer-v0.3.apk). 
 
 | Folder | Recordings | Source |
 | --- | ---: | --- |
